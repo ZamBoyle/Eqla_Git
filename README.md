@@ -3,7 +3,7 @@ Ce dépôt a été créé pour que vous cloniez ce dépôt distant hébergé sur
 
 ## Clonez ce dépôt
 ```PS
-git clone https://github.com/ZamBoyle/eqla_github.git
+git clone https://github.com/ZamBoyle/Eqla_Git.git
 ```
 
 Eqla - Formation Git/GitHub..
