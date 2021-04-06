@@ -1,0 +1,83 @@
+Partie 1 - Création du dépôt mypython sur GitHub
+a. Ouvrez un invite de commandes/terminal.
+b. Si vous êtes dans le répertoire cours_git, sortez de ce répertoire.
+c. Créez un nouveau dépôt distant ayant pour nom mypython: gh repo create mypython
+d. Sélecionnez: Public.
+e. Appuyez sur ENTER pour accepter de créer le dépôt "mypython" sur GitHub (Option Y en majuscule donc sélectionné par défaut)
+f. Appuyez sur ENTER pour accetper de créer le dépôt "mypython" sur l'ordinateur local (Option Y en majuscule donc sélectionné par défaut)
+g. Allez dans le répertoire créé: cd mypython
+h. Tapez git branch -M master
+
+Partie 2 - 
+a. Créez un programme fonctionnel en python qui s'appelle ex1_git.py et qui demande le nom et le prénom d'une personne.
+Exemple:
+- Quel est ton prenom ? Johnny
+- Quel est ton nom ? Piette
+b. Faites un git status (observez ce que donne la sortie de cette commande).
+c. Faites un git diff ex1_git.py (Observez bien les ajouts et modifications de votre programme).
+d. Ajoutez ce fichier à la zone d'index.
+e. Commitez vos changements avec le message suivant: "Initial Commit".
+f. Faites un git status (observez ce que donne la sortie de cette commande).
+g. Donnez un tag à ce commit. (v1)
+h. Faites un git status (observez ce que donne la sortie de cette commande).
+i. Envoyez vos modifications en ligne: git push -u origin master
+
+Partie 3
+a. Ajoutez une fonction DisplayName qui affiche le nom de la personne.
+b. Appelez(=Utilisez) votre fonction DisplayName en passant le nom comme paramètre.
+Exemple:
+- Quel est votre prenom ? Johnny
+- Quel est votre nom ? Piette
+Votre nom est Piette.
+c. Faites un git status (observez ce que donne la sortie de cette commande).
+d. Faites un git diff ex1_git.py (Observez bien les ajouts et modifications de votre programme: cette fois-ci c'est différent).
+e. Ajoutez ce fichier à la zone d'index.
+f. Commitez vos changements avec le message suivant: "Ajout de la fonction DisplayName".
+g. Donnez un tag à ce commit. (v2)
+h. Faites un git status (observez ce que donne la sortie de cette commande).
+i. Envoyez vos modifications en ligne: git push -u origin master
+
+Partie 5
+a. Ajoutez une fonction DisplayFirstname qui affiche le prénom de la personne.
+b. Appelez(=Utilisez) votre fonction DisplayFirstname en passant le prénom comme paramètre.
+Exemple:
+- Quel est votre prenom ? Johnny
+- Quel est votre nom ? Piette
+Votre prénom est Johnny.
+c. Faites un git status (observez ce que donne la sortie de cette commande).
+d. Faites un git diff ex1_git.py (Observez bien les ajouts et modifications de votre programme).
+e. Ajoutez ce fichier à la zone d'index.
+f. Commitez vos changements avec le message suivant: "Ajout de la fonction DisplayFirstname".
+g. Donnez un tag à ce commit. (v3)
+h. Faites un git status (observez ce que donne la sortie de cette commande).
+i. Envoyez vos modifications en ligne: git push -u origin master
+
+Partie 6
+a. Ajoutez une fonction DisplayFullName qui affiche le prénom et prénom de la personne.
+b. Appelez(=Utilisez) votre fonction DisplayFullName en passant le nom et le prénom comme paramètres.
+Exemple:
+- Quel est votre prenom ? Johnny
+- Quel est votre nom ? Piette
+Vous vous appelez Johnny Piette.
+c. Faites un git status (observez ce que donne la sortie de cette commande).
+d. Faites un git diff ex1_git.py (Observez bien les ajouts et modification de votre programme).
+e. Ajoutez ce fichier à la zone d'index.
+f. Commitez vos changements avec le message suivant: "Ajout de la fonction GetFullName".
+g. Donnez un tag à ce commit. (v4)
+h. Faites un git status (observez ce que donne la sortie de cette commande).
+i. Envoyez vos modifications en ligne: git push -u origin master
+
+Partie 7
+a. Créez un dépôt ayant pour nom mypython sur GitHub: gh repos create mypython
+b. 
+
+Partie 7
+A ce stade, vous devriez avoir au minimum 4 commits
+
+a. Affichez l'historique des commits
+b. Quelle commande avez-vous utilisée ?
+c. Revenez au deuxième commit.
+d. Quelle commande avez-vous utilisée ?
+e. Ouvrez votre programme ex1_git.py et constatez qu'il est bien revenu à une version antérieure.
+f. Revenez au tag master.
+g. Quelle commande avez-vous utilisée ?

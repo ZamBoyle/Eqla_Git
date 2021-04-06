@@ -1,0 +1,274 @@
+Formation Git
+=============
+
+I. Introduction
+================
+Prenons 2 exemples:
+- Le premier: Imaginez qu’un client vous demande de faire un site de ventes en ligne : vous le faites et il fonctionne nickel.
+Pendant la période de Noël, il vous demande de faire de grosses modifications et bardaf, il ne fonctionne plus du tout : erreur 500… Le client vous demandera de remettre immédiatement le site à l’état précédent les modifications problématiques pour ne pas perdre trop de ventes en cette période très lucrative pour lui.
+Si vous n’aviez pas un backup de la précédente version ou un système de gestion de l’historique des modifications, vous risquez d’être bien embêtés…
+C’est ici qu’entre en scène l’outil git.
+
+- Le second:vous devez travailler sur un projet à plusieurs mais vous ne savez pas comment faire pour collaborer de manière efficace avec vos collègues pour la gestion du code et voir comment gérer/fusionner le travail fait par chacun.
+C'est ici qu'entre en scène git via l'intermédiaire d'outils comme GitHub, Gitlab, etc.
+
+II. Git c'est quoi ?
+====================
+Git a été créé en 2005 par le papa de Linux (1991) : Linus Torvalds pour le développement du noyau Linux. Il permet de faire le suivi des différentes modifications d’un projet et de revenir dans un état précédent. Et surtout, il permet de travailler à plusieurs sur un même projet.
+Git est le logiciel de versions le plus populaire, utilisé par plus de 12.000.000 de développeurs dans le monde. Il est un incontournable des grandes sociétés de logiciel. Grandement utilisé dans le développement de logiciels OpenSource via la plateforme GitHub qui a été rachetée par Microsoft.
+
+III.	Installation de Git
+===========================
+1) Windows
+Faire l’installation de Git via la page : https://git-scm.com/downloads
+
+2) Mac Os
+Essayez de taper git --version en ligne de commandes.
+S'il ne l'installe pas, installer brew s'il n'est pas déjà installé.
+Pour installer brew: https://brew.sh/index_fr
+Après taper en ligne de commandes brew install git
+
+IV. Utiliser la ligne de commandes/du terminal
+==============================================
+Il y a deux façons d'utiliser git: par interface graphique ou via la ligne de commandes. Le mieux c'est l'utilisation du terminal pour utiliser au mieux git.
+Nous allons voir quelques commandes de base.
+Pour chaque commande on peut avoir de l'aide via la commande elle-même
+A) Sous windows    commande /?
+B) Sous Mac/Linux  commande --help  ou via les man (manuels) unix s'ils sont installés. Exemple: man mkdir
+
+L'invite de commandes signifie que le terminal est en attente de commandes. Une commande reçoit de 0 à N paramètres. Par exemple la commande: git version
+git est la commande et version est le paramètre. Vous validez cette commande et son paramètre via la touche ENTER.
+
+Ouvrez un terminal.
+
+1. Pour connaître le répertoire courant où vous êtes:
+A) Sur Windows: on regarde ce qu'on appelle le prompt. Il est composé du chemin courant suivit du symbole >. Exemple c:\windows>
+Ou bien on tape la commande echo %cd% ou encore tout simplement cd   sans aucun paramètre: ça retourne le répertoire courant.
+B) Sur Mac: on a deux manières. Le prompt est composé du nom de l'ordinateur suivit d'un symbole : ensuite du chemin suivit d'un espace. Il y a ensuite le nom de l'utilisateur terminé par le symbole $. Il est possible que vous voyez le symbole ~ (tilde) dans le chemin. Le symbole tilde signifie le chemin vers votre répertoire utilisateur. Ensuite on peut utiliser la commande pwd qui va donner le répertoire courant. Si vous avez un tilde dans le prompt, vous verrez le chemin complet de l'utilisateur grâce à la commande pwd. Exemple si votre prompt est  mcfly:~/Documents john$ la commande pwd donnera le résultat suivant: /home/john/Documents
+C) Sur Linux: Même chose que Mac sauf que le prompt est ainsi composé du nom de l'utilisateur suivit du symbole @ ensuite du nom de l'ordinateur d'un symbole : et enfin le chemin terminé par le symbole $. Exemple: john@mcfly:~/Documents$ la commande pwd donnera le résultat suivant: /home/john/Documents
+
+2. Lister les fichiers
+A) Sur Windows: On utilise la commande dir avec comme paramètre /w. Exemple: dir /w
+B) Sur Mac/Linux: On utilise la commande dir ou ls ou encore 
+
+2. Créer un répertoire
+A) Sur Windows: c'est la commande mkdir (make directory) qui peut être raccourcie par md. Exemple: mkdir cours_git  ou md cours_git
+B) Sur Mac/Linux: c'est la commande mkdir. Exemple mkdir cours_git
+
+3. Changer de répertoire
+Sur Windows et Mac/Linux, c'est la commande chdir ou cd (change directory). Exemple: cd cours_git
+Ou peut remonter dans le répertoire parent à l'aide de la commande cd ..    
+
+4. Supprimer un répertoire
+ATTENTION cette commande est à utiliser avec énormément de précautions.
+A) Sur Windows: C'est la commande rmdir (remove directory). Créons le répertoire toto: mkdir toto Supprimons ce répertoire: rmdir toto
+Cependant si le répertoire toto n'est pas vide, Windows vous le signalera et ne fera rien. Il faudra alors utiliser des paramètres à la commande rmdir à savoir /s (Supprime tous répertoires et fichiers inclus dans le répertoire à supprimer). Exemple: rmdir /s toto   (Le système demandera une confirmation)
+B) Sur Mac/Linux: C'est aussi la commande rmdir mais on utilise généralement rm   on peut coupler cette commande avec les paramètres -rf Exemple: rm -rf toto (le -r supprime le répertoire et sous repertoire de manière récursive. Le -f ne demande aucune confirmation d'effacement et pas d'erreur si le fichier n'existe pas)
+Si vous faites un rm -rf repertoire (faites très attention à ce que vous faites...)
+
+5. Supprimer un fichier
+Comme pour la commande précédente faites attention à ce que vous effacez
+A) Sur Windows: C'est la commande del fichier exemple: del toto.txt
+B) Sur Mac: C'est la commande rm fichier exemple: rm toto.txt
+
+6. Renommer un fichier/répertoire
+A) Sur Windows: C'est la commande ren (pour rename). Exemple: ren toto.txt toto2.txt
+B) Sur Mac: On utilise la commande mv (move). Exemple mv toto.txt toto2.txt
+
+7. Afficher le contenu d'un fichier
+A) Sur Windows: type nomfichier exemple:  type toto.txt  affichera le contenu du fichier toto.txt 
+B) Sur Mac: cat nomfichier exemple: cat toto.txt affichera le contenu du fichier toto.txt
+
+8. Créer un fichier avec un contenu vide
+A) Sur Windows: type nul > toto.txt va créer un fichier vide avec comme nom toto.txt
+B) Sur Mac: touch toto.txt
+
+9. Les redirections des commandes > et >>
+On peut rediriger l'entrée standard d'une commande qui est la console vers par exemple un fichier.
+On a deux types de redirections:
+1) Création du fichier avec > par exemple dir > listing.txt  (redirige le résultat de la commande dans un nouveau fichier nommé listing.txt)
+2) Concaténation du résultat dans un fichier avec >> par exemple dir >> listing.txt (Si le fichier existe, le résultat de la commande dir est ajouté au fichier listing.txt sinon le fichier sera créé).
+Dans le temps (vieux suis, vieux je resterai), on pouvait rediriger vers une imprimante. Par exemple dir > prn
+
+V.	Qu’est-ce un dépôt/repository Git ?
+===========================================
+Un dépôt Git est un en quelque sorte de livre journal où l’on peut retrouver tout l’historique des modifications.  Il vous permet d'enregistrer les différentes versions de votre code et d'y accéder au besoin.
+
+VI.	Répertoire courant vs la zone d’indexation vs dépôt
+========================================================
+Répertoire de travail = Lieu où sont stockés vos fichiers de travail.
+Zone d'indexation = La zone d’index est un simple fichier, généralement situé dans le répertoire Git, qui stocke les informations concernant ce qui fera partie du prochain instantané. On l’appelle aussi des fois la zone de préparation.
+Dépôt (repository) = répertoire portant le nom .git. Le répertoire Git est l’endroit où Git stocke les métadonnées et la base de données des objets de votre projet. Vous ne devez jamais aller modifier manuellement ce répertoire.
+
+VII. Chronologie des actions avant que vos modifications fassent partie de votre dépôt
+=====================================================================================
+L’utilisation standard de Git se passe comme suit :
+Vous modifiez des fichiers dans votre répertoire de travail.
+Vous indexez les fichiers modifiés, ce qui ajoute des instantanés (une sorte de photo si vous voulez) de ces fichiers dans la zone d’index.
+Vous validez ces modifications qui sont en zone d'index, ce qui a pour effet de basculer les instantanés des fichiers de l’index dans la base de données du répertoire Git.
+
+Si une version particulière d’un fichier est dans le répertoire Git, il est considéré comme validé.
+S’il est modifié mais a été ajouté dans la zone d’index, il est indexé.
+S’il a été modifié depuis le dernier instantané mais n’a pas été indexé, il est modifié.
+
+VIII. Configurer les informations de l'utilisateur pour tous les dépôts locaux
+=============================================================================
+Pour que l'on sache qui a fait une action sur un dépôt, il est de mise de configurer les variables globales suivantes:
+    a. git config --global user.name "nom"
+        - Exemple: git config --global user.name "Johnny Piette"
+    b. git config --global user.email "adresse email"
+        Exemple: git config --global user.email "johnny.piette@gmail.com"
+Vérification de la configuration de git globale.
+git config --global --list
+Pour supprimer une entrée de notre configuration globale, on utilise: git config --unset --global user.name (Ici ça va supprimer notre prénom et nom).
+
+IX. Création de notre premier dépôt local
+==========================================
+1. Création d'un répertoire de travail: créer le répertoire cours_git
+2. En ligne de commandes aller dans le répertoire de travail à l'aide de la commande cd: cd cours_git
+3. Taper la commande git init
+4. Taper la commande dir   on constate qu'il n'y a rien.
+5. A) Pour Windows: Recommençons avec dir /ah (on liste les fichiers ayant l'attribut h pour hidden/caché)
+5. B) Pour Mac: ls -al 
+6. On constate que l'on a un répertoire .git caché, notre dépôt.
+
+X. Status de notre dépôt
+===========================
+Taper la commande git status que voyez-vous ?
+git status va nous indiquer l'état de notre dépôt. Y a-t-il des fichiers modifiés/créés/supprimés qui n'ont pas été indexés ?
+
+XI. Ajouter un fichier
+======================
+Copiez le fichier genius.py dans le répertoire cours_git
+
+XII. Indexer/désindexer ses modifications
+=======================================
+Pour indexer un fichier on utilise la commande git add
+1. git status  (qu'est-ce qui a changé ?) On voit qu'il est indiqué untracked files. Il y est indiqué notre fichier genius.py
+2. git add genius.py (on l'ajoute dans la zone d'index)
+3. git status (il indique les changements à commiter. ici genius.py qui est marqué comme "new file")
+Pour désindexer un fichier on utilise la commande git reset.
+1. git reset genius.py (on a retiré les modifications de la zone d'index)
+2. git status
+
+XIII. Notre premier commit
+========================
+1. git commit -m "Ajout du fichier genius.py"
+2. git status (nothing to commit)
+3. git tag v1 (Je vous expliquerai pourquoi plus tard)
+
+XIV. Modifications d'un fichier
+===============================
+Première modification:
+1. Ouvrez votre programme genius.py avec vscode
+2. Ajoutez une fonctions Multiply qui multiplie deux nombres.
+3. Ajoutez un print s'inspirant des précédents print.
+4. Testez votre programme jusqu'à ce qu'il fonctionne. :)
+5. git status (git nous indique que notre fichier a été modifié)
+6. git diff genius.py (Ca vous affichera les modifications: les ajouts (+) ou suppressions (-) de lignes)
+7. git add genius.py (permet d'ajouter toutes les modifications du point de fichiers)
+8. git commit -m "Ajout de la multiplication" (Essayer de ne pas taper des accents)
+9. git status (essayez de toujours faire un status par précaution)
+10. git tag v2 (Je vous expliquerai pourquoi plus tard)
+
+Deuxième modification:
+1. Ouvrez votre programme genius.py avec vscode
+2. Ajoutez une fonctions Divide qui divise deux nombres.
+3. Ajoutez un print s'inspirant des précédents print.
+4. Testez votre programme jusqu'à ce qu'il fonctionne. :)
+5. git status (git nous indique que notre fichier a été modifié)
+6. git diff genius.py (Ca vous affichera les modifications: les ajouts (+) ou suppressions (-) de lignes)
+7. git add genius.py (permet d'ajouter toutes les modifications du point de fichiers)
+8. git commit -m "Ajout de la division" (Essayer de ne pas taper des accents)
+9. git status (essayez de toujours faire un status par précaution)
+10. git tag v3 (Je vous expliquerai pourquoi plus tard)
+
+XV. Voyage dans l'historique d'un dépôt
+==========================================
+Un ensemble de commits reliés entre eux par un pointer constitue ce qu'on appelle une branche. Ici on est sur la branche master. C'est la branche principale.
+Un commit est constitué:
+- d'un identifiant unique appelé SHA1 constitué de 40 caractères.
+- un ensemble de modifications.
+- un commentaire décrivant le commit qui vient de la commande commit -m "votre commentaire"
+- les informations sur l'auteur (on les a donnés au point VI avec la commande git config --global user.name "nom" ainsi que de la commande git config --global user.email "adresse email")
+- une date de création.
+- Liste de son/ses parent/s (Allant de 0 à N parents).
+
+Voyons l'historique de notre dépôt:
+1. Tapez git log
+2. git show SHA-1 (Pour un commit ayant ce SHA-1). Certains auront peut-être des problèmes pour copier/coller le SHA1. Ce n'est pas grave car nous avons tagué/nommé nos commits:v1, v2, v3.
+3. git show v1
+4. git show v2
+5. git show v3
+3. git show master (montre les dernières modifications du commit avec le tag master)
+
+XVI. Naviguer dans l'historique d'un dépôt
+==========================================
+1. git log
+2. Identifier le premier commit ainsi que son SHA1.
+2. git checkout SHA-1 ou un tag (nous nous sommes déplacés sur un commit, nous avons remonté le temps) [Musique de Retour vers le Futur]
+3. git log (Nous n'avons que l'histoire du tout premier commit)
+4. Ouvrez genius.py et regardez ce fichier qui est différente de celle de master.
+5. git checkout master (on revient sur le dernier commit appelé master).
+6. Ouvrez genius.py
+
+Essayez de revenir sur les différentes versions de notre programme genius.py et regardez si on est bien revenu dans une version précédente à l'aide des SHA1 ou des tags.
+
+XVII. Les tags
+==============
+Certains ont remarqué qu'il est plus aisé de créer des tags pour naviguer dans l'historique et pour revenir à une version antérieur de notre dépôt.
+Cependant on ne crée pas des tags pour tous les commits. On le fait quand c'est nécessaire. Je vous ai fait créer des tags à chaque commit pour que certains aient plus facile d'utiliser des tags que des SHA1.
+
+On peut avoir plusieurs tags pour un même commit.
+
+Donc pour créer un tag, on utilise la commande git tag montag.
+Pour supprimer un tag, on utilise la commande git tag -d montag
+
+XVIII. Le modèle distribué
+==========================
+Ici, nous avons travaillé sur notre dépôt local: tout est stocké dans notre ordinateur.
+Il existe différents modèles de gestion:
+1. Modèle centralisé (svn, cvs): Tout est stocké sur un serveur central qui contrôle toute la base du code. 
+2. Modèle distribué (git, mercurial): Tous les développeurs ont une copie de base du projet. L'intérêt c'est que l'on ne doit pas être en permanence connecté au serveur pour travailler.
+Nous avons notre dépôt git hébergé sur un serveur (GitHub, GitLab) qui comprend un certains nombres de commits. Si des développeurs veulent travailler sur notre dépôt distant, les développeurs vont devoir dupliquer notre dépôt. Cela va dupliquer l'ingréalité du dépôt et le .git et donc de l'ensemble des commits. Prenons deux développeurs: Eleonor et Mashum.  Si Eleonor travaille sur sa version locale, elle va faire un commit. Et envoyer sur le dépôt distant, l'ensemble des commits qu'elle a réalisés. Mashum ayant la version de base pourra se synchroniser avec le dépôt distant et récevoir les modifications faites pour Eleonor.
+
+XIX. GitHub
+===========
+Git est donc un outil de suivi des modifications d’un dépôt : il en contient son historique.
+GitHub est un hébergeur web de dépôts distants.
+C’est en quelque sorte un front end web Git pour des projets distants hébergés sur GitHub.
+
+Mais il offre beaucoup plus que Git :
+-	Créer un wiki pour le dépôt.
+-	Contient un logiciel de suivi de problèmes.
+-	Possibilité de cloner le dépôt hébergé sur GitHub en local.
+-	Créer des gist : morceau de code que l’on peut partager, éditer, commenter, etc.
+-	Suivi de bugs avec les issues.
+-	Un wiki dédié au projet 
+
+La plupart des projets open sources sont sur GitHub : En 2020, 190 millions de dépôts dont 28 millions sont publics.
+
+Racheté par Microsoft : 7 Milliards de dollars. Certains ont quitté car le vilain Microsoft a racheté GitHub :	En 2018, 100.000 projets ont quitté GitHub pour GitLab.
+
+Vous pouvez créer des dépôts publics et des dépôts privés. Avant on avait une limitation pour les dépôts privés. Maintenant Microsoft permet de créer un nombre illimités de dépôts privés. :)
+
+XX. Clôner un dépôt git hébergé sur GitHub
+==========================================
+Nous allons dans un premier temps clôner les notes de cours qui se trouvent sur GitHub.
+La commande qui permet de faire un clone d'un dépôt distant est la commande git clone suivie du nom du dépôt à clôner.
+1. Ouvrez un invite de commandes/terminal.
+2. Créez un répertoire nommé mesdepots: mkdir mesdepots
+3. Allez dans ce répertoire: cd mesdepots
+5. Clônez le dépôt distant de notre cours git: git clone https://github.com/ZamBoyle/Eqla_Git.git
+6. Faites un dir, vous devriez y voir un répertoire nommé Eqla_Git
+7. Allez dans le répertoire: cd Eqla_Git
+8. Affichez les fichiers: dir (pour Windows) ou ls (pour Mac)
+9. 
+
+
+
+
+
+XIX. Clôner un dépôt distant
+============================
+Nous allons prendre un dépôt distant que j'ai créé exprès sur GitHub
