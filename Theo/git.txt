@@ -263,7 +263,8 @@ La commande qui permet de faire un clone d'un dépôt distant est la commande gi
 6. Faites un dir, vous devriez y voir un répertoire nommé Eqla_Git
 7. Allez dans le répertoire: cd Eqla_Git
 8. Affichez les fichiers: dir (pour Windows) ou ls (pour Mac)
-9. 
+9. Je vais créer un fichier sur le dépôt GitHub.
+10. Mettez à jour votre dépôt: git pull
 
 
 
