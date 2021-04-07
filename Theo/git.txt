@@ -265,12 +265,13 @@ La commande qui permet de faire un clone d'un dépôt distant est la commande gi
 1. Ouvrez un invite de commandes/terminal.
 2. Créez un répertoire nommé mesdepots: mkdir mesdepots
 3. Allez dans ce répertoire: cd mesdepots
-5. Clônez le dépôt distant de notre cours git: git clone https://github.com/ZamBoyle/Eqla_Git.git
-6. Faites un dir, vous devriez y voir un répertoire nommé Eqla_Git
-7. Allez dans le répertoire: cd Eqla_Git
-8. Affichez les fichiers: dir (pour Windows) ou ls (pour Mac)
-9. Je vais créer un fichier sur le dépôt GitHub.
-10. Mettez à jour votre dépôt: git pull
+4. Clônez le dépôt distant de notre cours git: git clone https://github.com/ZamBoyle/Eqla_Git.git
+5. Faites un dir, vous devriez y voir un répertoire nommé Eqla_Git
+6. Allez dans le répertoire: cd Eqla_Git
+7. Affichez les fichiers: dir (pour Windows) ou ls (pour Mac)
+8. Je vais créer un fichier sur le dépôt GitHub.
+9. Mettez à jour votre dépôt: git pull
+10. Chaque semaine, vous ferez un git pull dans le dépôt local de notre cours et le cours se mettra à jour depuis GitHub.
 
 XXI. Présentation de la commande gh
 ===================================
@@ -285,8 +286,8 @@ gh pr pour la gestion des pull requests
 
 Et gh auth qui permet l'authentification que nous allons voir au point suivant.
 
-XXI. Authentification sur GitHub via gh
-=======================================
+XXII. Authentification sur GitHub via gh
+========================================
 La procédure d'Authentification suivante ne devra être faite qu'une fois: gh retiendra nos credentials(=Informations d'Authentification).
 1. Ouvrez un invite de commandes/terminal.
 2. Tapez gh version    si gh est bien installé vous devriez avoir le numéro de version de gh. Par exemple: gh version 1.8.1
@@ -306,8 +307,8 @@ La procédure d'Authentification suivante ne devra être faite qu'une fois: gh r
 16. Appuyez sur ENTER pour continuer suite à l'Authentification réussie sur GitHub.
 16. Et voilà !!!!! :)
 
-XXII. Creation d'un gist public
-===============================
+XXIII. Creation d'un gist public
+================================
 Un gist est simplement un partage d'informations. Ca peut être un programme python, du c, un listing, du texte, etc. Bref ça doit être du texte mais vu que l'on est sur GitHub, c'est principalement du code. ;)
 L'intérêt d'un gist, c'est qu'il ne fait pas partie d'un dépôt. C'est du code que vous partagez par exemple avec un formateur ou une connaissance. Si ce code est bugué, on pourra éventuellement vous aider via les commentaires.
 S'il est public, tout le monde peut y accéder. S'il est privé, il faudra avoir son url pour y accéder car il ne sera pas trouvable via la recherche GitHub pour tout le monde.
@@ -328,11 +329,33 @@ En fait l'intérêt principal d'utiliser gh repo clone c'est de rapidement clone
 1. Ouvrez un invite de commandes/terminal.
 2. Allez dans le répertoire mesdepots: cd mesdepots
 3. Clônez le dépôt distant de notre cours git: gh repo clone https://github.com/ZamBoyle/Eqla_Git.git ghCloneTest   On va nommer le répertoire ghCloneTest car nous avons déjà un répertoire Eqla_git
-6. Faites un dir, vous devriez y voir un répertoire nommé Eqla_Git
-7. Allez dans le répertoire: cd Eqla_Git
-8. Affichez les fichiers: dir (pour Windows) ou ls (pour Mac)
-9. Je vais créer un fichier sur le dépôt GitHub.
-10. Mettez à jour votre dépôt: git pull
+4. Faites un dir, vous devriez y voir un répertoire nommé Eqla_Git
+5. Allez dans le répertoire: cd Eqla_Git
+6. Affichez les fichiers: dir (pour Windows) ou ls (pour Mac)
+7. Je vais créer un fichier sur le dépôt GitHub.
+8. Mettez à jour votre dépôt: git pull
+9. Chaque semaine, vous ferez un git pull dans le dépôt local de notre cours et le cours se mettra à jour depuis GitHub.
+
+XXV. Créer un dépôt sur GitHub
+===============================
+Ici, on va créer un dépôt sur GitHub et en même temps notre dépôt local.
+1. Ouvrez un invite de commandes/terminal.
+2. Allez dans le répertoire mesdepots: cd mesdepots
+3. Tapez la commande gh repo create MonDepotGitHub
+4. Appuyez sur ENTER à la question "Visibility" Ca va sélectionner Public. Nous venons de dire que notre dépôt sera Public: Visible pour le monde entier.
+5. Appuyez sur ENTER à la question "This will create the "MonDepotGitHub" repository on GitHub. Continue?" Ca va sélectionner Y pour yes. Nous venons de confirmer la création du dépôt sur GitHub
+6. Appuyez sur ENTER à la question "Create a local project directory for "votreUsername/MonDepotGitHub"? Ca va sélectionner Y pour yes. Nous venons de confirmer la création du dépôt local.
+7. Vérifiez que le dépôt local a été créé: la commande dir ou ls devrait nous indiquer la présence du répertoire MonDepotGitHub
+8. Entrez dans le répertoire MonDepotGitHub: cd MonDepotGitHub
+9. Regardez le statut de votre dépôt: git status
+10. Ajoutez des fichiers genius.py et un autre de votre choix dans ce répertoire.
+11. Regardez le statut de votre dépôt: git status
+12. Ajoutez tous les fichiers dans la zone d'index: git add * Ca copiera tous les fichiers du répertoire courant. Si on utilise git add . ça ajoutera tous les fchiers du répertoire courant plus les répertoires et sous réptertoires.
+13. Commitez le tout: git commit -m "Initial Commit"
+14. git push -u origin master        On envoie nos modifications sur le remote origin (ici GitHub) de la branche master.
+
+
+
 
 
 
