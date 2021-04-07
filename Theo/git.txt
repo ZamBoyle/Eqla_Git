@@ -15,7 +15,7 @@ C'est ici qu'entre en scène git via l'intermédiaire d'outils comme GitHub, Git
 II. Git c'est quoi ?
 ====================
 Git a été créé en 2005 par le papa de Linux (1991) : Linus Torvalds pour le développement du noyau Linux. Il permet de faire le suivi des différentes modifications d’un projet et de revenir dans un état précédent. Et surtout, il permet de travailler à plusieurs sur un même projet.
-Git est le logiciel de versions le plus populaire, utilisé par plus de 12.000.000 de développeurs dans le monde. Il est un incontournable des grandes sociétés de logiciel. Grandement utilisé dans le développement de logiciels OpenSource via la plateforme GitHub qui a été rachetée par Microsoft.
+Git est le logiciel de versions le plus populaire, utilisé par plus de 56.000.000 de développeurs dans le monde. Il est un incontournable des grandes sociétés de logiciel. Grandement utilisé dans le développement de logiciels OpenSource via la plateforme GitHub qui a été rachetée par Microsoft.
 
 III.	Installation de Git
 ===========================
@@ -248,12 +248,18 @@ Mais il offre beaucoup plus que Git :
 
 La plupart des projets open sources sont sur GitHub : En 2020, 190 millions de dépôts dont 28 millions sont publics.
 
-Racheté par Microsoft : 7 Milliards de dollars. Certains ont quitté car le vilain Microsoft a racheté GitHub :	En 2018, 100.000 projets ont quitté GitHub pour GitLab.
+Racheté par Microsoft : 7 Milliards de dollars. Certains ont quitté car le vilain Microsoft a racheté GitHub :	En 2018, 100.000 projets sur 75 millions ont quitté GitHub pour GitLab.
+
+Il y a plus de 56 millions de développeurs et plus de 3 millions d'organisations qui l'utilisent.
 
 Vous pouvez créer des dépôts publics et des dépôts privés. Avant on avait une limitation pour les dépôts privés. Maintenant Microsoft permet de créer un nombre illimités de dépôts privés. :)
 
-XX. Clôner un dépôt git hébergé sur GitHub
-==========================================
+Apparemment, vous n'auriez pas de limite de taille par dépôt mais on conseille que cela soit entre 500MB et 1GB. La taille max d'un fichier ne peut faire plus de 100MB.
+
+XX. Clôner un dépôt hébergé sur GitHub avec la commande git clone
+=================================================================
+Cloner un dépôt signifie de faire une copie parfaite d'un dépôt distant.
+Sur GitHub, il y a énormément de dépôts publics.
 Nous allons dans un premier temps clôner les notes de cours qui se trouvent sur GitHub.
 La commande qui permet de faire un clone d'un dépôt distant est la commande git clone suivie du nom du dépôt à clôner.
 1. Ouvrez un invite de commandes/terminal.
@@ -266,10 +272,70 @@ La commande qui permet de faire un clone d'un dépôt distant est la commande gi
 9. Je vais créer un fichier sur le dépôt GitHub.
 10. Mettez à jour votre dépôt: git pull
 
+XXI. Présentation de la commande gh
+===================================
+gh est un outil en ligne de commandes qui permet de gérer vos dépôts sur GitHub.
+L'utilisation de cet outil vient du constat qu'un stagiaire m'a dit que le site internet GitHub n'était pas dutout accessible. 
+Si vous tapez gh tout seul dans la console, gh vous affichera son menu d'aide et ses différents paramètres. Il faut voir gh comme un ensemble de commandes différentes que l'on appelle via des paramètres.
+Les commandes principales sont:
+gh repo   pour la gestion des repos
+gh gist pour la gestion des gists
+gh issue pour la gestion des issues (problèmes rencontrés, demande d'amélioration, etc)
+gh pr pour la gestion des pull requests 
+
+Et gh auth qui permet l'authentification que nous allons voir au point suivant.
+
+XXI. Authentification sur GitHub via gh
+=======================================
+La procédure d'Authentification suivante ne devra être faite qu'une fois: gh retiendra nos credentials(=Informations d'Authentification).
+1. Ouvrez un invite de commandes/terminal.
+2. Tapez gh version    si gh est bien installé vous devriez avoir le numéro de version de gh. Par exemple: gh version 1.8.1
+3. Tapez gh auth login
+4. Appuyez sur ENTER à la question "What account do you want to log into ?". Ca va sélectionner Github.
+5. Appuyez sur ENTER à la question "What is your prefered protocol for Git operations ?". Ca va sélectionner HTTPS 
+6. Appuyez sur ENTER à la question "Authenticate git with your GitHub credentials ? Ca va sélectionner Y pour yes. 
+7. Appuyez sur ENTER à la question "How would you like to authenticate GitHub CLI ?" Ca va sélectionner "Login with a web browser"
+8. Copiez le one-time code qui s'affiche: par exemple 20B6-5A57
+9. Appuyez sur ENTER pour ouvrir un navigateur sur GitHub
+10. Sur la page web collez le one-time code.
+11. Cliquez sur Continue
+12. Cliquez sur Authorize GitHub pour autoriser gh à gérer nos dépôts sur GitHub:
+13. Entrez votre mot de passe.
+14. Cliquez sur "Confirm password".
+15. Revenez dans l'invite de commandes.
+16. Appuyez sur ENTER pour continuer suite à l'Authentification réussie sur GitHub.
+16. Et voilà !!!!! :)
+
+XXII. Creation d'un gist public
+===============================
+Un gist est simplement un partage d'informations. Ca peut être un programme python, du c, un listing, du texte, etc. Bref ça doit être du texte mais vu que l'on est sur GitHub, c'est principalement du code. ;)
+L'intérêt d'un gist, c'est qu'il ne fait pas partie d'un dépôt. C'est du code que vous partagez par exemple avec un formateur ou une connaissance. Si ce code est bugué, on pourra éventuellement vous aider via les commentaires.
+S'il est public, tout le monde peut y accéder. S'il est privé, il faudra avoir son url pour y accéder car il ne sera pas trouvable via la recherche GitHub pour tout le monde.
+Il est possible à toute personne d'ajouter un commentaire et d'y attacher des fichiers à ce commentaire.
+C'est un outil vraiment fort utile. Vous pourriez donc l'utiliser avec vos formateurs quand vous rencontrez un problème. Vous donnez l'url de votre gist à la personne.
+1. Ouvrez un invite de commandes/terminal.
+2. Allez dans un répertoire où vous avez du code python.
+3. Tapez la commande gh git create <VotreFichierPython> -d "Ceci est mon premier gist" -p
+Le paramètre -d donne la description
+Le paramètre -p met le gist en public.
+4. Vous recevez une url pour le partager.
+5. Pour vérifier qu'il a été créé: gh gist list   Votre nouveau gist devrait être listé.
+
+XXIV. Clôner un dépôt hébergé sur GitHub avec la commande gh repo clone
+=======================================================================
+Cette fois-ci nous allons le faire via la commande gh repo clone
+En fait l'intérêt principal d'utiliser gh repo clone c'est de rapidement cloner ses repos mais il peut aussi clôner d'autres repos mais autant utiliser alors la commande git clone.
+1. Ouvrez un invite de commandes/terminal.
+2. Allez dans le répertoire mesdepots: cd mesdepots
+3. Clônez le dépôt distant de notre cours git: gh repo clone https://github.com/ZamBoyle/Eqla_Git.git ghCloneTest   On va nommer le répertoire ghCloneTest car nous avons déjà un répertoire Eqla_git
+6. Faites un dir, vous devriez y voir un répertoire nommé Eqla_Git
+7. Allez dans le répertoire: cd Eqla_Git
+8. Affichez les fichiers: dir (pour Windows) ou ls (pour Mac)
+9. Je vais créer un fichier sur le dépôt GitHub.
+10. Mettez à jour votre dépôt: git pull
 
 
 
 
-XIX. Clôner un dépôt distant
-============================
-Nous allons prendre un dépôt distant que j'ai créé exprès sur GitHub
+
+
