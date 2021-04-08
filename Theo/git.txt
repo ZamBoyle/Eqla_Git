@@ -90,6 +90,14 @@ On a deux types de redirections:
 2) Concaténation du résultat dans un fichier avec >> par exemple dir >> listing.txt (Si le fichier existe, le résultat de la commande dir est ajouté au fichier listing.txt sinon le fichier sera créé).
 Dans le temps (vieux suis, vieux je resterai), on pouvait rediriger vers une imprimante. Par exemple dir > prn
 
+10. Customiser son prompt
+Il correspond à la string(chaîne de caractères) qui se trouve à gauche du curseur dans l'invite de commandes.
+Sous windows par défaut c'est c:\RepertoireEnCours> il est défini par la commande prompt $p$g
+Il est possible de customiser le prompt de l'invite de commandes:
+A) Sur Windows: C'est la commande prompt qui le permet. Pour certains, un prompt plus succinct est sans doute intéressant. Exemple: prompt $g    Donnera que le symbole > pour votre invite de commandes
+B) Sur Mac: Il faut définir une variable d'environnement PS1. Exemple: PS1=">"
+Pour Windows, il existe des variables prédéfinies que l'on peut utiliser. Pour les connaître faites un prompt /?
+
 V.	Qu’est-ce un dépôt/repository Git ?
 ===========================================
 Un dépôt Git est un en quelque sorte de livre journal où l’on peut retrouver tout l’historique des modifications.  Il vous permet d'enregistrer les différentes versions de votre code et d'y accéder au besoin.
@@ -342,6 +350,22 @@ Ici, on va créer un dépôt sur GitHub et en même temps notre dépôt local.
 1. Ouvrez un invite de commandes/terminal.
 2. Allez dans le répertoire mesdepots: cd mesdepots
 3. Tapez la commande gh repo create MonDepotGitHub
+4. gh repo create Raph --public --ignore
+7. Vérifiez que le dépôt local a été créé: la commande dir ou ls devrait nous indiquer la présence du répertoire MonDepotGitHub
+8. Entrez dans le répertoire MonDepotGitHub: cd MonDepotGitHub
+9. Regardez le statut de votre dépôt: git status
+10. Ajoutez des fichiers genius.py et un autre de votre choix dans ce répertoire.
+11. Regardez le statut de votre dépôt: git status
+12. Ajoutez tous les fichiers dans la zone d'index: git add * Ca copiera tous les fichiers du répertoire courant. Si on utilise git add . ça ajoutera tous les fchiers du répertoire courant plus les répertoires et sous réptertoires.
+13. Commitez le tout: git commit -m "Initial Commit"
+14. git push -u origin master        On envoie nos modifications sur le remote origin (ici GitHub) de la branche master.
+
+XXV. Créer un dépôt sur GitHub
+===============================
+Ici, on va créer un dépôt sur GitHub et en même temps notre dépôt local.
+1. Ouvrez un invite de commandes/terminal.
+2. Allez dans le répertoire mesdepots: cd mesdepots
+3. Tapez la commande gh repo create MonDepotGitHub
 4. Appuyez sur ENTER à la question "Visibility" Ca va sélectionner Public. Nous venons de dire que notre dépôt sera Public: Visible pour le monde entier.
 5. Appuyez sur ENTER à la question "This will create the "MonDepotGitHub" repository on GitHub. Continue?" Ca va sélectionner Y pour yes. Nous venons de confirmer la création du dépôt sur GitHub
 6. Appuyez sur ENTER à la question "Create a local project directory for "votreUsername/MonDepotGitHub"? Ca va sélectionner Y pour yes. Nous venons de confirmer la création du dépôt local.
@@ -353,8 +377,6 @@ Ici, on va créer un dépôt sur GitHub et en même temps notre dépôt local.
 12. Ajoutez tous les fichiers dans la zone d'index: git add * Ca copiera tous les fichiers du répertoire courant. Si on utilise git add . ça ajoutera tous les fchiers du répertoire courant plus les répertoires et sous réptertoires.
 13. Commitez le tout: git commit -m "Initial Commit"
 14. git push -u origin master        On envoie nos modifications sur le remote origin (ici GitHub) de la branche master.
-
-
 
 
 
