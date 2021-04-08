@@ -260,7 +260,7 @@ Racheté par Microsoft : 7 Milliards de dollars. Certains ont quitté car le vil
 
 Il y a plus de 56 millions de développeurs et plus de 3 millions d'organisations qui l'utilisent.
 
-Vous pouvez créer des dépôts publics et des dépôts privés. Avant on avait une limitation pour les dépôts privés. Maintenant Microsoft permet de créer un nombre illimités de dépôts privés. :)
+Vous pouvez créer des dépôts publics et des dépôts privés. Avant on avait une limitation pour les dépôts privés. Maintenant GitHub permet de créer un nombre illimités de dépôts privés. :)
 
 Apparemment, vous n'auriez pas de limite de taille par dépôt mais on conseille que cela soit entre 500MB et 1GB. La taille max d'un fichier ne peut faire plus de 100MB.
 
