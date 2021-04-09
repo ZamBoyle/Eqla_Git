@@ -368,7 +368,7 @@ Il peut arriver que dans votre dépôt que vous travaillez sur des fichiers temp
 3. Créez un nouveau dépôt: gh repo create gitignoreTests --public --confirm
 4. Allez dans ce répertoire: cd gitignoreTests
 5. Dans ce répertoire gitignoreTests, créez un fichier .gitignore avec visual studio code. Attention que le fichier commence par un point.
-6. Ajoutez dans fichier les deux lignes suivantes:
+6. Ajoutez dans le fichier .gitignore les deux lignes suivantes:
 *.temp
 password.txt      (On ne met évidemment pas un mot de passe en clair dans un fichier mais plutot dans un gestionnaire de mot de passes: par exemple keepass)
 7. Sauvegardez ce fichier .gitignore

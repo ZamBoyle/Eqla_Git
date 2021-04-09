@@ -1,4 +1,4 @@
-# Bienvenue cher stagiaire :man_student: !
+# Bienvenue chers stagiaires :man_student: !
 Ce dépôt a été créé pour que vous cloniez ce dépôt distant hébergé sur [GitHub](https://github.com/) dans votre ordinateur.
 
 ## Clonez ce dépôt
