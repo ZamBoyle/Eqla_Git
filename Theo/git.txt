@@ -324,7 +324,7 @@ Il est possible à toute personne d'ajouter un commentaire et d'y attacher des f
 C'est un outil vraiment fort utile. Vous pourriez donc l'utiliser avec vos formateurs quand vous rencontrez un problème. Vous donnez l'url de votre gist à la personne.
 1. Ouvrez un invite de commandes/terminal.
 2. Allez dans un répertoire où vous avez du code python.
-3. Tapez la commande gh git create <VotreFichierPython> -d "Ceci est mon premier gist" -p
+3. Tapez la commande gh gist create <VotreFichierPython> -d "Ceci est mon premier gist" -p
 Le paramètre -d donne la description
 Le paramètre -p met le gist en public.
 4. Vous recevez une url pour le partager.
