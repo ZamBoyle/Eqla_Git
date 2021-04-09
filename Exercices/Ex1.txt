@@ -1,12 +1,9 @@
 Partie 1 - Création du dépôt mypython sur GitHub
 a. Ouvrez un invite de commandes/terminal.
 b. Si vous êtes dans le répertoire cours_git, sortez de ce répertoire.
-c. Créez un nouveau dépôt distant ayant pour nom mypython: gh repo create mypython
+c. Créez un nouveau dépôt distant ayant pour nom mypython: gh repo create mypython --public --confirm
 d. Sélecionnez: Public.
-e. Appuyez sur ENTER pour accepter de créer le dépôt "mypython" sur GitHub (Option Y en majuscule donc sélectionné par défaut)
-f. Appuyez sur ENTER pour accetper de créer le dépôt "mypython" sur l'ordinateur local (Option Y en majuscule donc sélectionné par défaut)
-g. Allez dans le répertoire créé: cd mypython
-h. Tapez git branch -M master
+e. Allez dans le répertoire créé: cd mypython
 
 Partie 2 - 
 a. Créez un programme fonctionnel en python qui s'appelle ex1_git.py et qui demande le nom et le prénom d'une personne.
@@ -16,7 +13,7 @@ Exemple:
 b. Faites un git status (observez ce que donne la sortie de cette commande).
 c. Faites un git diff ex1_git.py (Observez bien les ajouts et modifications de votre programme).
 d. Ajoutez ce fichier à la zone d'index.
-e. Commitez vos changements avec le message suivant: "Initial Commit".
+e. Commitez vos changements avec le message suivant: "Initial Commit": git commit -m "Initial Commit"
 f. Faites un git status (observez ce que donne la sortie de cette commande).
 g. Donnez un tag à ce commit. (v1)
 h. Faites un git status (observez ce que donne la sortie de cette commande).
@@ -30,9 +27,9 @@ Exemple:
 - Quel est votre nom ? Piette
 Votre nom est Piette.
 c. Faites un git status (observez ce que donne la sortie de cette commande).
-d. Faites un git diff ex1_git.py (Observez bien les ajouts et modifications de votre programme: cette fois-ci c'est différent).
+d. Faites un git diff ex1_git.py (Observez bien les ajouts et modifications de votre programme).
 e. Ajoutez ce fichier à la zone d'index.
-f. Commitez vos changements avec le message suivant: "Ajout de la fonction DisplayName".
+f. Commitez vos changements avec le message suivant: "Ajout de la fonction DisplayName"
 g. Donnez un tag à ce commit. (v2)
 h. Faites un git status (observez ce que donne la sortie de cette commande).
 i. Envoyez vos modifications en ligne: git push -u origin master
@@ -67,17 +64,10 @@ g. Donnez un tag à ce commit. (v4)
 h. Faites un git status (observez ce que donne la sortie de cette commande).
 i. Envoyez vos modifications en ligne: git push -u origin master
 
-Partie 7
-a. Créez un dépôt ayant pour nom mypython sur GitHub: gh repos create mypython
-b. 
-
-Partie 7
-A ce stade, vous devriez avoir au minimum 4 commits
-
 a. Affichez l'historique des commits
 b. Quelle commande avez-vous utilisée ?
 c. Revenez au deuxième commit.
 d. Quelle commande avez-vous utilisée ?
 e. Ouvrez votre programme ex1_git.py et constatez qu'il est bien revenu à une version antérieure.
-f. Revenez au tag master.
+f. Revenez au tag main.
 g. Quelle commande avez-vous utilisée ?
