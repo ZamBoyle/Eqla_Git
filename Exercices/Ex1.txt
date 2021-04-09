@@ -12,8 +12,8 @@ Exemple:
 - Quel est ton nom ? Piette
 b. Faites un git status (observez ce que donne la sortie de cette commande).
 c. Faites un git diff ex1_git.py (Observez bien les ajouts et modifications de votre programme).
-d. Ajoutez ce fichier à la zone d'index.
-e. Commitez vos changements avec le message suivant: "Initial Commit": git commit -m "Initial Commit"
+d. Ajoutez ce fichier à la zone d'index: git add ex1_git.py
+e. Commitez vos changements avec le message suivant "Initial Commit": git commit -m "Initial Commit"
 f. Faites un git status (observez ce que donne la sortie de cette commande).
 g. Donnez un tag à ce commit. (v1)
 h. Faites un git status (observez ce que donne la sortie de cette commande).
@@ -69,5 +69,5 @@ b. Quelle commande avez-vous utilisée ?
 c. Revenez au deuxième commit.
 d. Quelle commande avez-vous utilisée ?
 e. Ouvrez votre programme ex1_git.py et constatez qu'il est bien revenu à une version antérieure.
-f. Revenez au tag main.
+f. Revenez au tag master.
 g. Quelle commande avez-vous utilisée ?

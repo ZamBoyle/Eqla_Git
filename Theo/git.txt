@@ -210,13 +210,13 @@ Voyons l'historique de notre dépôt:
 5. git show v3
 3. git show master (montre les dernières modifications du commit avec le tag master)
 
-XVI. Naviguer dans l'historique d'un dépôt
-==========================================
+XVI. Naviguer dans l'historique de notre dépôt
+==============================================
 1. git log
 2. Identifier le premier commit ainsi que son SHA1.
 2. git checkout SHA-1 ou un tag (nous nous sommes déplacés sur un commit, nous avons remonté le temps) [Musique de Retour vers le Futur]
 3. git log (Nous n'avons que l'histoire du tout premier commit)
-4. Ouvrez genius.py et regardez ce fichier qui est différente de celle de master.
+4. Ouvrez genius.py et regardez ce fichier qui est différent de celle de master.
 5. git checkout master (on revient sur le dernier commit appelé master).
 6. Ouvrez genius.py
 
@@ -360,8 +360,30 @@ Ici, on va créer un dépôt sur GitHub et en même temps notre dépôt local.
 13. Commitez le tout: git commit -m "Initial Commit"
 14. git push -u origin master        On envoie nos modifications sur le remote origin (ici GitHub) de la branche master.
 
-
-
+XXV. Le fichier .gitignore
+==========================
+Il peut arriver que dans votre dépôt que vous travaillez sur des fichiers temporaires pour vos tests et programmes. Il arrive aussi qu'en fonction de votre environnement de développement, celui-ci génère un nombre impressionnant de fichiers. Il est dès lors peu intéressant, de commiter des fichiers "non utiles" pour notre projet. Via l'interface web on peut dire qu'on veut un gitignore pour python, visual studio, Unity, R, etc. Nous allons en créer un à la main car nous sommes maintenant des ninjas de la ligne de commandes. 
+1. Ouvrez un invite de commandes/terminal.
+2. Allez dans votre répertoire mesdepots
+3. Créez un nouveau dépôt: gh repo create gitignoreTests --public --confirm
+4. Allez dans ce répertoire: cd gitignoreTests
+5. Dans ce répertoire gitignoreTests, créez un fichier .gitignore avec visual studio code. Attention que le fichier commence par un point.
+6. Ajoutez dans fichier les deux lignes suivantes:
+*.temp
+password.txt      (On ne met évidemment pas un mot de passe en clair dans un fichier mais plutot dans un gestionnaire de mot de passes: par exemple keepass)
+7. Sauvegardez ce fichier .gitignore
+8. Créez un fichier nommé test.py: type nul > test.py     ou sur Mac  touch test.py 
+9. Vérifiez qu'il a été créé: dir
+10. Faites un git status: notre fichier test.py est indiqué comme nouveau et n'étant pas dans la zone d'index.
+11. Créez un fichier nommé password.txt:  type nul > password.txt
+12. Faites un git status: que constatez-vous ?
+13. Créez un fichier nommé dump.tmp: type > dump.tmp
+14. Faites un git status: que constatez-vous ?
+15. Créez un fichier nommé password.tata: type nul > password.tata
+16. Faites un git status: que constatez-vous ? Que pourrions-nous faire pour considérer tous les fichiers commençants par password ?
+17. Faites un git add * 
+18. Faites un git commit -m "commit de test"
+19. Faites un git push -u origin master
 
 
 
