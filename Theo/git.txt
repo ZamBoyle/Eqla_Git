@@ -385,7 +385,74 @@ password.txt      (On ne met évidemment pas un mot de passe en clair dans un fi
 18. Faites un git commit -m "commit de test"
 19. Faites un git push -u origin master
 
+XXVI. Le fichier README.md et le format Markdown
+================================================
+Ce fichier donne des informations sur le dépôt en question.
+Quand vous avez créé un fichier README.md son contenu est directement affiché sur la page du dépôt. Un peu comme un index.html sur un site internet.
+Ce fichier a une structure bien particulière est se base sur Markdown. Markdown permet de faire une belle mise en page.
+L'éttude de Markdown n'entre dans pas dans ce cours mais je vais vous donner quelques exemples.
+1. Mettre un titre <h1>: on commence la ligne par un #
+# Ceci est un titre 1
+## Ceci est un titre 2
+2. Pour mettre du code on utilise ```python avant notre code et après notre code ```. L'intérêt est d'avoir un affichage du code propre et avec une colorisation syntaxique.
+Exemple pour du code python:
+```python
+name = input("Quel est votre nom ?")
+firstname = input("Quel est votre prenom ?")
+```
+3.Pour mettre en gras, on encadre avec ** ou __ce qu'on veut mettre en gras.
+Une partie de ce texte est en **gras**.
+4.Pour mettre en italic on encadre avec * ou _ ce qu'on veut mettre en italique.
+Une partie de ce texte est en *italic*.
+6. Les liens hypertextes. Il est courant de donner des liens hypertextes dans le fichier README.md
+a. Mettre le lien directement: http://www.google.be
+b. Mettre entre crochet notre texte décrivant le lien hypertext
+[Lien vers Google](http://www.google.be)
+c. Description du lien plus un title
+[Lien vers Google](http://www.google.be "Allons sur Google !")
+d. Pointer vers un fichier
+[Ce lien pointe vers un fichier de votre dépôt](./toto.txt)
+5. Pour faire un tableau:
+Colonne 1|Colonne 2|Colonne 3
+Colonne 1|Colonne 2|Colonne 3
+---|---|---
+Cellule 1|Cellule 2|Cellule 3
+Cellule 4|Cellule 5|Cellule 6
+Cellule 7|Cellule 8|Cellule 9
+On constate que pour faire un tableau, qu'il faut séparer le nom  des colonnes par des |.
+Ensuite on met autant de triple tirets (---) qu'on a de colonnes séparés par un |.
+On a ensuite nos colonnes séparées par un |
+
+XVII. Pousser ses tags sur Github
+=================================
+Par défaut, les tags ne sont pas explicitement poussés. Il faut le faire via la commande
+git push origin v1 enverra le tag v1 sur le bon commit.
+ou encore
+git push origin --tags enverra tous les tags
+
+XVIII. Les issues
+=================
+C'est une partie intéressante de GitHub. On peut signaler un bug ou une demande de fonctionalité via ce qu'on appelle les issues.
+Si votre dépôt est public, vous pouvez avoir des utilisateurs qui demanderont de l'aide ou une fonctionalité de votre programme python par exemple.
+Pour créer une issue on rentre dans le dépôt local où l'on veut créer une issue.
+1. cd mesdepots
+2. gh repo create testsIssues --public --confirm
+3. cd testsIssues
+4. La commante suivante va créer une issue directement sur GitHub pour notre dépôt fraîchement créé: gh issue create -t "Fichier README.md est manquant" -b "Il manque votre fichier README.md en effet !"
+5. Vérifions que l'issue à été créée: gh issue list
+5. Créer un fichier README.md
+6. Mettez en titre 1: Super README.md
+7. Ajoutez le texte suivant: Ce depôt ne sert que pour tester les issues.
+8. Enregistrez-le
+9. Faites un git status
+10. Faites un git add *
+11. Faites un git commit -m "#1: Ajout du fichier README.md"
+12. Poussez votre modification sur GitHub un git push -u origin master
+13. Visualisation de l'issue sur GitHub: gh issue view 1 --web
 
 
 
 
+XXVII. Faire un git pull avec un modification en local et distante
+==================================================================
+Lors du rapatriement du cours un élève m'a dit: monsieur je ne sais pas faire un git pull origin car ça génère une erreur !
