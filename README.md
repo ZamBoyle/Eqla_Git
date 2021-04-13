@@ -2,7 +2,7 @@
 Ce dépôt a été créé pour que vous cloniez ce dépôt distant hébergé sur [GitHub](https://github.com/) dans votre ordinateur.
 
 ## Clonez ce dépôt
-```PS
+```Shell
 git clone https://github.com/ZamBoyle/Eqla_Git.git
 ```
 
