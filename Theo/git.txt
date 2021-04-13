@@ -313,7 +313,7 @@ La procédure d'Authentification suivante ne devra être faite qu'une fois: gh r
 14. Cliquez sur "Confirm password".
 15. Revenez dans l'invite de commandes.
 16. Appuyez sur ENTER pour continuer suite à l'Authentification réussie sur GitHub.
-16. Et voilà !!!!! :)
+17. Et voilà !!!!! :)
 
 XXIII. Creation d'un gist public
 ================================
@@ -413,7 +413,6 @@ c. Description du lien plus un title
 d. Pointer vers un fichier
 [Ce lien pointe vers un fichier de votre dépôt](./toto.txt)
 5. Pour faire un tableau:
-Colonne 1|Colonne 2|Colonne 3
 Colonne 1|Colonne 2|Colonne 3
 ---|---|---
 Cellule 1|Cellule 2|Cellule 3
