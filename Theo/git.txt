@@ -453,15 +453,6 @@ Pour créer une issue on rentre dans le dépôt local où l'on veut créer une i
 16. Vérifions que l'issue à été clôturée: gh issue list (Vous devriez avoir le message suivant: There are no open issues)
 
 
-
-
-
-
-
-
-
-
-
 XXVII. Faire un git pull avec un modification en local et distante
 ==================================================================
 Lors du rapatriement du cours un élève m'a dit: monsieur je ne sais pas faire un git pull origin car ça génère une erreur !
