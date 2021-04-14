@@ -2,9 +2,9 @@ Dépôts de chaque stagiaire:
 Alain   (alduf1972)     : https://github.com/alduf1972/
 Bruno   (BrunoDefalque) : https://github.com/BrunoDefalque/
 Isaac   (zackakyo)      : https://github.com/zackakyo/
-Mashum  (Mahsum21)      : https://github.com/Mahsum21/
+Mahsum  (Mahsum21)      : https://github.com/Mahsum21/
 Jessie  (jessiebak)     : https://github.com/jessiebak/
-Maxime  ()              : https://github.com/        /
+Maxime  (maximeborsen)  : https://github.com/maximeborsen/
 Eleonor (ele-sana)      : https://github.com/ele-sana/
 Philip  (Kraktu)        : https://github.com/Kraktu/
 Johnny  (ZamBoyle)      : https://github.com/ZamBoyle/
@@ -15,9 +15,10 @@ gh repo list jessiebak
 Créer un dépôt python pour le cours de Philip:
 1. Allez dans le répertoire d'exercices python.
 2. Faites git init
-3. Faites git add .  (le point reprend tous les répertoires/fichiers et les sous-répertoires)
-4. Faites git commit -m "Initial commit"
-5. gh repo create ExercicesPython --public --confirm 
-6. Faites git push -u origin master 
+3. Faites un git status pour voir l'ensemble des modifications à ajouter à la zone d'index.
+4. Faites git add .  (le point reprend tous les répertoires/fichiers et les sous-répertoires)
+5. Faites git commit -m "Initial commit"
+6. gh repo create ExercicesPython --public --confirm 
+7. Faites git push -u origin master 
 
 

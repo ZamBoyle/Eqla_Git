@@ -64,17 +64,30 @@ g. Donnez un tag à ce commit. (v4)
 h. Faites un git status (observez ce que donne la sortie de cette commande).
 i. Envoyez vos modifications en ligne: git push -u origin master
 
-Partie 7 - git pull
+Partie 7 - git clone et git pull
 Je vous attribuer le dépôt d'une personne que vous allez clôner.
 1. Retournez dans le répertoire mesdepots.
 2. Si vous êtes dans le répertoire mypython, faites un cd .. pour revenir à mesdepots
-Jessie prendra le dépôt d'Alain     : git https://github.com/alduf1972/mypython.git mypythonAlain
-Alain prendra le dépôt de Bruno     : git https://github.com/BrunoDefalque/mypython.git mypythonBruno
-Mahsum prendra le dépôt d'Isaac     : git https://github.com/zackakyo/mypython.git mypythonIsaac
-Isaac prendra le dépôt de Mahsum    : git https://github.com/Mahsum21/mypython.git mypythonMahsum
-Eleonor prendra le dépôt de Jessie  : git https://github.com/jessiebak/mypython.git mypythonJessie
-Bruno prendra le dépôt de Maxime    : git https://github.com/        /mypython.git mypythonMaxime
-Maxime prendra le dépôt d'Eleonor   : git https://github.com/ele-sana/mypython.git mypythonEleonor
+3. Vous allez clôner le dépôt qui vous sera assigné:
+Jessie prendra le dépôt d'Alain     : git clone https://github.com/alduf1972/mypython.git mypythonAlain
+Alain prendra le dépôt de Bruno     : git clone https://github.com/BrunoDefalque/mypython.git mypythonBruno
+Mahsum prendra le dépôt d'Isaac     : git clone https://github.com/zackakyo/mypython.git mypythonIsaac
+Isaac prendra le dépôt de Mahsum    : git clone https://github.com/Mahsum21/mypython.git mypythonMahsum
+Eleonor prendra le dépôt de Jessie  : git clone https://github.com/jessiebak/mypython.git mypythonJessie
+Bruno prendra le dépôt de Maxime    : git clone https://github.com/maximeborsen/mypython.git mypythonMaxime
+Maxime prendra le dépôt d'Eleonor   : git clone https://github.com/ele-sana/mypython.git mypythonEleonor
+LES RESPONSABLES DE DEPOTS:
+4. Chaque responsable de son dépôt adressera ses salutations via le fichier Hello.txt et saluera la personne qui a clôné son dépôt après qu'elle est clôné votre dépôt.
+5. Vous ajouterez votre fichier Hello.txt dans la zone d'index.
+6. Vous commiterez vos modifications.
+7. vous enverrez celles-ci sur github.
+8. Vous prévenez la personne qu'elle peut récupérer les modifications que vous venez de faire.
+LES UTILISATEURS DE DEPOTS CLONES:
+9. Vous vérifierez les modifications quand le gestionnaire du dépôt vous indiquera que vous pouvez le faire.
+
+
+
+
 
 
 Ici, nous allons cloner notre dépôt mypython en mypythonClone.
