@@ -451,7 +451,7 @@ Pour créer une issue on rentre dans le dépôt local où l'on veut créer une i
 12. Faites un git commit -m "#1: Ajout du fichier README.md"   (Le #1 indique que le commit porte sur l'issue 1. Lorsque l'on consultera sur GitHub l'issue on vera une référence à notre commit)
 13. Poussez votre modification sur GitHub un git push -u origin master
 14. Visualisation de l'issue sur GitHub: gh issue view 1 --web
-15. Clôture via gh de notre issue: gh issue close 1  (Notre issue sera clôturée)
+15. Clôture d'une issue via gh de notre issue: gh issue close 1  (Notre issue sera clôturée)
 16. Vérifions que l'issue à été clôturée: gh issue list (Vous devriez avoir le message suivant: There are no open issues)
 
 XIX. Informations de modifications d'un fichier
