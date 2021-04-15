@@ -479,3 +479,5 @@ Si vous avez terminés avec vos modifications ajoutez-les à la zone d'index, co
 XXVII. Faire un git pull avec un modification en local et distante
 ==================================================================
 Lors du rapatriement du cours un élève m'a dit: monsieur je ne sais pas faire un git pull origin car ça génère une erreur !
+
+Modifié depuis GitHub
