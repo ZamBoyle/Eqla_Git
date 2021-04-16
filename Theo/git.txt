@@ -503,7 +503,22 @@ Le pull s'effectue mais git nous signale qu'il va y avoir un ou des conflits et 
 Auto-merging Theo/git.txt
 CONFLICT (content): Merge conflict in Theo/git.txt
 Automatic merge failed; fix conflicts and then commit the result.
-On doit maintenant manuellement valider les merges(fusions) en éditant 
+
+Deux cas se posent à vous:
+- Vous ne voulez pas merger et vous voulez revenir à l'étape avant vos modifications. Faites un git merge --abort et vous reviendrez à l'étape précédente.
+- Vous voulez analyser le merge effectué: éditez le/les fichiers en question.
+On va supposer que vous voulez garder le merge.
+On doit maintenant manuellement valider les merges(fusions) en éditant le fichier.
+Dans un merge il y a 5 parties:
+- le début (<<<<<<< HEAD),
+- Des modifications locales
+- une suite des caractères pour séparer les modifications locales et distantes: =======
+- Les modifications distantes.
+- la fin (>>>>>>>)
+
+A vous de voir ce qui a lieu de garder dans les modifications. Une fois que c'est fait, vous devez aussi supprimer le <<<<<<< HEAD, les ====== et le >>>>>>>>
+Vous enregistrez vos modifications. Vous ajoutez dans la zone d'index, vous commitez et vous poussez vos modifications.
+
 
 
 
