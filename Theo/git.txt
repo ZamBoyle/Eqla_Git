@@ -483,6 +483,32 @@ En effet, celui-ci a modifié le fichier théorie git.txt pour sans doute corrig
 
 
 
+XXVII. Modifications conflictuelles
+====================================
+Vous avez un dépôt sur GitHub.
+Vous bossez sur votre dépôt à la maison depuis votre dépôt local A sur votre ordinateur.
+Vous bossez sur votre dépôt au boulot depuis votre dépôt local B sur l'ordinateur de votre employeur.
+
+A la maison, vous modifiez votre dépôt local A et vous poussez vos modifications sur GitHub.
+Au boulot, vous modifiez votre dépôt local B et vous poussez vos modifications sur GitHub.
+Vous allez rencontrer une erreur:
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Il faut savoir que git a toujours connaissance du parent de tout commit. Quand vous avez poussez vos modifications du dépôt A sur GitHub, le dépôt B n'a pas le dernier commit de GitHub. Hors, git va constater que le dépôt B n'est pas à jour. git propose de faire un git pull auparavant sur le dépôt B.
+Le pull s'effectue mais git nous signale qu'il va y avoir un ou des conflits et qu'il a "mergé" (fusionné) nos fichiers modifiés locaux avec les distants.
+Auto-merging Theo/git.txt
+CONFLICT (content): Merge conflict in Theo/git.txt
+Automatic merge failed; fix conflicts and then commit the result.
+On doit maintenant manuellement valider les merges(fusions) en éditant 
+
+
+
+
+
 
 
 
