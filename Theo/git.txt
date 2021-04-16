@@ -529,7 +529,7 @@ On fera ensuite un git pull --rebase (comme ça le commit parent sera C4(A) et l
 
 Dépôt local A : C1(A) ===> C2(B) ===> C3(A) ===> C4(A)
 Githbut : C1(A) ===> C2(B) ===> C3(A) ===> C4(A) ==> C5(B)
-Dépôt local B: C1(A) ===> C2(B) ===> C3(A) ===> C4(A) ==> C5(B)
+Dépôt local B: C1(A) ===> C2(B) ===> C3(A) ===> C4(A) ==> C5(B)    mlml
 
 
 
