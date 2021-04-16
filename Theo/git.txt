@@ -468,7 +468,7 @@ XX. Git stash: garder des modifications non commitées
 =====================================================
 Il peut arriver que nous ayont besoin de retourner à une version antérieure de notre dépôt avec la commande git checkout V1 (ou via un sha1).
 Cependant, vous avez fait des modifications mais n'avez pas envie de commiter celles-ci car vous n'avez pas terminé.
-Dans ce cas, si vous faites un git checkout V1  git vous dira qu'il ne peut revenir à une version antérieure car vous avez des modifications non commitées. Il vous indiquera que vous pouvez aussi faire un git stash. Pour cela vous faites un git stash save "Un message portant sur vos modifications". Ca va indexer ça dans notre zone de Stash. Heinnnn ??? Une zone de stash ? Une zone en plus de la zone d'index ? Oui mais à la différence que la zone d'index peut être commitée et non la zone de stash.
+Dans ce cas, si vous faites un git checkout V1  git vous dira qu'il ne peut revenir à une version antérieure car vous avez des modifications non commitées. Il vous indiquera que vous pouvez aussi faire un git commit ou un git stash. Pour le stash, cela vous faites un git stash save "Un message portant sur vos modifications". Ca va indexer ça dans notre zone de Stash. Heinnnn ??? Une zone de stash ? Une zone en plus de la zone d'index ? Oui mais à la différence que la zone d'index peut être commitée et non la zone de stash.
 Affichons les stashs présents: git stash list
 Ensuite, vous pouvez revenir à votre version V1: git checkout V1
 Revenons à notre tag master: git checkout master
@@ -479,5 +479,63 @@ Si vous avez terminés avec vos modifications ajoutez-les à la zone d'index, co
 XXVII. Faire un git pull avec un modification en local et distante
 ==================================================================
 Lors du rapatriement du cours un élève m'a dit: monsieur je ne sais pas faire un git pull origin car ça génère une erreur !
+En effet, celui-ci a modifié le fichier théorie git.txt pour sans doute corriger des éventuelles erreurs.
 
-Modifié depuis GitHub :) :) :)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+git reset --hard origin/master
+git pull --rebase --autostash
