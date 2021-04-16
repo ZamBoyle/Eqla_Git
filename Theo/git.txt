@@ -365,7 +365,11 @@ Ici, on va créer un dépot sur GitHub et en même temps notre dépot local.
 
 XXV. Le fichier .gitignore
 ==========================
-Il peut arriver que dans votre dépot que vous travaillez sur des fichiers temporaires pour vos tests et programmes. Il arrive aussi qu'en fonction de votre environnement de développement, celui-ci génère un nombre impressionnant de fichiers. Il est dès lors peu intéressant, de commiter des fichiers "non utiles" pour notre projet. Via l'interface web on peut dire qu'on veut un gitignore pour python, visual studio, Unity, R, etc. Nous allons en créer un à la main car nous sommes maintenant des ninjas de la ligne de commandes. 
+Il peut arriver que dans votre dépot que vous travaillez sur des fichiers temporaires pour vos tests et programmes. Il arrive aussi qu'en fonction de votre environnement de développement, celui-ci génère un nombre impressionnant de fichiers. Il est dès lors peu intéressant, de commiter des fichiers "non utiles" pour notre projet. Via l'interface web on peut dire qu'on veut un gitignore pour python, visual studio, Unity, R, etc.
+Maintenant, il peut arriver que vous travailliez dans un répertoire temporaire. Pour vos tests, essais et que vous n'avez pas envie de pousser ce répertoire sur GitHub. On ajoutera dans le .gitignore l'information suivante tmp/*
+On pourrait aller dans le répertoire .git/info (celui dans lequel il ne faut jamais aller) et ouvrir le fichier exclude. L'intérêt de faire ça, c'est que personne n'est au courant que vous avez un répertoire tmp/ avec des fichiers dedans. En effet, si une personne regarde le .gitignore elle verra la présence du répertoire.
+
+Nous allons en créer un à la main car nous sommes maintenant des ninjas de la ligne de commandes. 
 1. Ouvrez un invite de commandes/terminal.
 2. Allez dans votre répertoire mesdepots
 3. Créez un nouveau dépot: gh repo create gitignoreTests --public --confirm
@@ -380,7 +384,7 @@ password.txt      (On ne met évidemment pas un mot de passe en clair dans un fi
 10. Faites un git status: notre fichier test.py est indiqué comme nouveau et n'étant pas dans la zone d'index.
 11. Créez un fichier nommé password.txt:  type nul > password.txt
 12. Faites un git status: que constatez-vous ?
-13. Créez un fichier nommé dump.tmp: type > dump.tmp
+13. Créez un fichier nommé dump.tmp: type null > dump.tmp
 14. Faites un git status: que constatez-vous ?
 15. Créez un fichier nommé password.tata: type nul > password.tata
 16. Faites un git status: que constatez-vous ? Que pourrions-nous faire pour considérer tous les fichiers commençants par password ?
