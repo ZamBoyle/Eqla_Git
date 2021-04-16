@@ -538,4 +538,5 @@ dépot local B: C1(A) ===> C2(B) ===> C3(A) ===> C4(A) ==> C5(B)
 Mais en faisant ça, on auto merge donc à vous de vérifier ce qu'il y a lieu de faire avant de faire le commit C5(B).
 
 Coucou Eleonor, Welcome Back.
+Bruno, c'est Saint-Thomas.
 
