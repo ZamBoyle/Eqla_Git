@@ -1,9 +1,11 @@
-Partie 1 - Création du dépôt mypython sur GitHub
+Exercice N°1
+============
+Partie 1 - Création du dépot mypython sur GitHub
 a. Ouvrez un invite de commandes/terminal.
+b. Allez dans le répertoire mesdepots
 b. Si vous êtes dans le répertoire cours_git, sortez de ce répertoire.
-c. Créez un nouveau dépôt distant ayant pour nom mypython: gh repo create mypython --public --confirm
-d. Sélecionnez: Public.
-e. Allez dans le répertoire créé: cd mypython
+c. Créez un nouveau dépot distant ayant pour nom mypython: gh repo create mypython --public --confirm
+d. Allez dans le répertoire créé: cd mypython
 
 Partie 2 - 
 a. Créez un programme fonctionnel en python qui s'appelle ex1_git.py et qui demande le nom et le prénom d'une personne.
@@ -55,7 +57,7 @@ b. Appelez(=Utilisez) votre fonction DisplayFullName en passant le nom et le pr�
 Exemple:
 - Quel est votre prenom ? Johnny
 - Quel est votre nom ? Piette
-Vous vous appelez Johnny Piette. (Si vous êtes motivé et en avance, si c'est votre nom et prénom qui sont entrés, affichez:"Bonjour Masjesté !" dans le cas contraire affichez la phrase par défaut) :)
+Vous vous appelez Johnny Piette. (Si vous êtes motivé et en avance, si c'est votre nom et prénom qui sont entrés, affichez:"Bonjour Masjesté !" dans le cas contraire affichez la phrase par défaut).
 c. Faites un git status (observez ce que donne la sortie de cette commande).
 d. Faites un git diff ex1_git.py (Observez bien les ajouts et modification de votre programme).
 e. Ajoutez ce fichier à la zone d'index.
@@ -65,38 +67,31 @@ h. Faites un git status (observez ce que donne la sortie de cette commande).
 i. Envoyez vos modifications en ligne: git push -u origin master
 
 Partie 7 - git clone et git pull
-Je vous attribuer le dépôt d'une personne que vous allez clôner.
+Je vous attribuer le dépot d'une personne que vous allez cloner.
 1. Retournez dans le répertoire mesdepots.
 2. Si vous êtes dans le répertoire mypython, faites un cd .. pour revenir à mesdepots
-3. Vous allez clôner le dépôt qui vous sera assigné:
-Jessie prendra le dépôt d'Alain     : git clone https://github.com/alduf1972/mypython.git mypythonAlain
-Alain prendra le dépôt de Bruno     : git clone https://github.com/BrunoDefalque/mypython.git mypythonBruno
-Mahsum prendra le dépôt d'Isaac     : git clone https://github.com/zackakyo/mypython.git mypythonIsaac
-Isaac prendra le dépôt de Mahsum    : git clone https://github.com/Mahsum21/mypython.git mypythonMahsum
-Eleonor prendra le dépôt de Jessie  : git clone https://github.com/jessiebak/mypython.git mypythonJessie
-Bruno prendra le dépôt de Maxime    : git clone https://github.com/maximeborsen/mypython.git mypythonMaxime
-Maxime prendra le dépôt d'Eleonor   : git clone https://github.com/ele-sana/mypython.git mypythonEleonor
+3. Vous allez cloner le dépot qui vous sera assigné:
+Jessie prendra le dépot d'Alain     : git clone https://github.com/alduf1972/mypython.git mypythonAlain
+Alain prendra le dépot de Bruno     : git clone https://github.com/BrunoDefalque/mypython.git mypythonBruno
+Mahsum prendra le dépot d'Isaac     : git clone https://github.com/zackakyo/mypython.git mypythonIsaac
+Isaac prendra le dépot de Mahsum    : git clone https://github.com/Mahsum21/mypython.git mypythonMahsum
+Eleonor prendra le dépot de Jessie  : git clone https://github.com/jessiebak/mypython.git mypythonJessie
+Bruno prendra le dépot de Maxime    : git clone https://github.com/maximeborsen/mypython.git mypythonMaxime
+Maxime prendra le dépot d'Eleonor   : git clone https://github.com/ele-sana/mypython.git mypythonEleonor
 LES RESPONSABLES DE DEPOTS:
-4. Chaque responsable de son dépôt adressera ses salutations via le fichier Hello.txt et saluera la personne qui a clôné son dépôt après qu'elle est clôné votre dépôt.
+4. Chaque responsable de son dépot adressera ses salutations via le fichier Hello.txt et saluera la personne qui a cloné son dépot après qu'elle est cloné votre dépot.
 5. Vous ajouterez votre fichier Hello.txt dans la zone d'index.
 6. Vous commiterez vos modifications.
 7. vous enverrez celles-ci sur github.
 8. Vous prévenez la personne qu'elle peut récupérer les modifications que vous venez de faire.
 LES UTILISATEURS DE DEPOTS CLONES:
-9. Vous vérifierez les modifications quand le gestionnaire du dépôt vous indiquera que vous pouvez le faire.
+9. Vous vérifierez les modifications quand le gestionnaire du dépot vous indiquera que vous pouvez le faire.
 
-
-
-
-
-
-Ici, nous allons cloner notre dépôt mypython en mypythonClone.
+Partie 8 - 
+Ici, nous allons cloner notre dépot mypython en mypythonClone.
 a. Remonter d'un répertoire cd ..
 b. Vous devriez être dans le répertoire mesdepots. Pour le vérifier: cd (Sous windows) ou bien pwd sous Linux/Mac
-c. Clônons notre dépôt distant mypython avec git: git clone https://github.com/VotreNomDutilisateur/mypython.git mypythonClone
-
-
-
+c. clonons notre dépot distant mypython avec git: git clone https://github.com/VotreNomDutilisateur/mypython.git mypythonClone
 
 a. Affichez l'historique des commits
 b. Quelle commande avez-vous utilisée ?
