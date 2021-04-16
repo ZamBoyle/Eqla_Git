@@ -481,11 +481,7 @@ XXVII. Faire un git pull avec un modification en local et distante
 Lors du rapatriement du cours un élève m'a dit: monsieur je ne sais pas faire un git pull origin car ça génère une erreur !
 En effet, celui-ci a modifié le fichier théorie git.txt pour sans doute corriger des éventuelles erreurs.
 
-Bizarre
-
-
-
-XXVII. Modifications conflictuelles
+XXVIII. Modifications conflictuelles 
 ====================================
 Vous avez un dépôt sur GitHub.
 Vous bossez sur votre dépôt à la maison depuis votre dépôt local A sur votre ordinateur.
@@ -519,7 +515,22 @@ Dans un merge il y a 5 parties:
 - la fin (>>>>>>>)
 
 A vous de voir ce qui a lieu de garder dans les modifications. Une fois que c'est fait, vous devez aussi supprimer le <<<<<<< HEAD, les ====== et le >>>>>>>>
-Vous enregistrez vos modifications. Vous ajoutez dans la zone d'index, vous commitez et vous poussez vos modifications.
+Vous enregistrez vos modifications. Vous ajoutez dans la zone d'index, vous commitez et vous poussez vos modifications sur GitHub.
+
+Maintenant notre dépôt distant est à jour mais a un historique peu clair. En effet, imaginons que
+
+Dépôt local A : C1(A) ===> C2(B) ===> C3(A) ===> C4(A)
+Githbut : C1(A) ===> C2(B) ===> C3(A) ===> C4(A)
+Dépôt local B: C1(A) ===> C2(B) ===> C3(A) ===> C4(B)
+
+Le dépôt B: fait un git pull mais constate qu'il y a un merge et qu'il devra faire un commit qui va compliquer la lecture de la branche master.
+On fera un git merge --abort
+On fera ensuite un git pull --rebase (comme ça le commit parent sera C4(A) et le commit de )
+
+Dépôt local A : C1(A) ===> C2(B) ===> C3(A) ===> C4(A)
+Githbut : C1(A) ===> C2(B) ===> C3(A) ===> C4(A) ==> C5(B)
+Dépôt local B: C1(A) ===> C2(B) ===> C3(A) ===> C4(A) ==> C5(B)
+
 
 
 
