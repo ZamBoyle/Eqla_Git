@@ -521,10 +521,10 @@ Dans un merge il y a 5 parties:
 A vous de voir ce qui a lieu de garder dans les modifications. Une fois que c'est fait, vous devez aussi supprimer le <<<<<<< HEAD, les ====== et le >>>>>>>>
 Vous enregistrez vos modifications. Vous ajoutez dans la zone d'index, vous commitez et vous poussez vos modifications sur GitHub.
 
-Maintenant notre dépot distant est à jour mais a un historique peu clair. En effet, imaginons que
+Maintenant notre dépot distant est à jour. Mais le dépôt B va avoir quelques problèmes car il va vouloir faire un git push qui va ne pas fonctionner car le dépôt A a déjà pushé ses modifs.
 
 dépot local A : C1(A) ===> C2(B) ===> C3(A) ===> C4(A)
-Githbut : C1(A) ===> C2(B) ===> C3(A) ===> C4(A)
+GitHub : C1(A) ===> C2(B) ===> C3(A) ===> C4(A)
 dépot local B: C1(A) ===> C2(B) ===> C3(A) ===> C4(B)
 
 Le dépot B: fait un git pull mais constate qu'il y a un merge et qu'il devra faire un commit qui va compliquer la lecture de la branche master.
@@ -532,11 +532,15 @@ On fera un git merge --abort
 On fera ensuite un git pull --rebase (comme ça le commit parent sera C4(A) et le commit du dépot B deviendra C5(B)
 
 dépot local A : C1(A) ===> C2(B) ===> C3(A) ===> C4(A)
-Githbut : C1(A) ===> C2(B) ===> C3(A) ===> C4(A) ==> C5(B)
+GitHub : C1(A) ===> C2(B) ===> C3(A) ===> C4(A)
 dépot local B: C1(A) ===> C2(B) ===> C3(A) ===> C4(A) ==> C5(B)    
 
-Mais en faisant ça, on auto merge donc à vous de vérifier ce qu'il y a lieu de faire avant de faire le commit C5(B).
+Mais en faisant ça, on auto merge donc à vous de vérifier ce qu'il y a lieu de faire avant de faire le commit C5(B) et le push.
+dépot local A : C1(A) ===> C2(B) ===> C3(A) ===> C4(A)
+GitHub : C1(A) ===> C2(B) ===> C3(A) ===> C4(A) ==> C5(B)
+dépot local B: C1(A) ===> C2(B) ===> C3(A) ===> C4(A) ==> C5(B)    
 
-Coucou Eleonor, Welcome Back.
-Bruno, c'est Saint-Thomas.
-
+Et si le dépôt A fait un git pull:
+dépot local A : C1(A) ===> C2(B) ===> C3(A) ===> C4(A) ==> C5(B)    
+GitHub : C1(A) ===> C2(B) ===> C3(A) ===> C4(A) ==> C5(B)
+dépot local B: C1(A) ===> C2(B) ===> C3(A) ===> C4(A) ==> C5(B)    

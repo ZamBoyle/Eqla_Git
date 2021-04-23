@@ -67,7 +67,7 @@ h. Faites un git status (observez ce que donne la sortie de cette commande).
 i. Envoyez vos modifications en ligne: git push -u origin master
 
 Partie 7 - git clone et git pull
-Je vous attribuer le dépot d'une personne que vous allez cloner.
+Je vais vous attribuer le dépot d'une personne que vous allez cloner.
 1. Retournez dans le répertoire mesdepots.
 2. Si vous êtes dans le répertoire mypython, faites un cd .. pour revenir à mesdepots
 3. Vous allez cloner le dépot qui vous sera assigné:
@@ -85,13 +85,16 @@ LES RESPONSABLES DE DEPOTS:
 7. vous enverrez celles-ci sur github.
 8. Vous prévenez la personne qu'elle peut récupérer les modifications que vous venez de faire.
 LES UTILISATEURS DE DEPOTS CLONES:
-9. Vous vérifierez les modifications quand le gestionnaire du dépot vous indiquera que vous pouvez le faire.
+9. Vous vérifierez les modifications quand le gestionnaire du dépot vous indiquera dès que vous pouvez le faire.
 
 Partie 8 - 
 Ici, nous allons cloner notre dépot mypython en mypythonClone.
 a. Remonter d'un répertoire cd ..
 b. Vous devriez être dans le répertoire mesdepots. Pour le vérifier: cd (Sous windows) ou bien pwd sous Linux/Mac
 c. clonons notre dépot distant mypython avec git: git clone https://github.com/VotreNomDutilisateur/mypython.git mypythonClone
+
+
+
 
 a. Affichez l'historique des commits
 b. Quelle commande avez-vous utilisée ?

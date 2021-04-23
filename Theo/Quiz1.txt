@@ -50,7 +50,7 @@ no changes added to commit (use "git add" and/or "git commit -a")
 [ ]d. git show
 [ ]e. git status
 
-8. Comment je vais pour revenir sur le tag master ?
+8. Comment je fais pour revenir sur le tag master ?
 [ ]a. git log master
 [ ]b. git diff master
 [ ]c. git master
