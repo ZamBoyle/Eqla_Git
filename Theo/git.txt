@@ -472,7 +472,7 @@ XXXII. Git stash: garder des modifications non commitées
 =====================================================
 Il peut arriver que nous ayont besoin de retourner à une version antérieure de notre dépot avec la commande git checkout V1 (ou via un sha1).
 Cependant, vous avez fait des modifications mais n'avez pas envie de commiter celles-ci car vous n'avez pas terminé.
-Dans ce cas, si vous faites un git checkout V1  git vous dira qu'il ne peut revenir à une version antérieure car vous avez des modifications non commitées. Il vous indiquera que vous pouvez aussi faire un git commit ou un git stash. Pour le stash, cela vous faites un git stash save "Un message portant sur vos modifications". Ca va indexer ça dans notre zone de Stash. Heinnnn ??? Une zone de stash ? Une zone en plus de la zone d'index ? Oui mais à la différence que la zone d'index peut être commitée et non la zone de stash.
+Dans ce cas, si vous faites un git checkout V1  git vous dira qu'il ne peut revenir à une version antérieure car vous avez des modifications non commitées. Il vous indiquera que vous pouvez aussi faire un git commit ou un git stash. Pour le stash, vous faites un git stash save "Un message portant sur vos modifications". Ca va indexer ça dans notre zone de Stash. Heinnnn ??? Une zone de stash ? Une zone en plus de la zone d'index ? Oui mais à la différence que la zone d'index peut être commitée et non la zone de stash.
 Affichons les stashs présents: git stash list
 Ensuite, vous pouvez revenir à votre version V1: git checkout V1
 Revenons à notre tag master: git checkout master
@@ -489,11 +489,11 @@ XXXIV. Modifications conflictuelles
 ====================================
 Vous avez un dépot sur GitHub.
 Vous bossez sur votre dépot à la maison depuis votre dépot local A sur votre ordinateur.
-Vous bossez sur votre dépot au boulot depuis votre dépot local B sur l'ordinateur de votre employeur.
+Votre collègue bosse sur son dépot au boulot depuis son dépot local B sur l'ordinateur de son employeur.
 
 A la maison, vous modifiez votre dépot local A et vous poussez vos modifications sur GitHub.
-Au boulot, vous modifiez votre dépot local B et vous poussez vos modifications sur GitHub.
-Vous allez rencontrer une erreur:
+Votre collègue modifie son dépot local B et il va poussez ses modifications sur GitHub.
+Il va rencontrer une erreur:
 hint: Updates were rejected because the remote contains work that you do
 hint: not have locally. This is usually caused by another repository pushing
 hint: to the same ref. You may want to first integrate the remote changes

@@ -1,0 +1,60 @@
+Exercice N°2
+============
+
+Partie 1
+a. Avec votre binôme défini dans le précédent exercice, vous allez créer un répo sur github: qui s'appellera together. Donc un de vous deux va créer le dépôt distant.
+b. Vous donnerez access à ce dépôt à votre binôme dans GitHub.
+c. Votre binôme va recevoir un email lui indiquant vous l'invitez à collaborer sur un dépôt.
+d. Dans le mail, le binôme cliquera sur "View Invitation".
+e. Cliquez ensuite sur: Accept Invitation.
+
+Partie 2 
+a. Le gestionnaire du dépôt va copier dans le dépôt local le fichier genius.py
+b. Dans ce fichier genius.py, vous ne gardez que les fonctions Add, Substract, Divide, Multiply
+b. Vous pousser votre dépôt local sur GitHub (en ayant pris en compte auparavant le nouveau fichier)
+c. Votre compagnon va cloner votre dépôt distant avec git clone.
+
+Jessie prendra le dépot d'Alain     : git clone https://github.com/alduf1972/together.git
+Alain prendra le dépot de Bruno     : git clone https://github.com/BrunoDefalque/together.git
+Mahsum prendra le dépot d'Isaac     : git clone https://github.com/zackakyo/together.git
+Isaac prendra le dépot de Mahsum    : git clone https://github.com/Mahsum21/together.git
+Eleonor prendra le dépot de Jessie  : git clone https://github.com/jessiebak/together.git
+Bruno prendra le dépot de Maxime    : git clone https://github.com/maximeborsen/together.git
+Maxime prendra le dépot d'Eleonor   : git clone https://github.com/ele-sana/together.git
+
+Partie 3
+a. Un de vous va faire un fichier area.py qui contiendra les fonctions de calculs pour calculer l'aire des surfaces suivante: rectangle, cercle, carré, triangle. Les noms de fonctions seront: RectangleArea, CircleArea, SquareArea, TriangleArea.
+b. L'autre fera un fichier nommé perimeter.py qui contiendra les fonctions de calculs pour calculer la circonférence des surfaces suivante: rectangle, cercle, carré, triangle. Les noms de fonctions seront: RectanglePerimeter, CirclePerimeter, SquarePerimeter, TrianglePerimeter.
+c. A chaque création de fonction, vous enverrez vos modifications sur Github.
+d. Mettez à jour vos dépôts sans utilisez de tags.
+e. Un de vous deux va créer le fichier main.py et ajoutera le code suivant:
+import genius
+import area
+import perimeter
+
+print("Genius.py")
+print("=========")
+print("3 + 4 = " + str(genius.Add(4, 3)))
+print("9 - 3 = " + str(genius.Substract(9, 3)))
+
+print("area.py")
+print("=======")
+print("L'aire du carré de 4 cm de côté = " + str(area.SquareArea(4)))
+print("L'aire du rectangle de longueur 7 cm et 4 cm de largeur = " + str(area.RectangleArea(7,4)))
+
+f. Envoyez vos modifications sur GitHub.
+g. L'autre va récupérer les modifications du dépôt distant sur son dépôt local.
+h. Et il va compléter le fichier main.py avec le code suivant:
+
+print("L'aire du cercle ayant un rayon de 4 cm = " + str(area.CircleArea(4)))
+print("L'aire du triangle ayant une base de 4 cm et une hauteur de 7 cm = " + str(area.TriangleArea(4,7)))
+
+print("perimeter.py")
+print("============")
+print("Le périmètre du carré de 4 cm de côté = " + str(perimeter.SquarePerimeter(4)))
+print("L'aire du rectangle de longueur 7 cm et 4 cm de largeur = " + str(perimeter.RectanglePerimeter(7,4)))
+print("L'aire du cercle ayant un rayon de 4 cm = " + str(perimeter.CirclePerimeter(4)))
+print("L'aire du triangle ayant pour côtés 14, 7 et 9 cm  = " + str(perimeter.TrianglePerimeter(14,7,9)))
+
+i. Vous envoyez les modifications sur GitHub et l'autre collaborateur fait mettre à jour son dépôt local.
+j. Testez tous les deux votre programmes.
