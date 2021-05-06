@@ -18,7 +18,7 @@ Partie 2
 a. (G) va copier dans le dépôt local le fichier genius.py
 b. Dans ce fichier genius.py, vous ne gardez que les fonctions Add, Substract, Divide, Multiply. Vous supprimez donc tous les inputs et les print et les affectations hors fonctions.
 c. (G) pousse sont dépôt local sur GitHub (en ayant pris en compte auparavant le nouveau fichier genius.py)
-d. Vos équipiez vont cloner le dépôt distant avec git clone.
+d. Vos équipiés vont cloner le dépôt distant avec git clone.
 
 Equipe A: Bruno
 git clone https://github.com/zackakyo/together.git

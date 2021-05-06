@@ -27,7 +27,7 @@ Faire l’installation de Git via la page : https://git-scm.com/downloads
 
 2) Mac Os
 Essayez de taper git --version en ligne de commandes.
-S'il ne l'installe pas, installer brew s'il n'est pas déjà installé.
+S'il n'est pas installé, installez brew s'il n'est pas déjà installé.
 Pour installer brew: https://brew.sh/index_fr
 Après taper en ligne de commandes brew install git
 
