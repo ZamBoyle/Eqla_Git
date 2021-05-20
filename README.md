@@ -6,4 +6,4 @@ Ce dépôt a été créé pour que vous cloniez ce dépôt distant hébergé sur
 git clone https://github.com/ZamBoyle/Eqla_Git.git
 ```
 
-Eqla - Formation Git/GitHub..
+Eqla - Formation Git/GitHub...
