@@ -24,15 +24,15 @@ function Display()
         }
         else{
             Echo "<p>Les entrées n'étaient pas toutes les deux des nombres.</p><p>Vous avez entré:$number1 et $number2.</p><p>Veuillez recommencer:</p>";
-            DisplayFields();
+            DisplayFormControls();
         }
     } else {
-        DisplayFields();
+        DisplayFormControls();
     }
     echo "</form>";
 }
 
-function DisplayFields()
+function DisplayFormControls()
 {
     echo "
     <input name='number1' type='text' id='number1Input'  placeholder='Entrez le premier nombre' required><br/><br/>
