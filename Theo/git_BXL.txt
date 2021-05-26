@@ -173,7 +173,7 @@ XIV. Modifications d'un fichier
 Première modification:
 1. Ouvrez votre programme genius.php avec vscode
 2. Ajoutez une fonctions Multiply qui multiplie deux nombres.
-3. Ajoutez un print s'inspirant des précédents print.
+3. Dans la fonction Display(), ajoutez un echo s'inspirant des précédents echo pour afficher le résultat de la multiplication.
 4. Testez votre programme jusqu'à ce qu'il fonctionne. :)
 5. git status (git nous indique que notre fichier a été modifié)
 6. git diff genius.php (Ca vous affichera les modifications: les ajouts (+) ou suppressions (-) de lignes)
@@ -185,7 +185,7 @@ Première modification:
 Deuxième modification:
 1. Ouvrez votre programme genius.php avec vscode
 2. Ajoutez une fonctions Divide qui divise deux nombres.
-3. Ajoutez un print s'inspirant des précédents print.
+3. Dans la fonction Display(), ajoutez un echo s'inspirant des précédents echo pour afficher le résultat de la division.
 4. Testez votre programme jusqu'à ce qu'il fonctionne. :)
 5. git status (git nous indique que notre fichier a été modifié)
 6. git diff genius.php (Ca vous affichera les modifications: les ajouts (+) ou suppressions (-) de lignes)
@@ -480,8 +480,8 @@ Affichons les stashs présents: git stash list
 Rechargeons nos modifications de la zone de stash: git stash pop 0    (0 car c'est le premier stash et en informatique bcp de choses ont comme premier index le 0)
 Si vous avez terminés avec vos modifications ajoutez-les à la zone d'index, commitez et envoyez sur Github si nécessaire.
 
-XXIII. Faire un git pull avec un modification en local et distante
-==================================================================
+XXIII. Faire un git pull avec une modification en local et distante
+===================================================================
 Lors du rapatriement du cours un élève m'a dit: monsieur je ne sais pas faire un git pull origin car ça génère une erreur !
 En effet, celui-ci a modifié le fichier théorie git.txt pour sans doute corriger des éventuelles erreurs.
 
@@ -543,4 +543,4 @@ dépot local B: C1(A) ===> C2(B) ===> C3(A) ===> C4(A) ==> C5(B)
 Et si le dépôt A fait un git pull:
 dépot local A : C1(A) ===> C2(B) ===> C3(A) ===> C4(A) ==> C5(B)    
 GitHub : C1(A) ===> C2(B) ===> C3(A) ===> C4(A) ==> C5(B)
-dépot local B: C1(A) ===> C2(B) ===> C3(A) ===> C4(A) ==> C5(B)    
+dépot local B: C1(A) ===> C2(B) ===> C3(A) ===> C4(A) ==> C5(B)
