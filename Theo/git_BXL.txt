@@ -194,6 +194,18 @@ Deuxième modification:
 9. git status (essayez de toujours faire un status par précaution)
 10. git tag v3 (Je vous expliquerai pourquoi plus tard)
 
+Troisième modification:
+1. Ouvrez votre programme genius.php avec vscode
+2. Dans la fonction DisplayFormControls()
+3. Modifiez les balises input et changez type="text" par type="number". Vous devez le faire à deux endroids. (Ca permettra de vérifier côté client que l'on a bien entré un nombre).
+4. Testez votre programme jusqu'à ce qu'il fonctionne. :)
+5. git status (git nous indique que notre fichier a été modifié)
+6. git diff genius.php (Ca vous affichera les modifications: les ajouts (+) ou suppressions (-) de lignes)
+7. git add genius.php (permet d'ajouter toutes les modifications du point de fichiers)
+8. git commit -m "Modification du type d'input: number a la place de text" (Essayer de ne pas taper des accents)
+9. git status (essayez de toujours faire un status par précaution)
+10. git tag v3 (Je vous expliquerai pourquoi plus tard)
+
 XV. Voyage dans l'historique d'un dépot
 ==========================================
 Un ensemble de commits reliés entre eux par un pointer constitue ce qu'on appelle une branche. Ici on est sur la branche master. C'est la branche principale.
