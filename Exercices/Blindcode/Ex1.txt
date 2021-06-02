@@ -8,13 +8,13 @@ c. Créez un nouveau dépot distant ayant pour nom myphp: gh repo create myphp -
 d. Allez dans le répertoire créé: cd myphp
 
 Partie 2 - 
-a. Créez un programme fonctionnel en php qui s'appelle ex1_git.php et qui demande le nom et le prénom d'une personne.
+a. Créez un programme fonctionnel en php qui s'appelle ex1.php et qui demande le nom et le prénom d'une personne.
 Exemple:
 - Quel est ton prenom ? Johnny
 - Quel est ton nom ? Piette
 b. Faites un git status (observez ce que donne la sortie de cette commande).
-c. Faites un git diff ex1_git.php (Observez bien les ajouts et modifications de votre programme).
-d. Ajoutez ce fichier à la zone d'index: git add ex1_git.php
+c. Faites un git diff ex1.php (Observez bien les ajouts et modifications de votre programme).
+d. Ajoutez ce fichier à la zone d'index: git add ex1.php
 e. Commitez vos changements avec le message suivant "Initial Commit": git commit -m "Initial Commit"
 f. Faites un git status (observez ce que donne la sortie de cette commande).
 g. Donnez un tag à ce commit. (v1)
@@ -29,7 +29,7 @@ Exemple:
 - Quel est votre nom ? Piette
 Votre nom est Piette.
 c. Faites un git status (observez ce que donne la sortie de cette commande).
-d. Faites un git diff ex1_git.php (Observez bien les ajouts et modifications de votre programme).
+d. Faites un git diff ex1.php (Observez bien les ajouts et modifications de votre programme).
 e. Ajoutez ce fichier à la zone d'index.
 f. Commitez vos changements avec le message suivant: "Ajout de la fonction DisplayName"
 g. Donnez un tag à ce commit. (v2)
@@ -44,7 +44,7 @@ Exemple:
 - Quel est votre nom ? Piette
 Votre prénom est Johnny.
 c. Faites un git status (observez ce que donne la sortie de cette commande).
-d. Faites un git diff ex1_git.php (Observez bien les ajouts et modifications de votre programme).
+d. Faites un git diff ex1.php (Observez bien les ajouts et modifications de votre programme).
 e. Ajoutez ce fichier à la zone d'index.
 f. Commitez vos changements avec le message suivant: "Ajout de la fonction DisplayFirstname".
 g. Donnez un tag à ce commit. (v3)
@@ -59,7 +59,7 @@ Exemple:
 - Quel est votre nom ? Piette
 Vous vous appelez Johnny Piette. (Si vous êtes motivé et en avance, si c'est votre nom et prénom qui sont entrés, affichez:"Bonjour Masjesté !" dans le cas contraire affichez la phrase par défaut).
 c. Faites un git status (observez ce que donne la sortie de cette commande).
-d. Faites un git diff ex1_git.php (Observez bien les ajouts et modification de votre programme).
+d. Faites un git diff ex1.php (Observez bien les ajouts et modification de votre programme).
 e. Ajoutez ce fichier à la zone d'index.
 f. Commitez vos changements avec le message suivant: "Ajout de la fonction GetFullName".
 g. Donnez un tag à ce commit. (v4)
@@ -100,6 +100,6 @@ a. Affichez l'historique des commits
 b. Quelle commande avez-vous utilisée ?
 c. Revenez au deuxième commit.
 d. Quelle commande avez-vous utilisée ?
-e. Ouvrez votre programme ex1_git.php et constatez qu'il est bien revenu à une version antérieure.
+e. Ouvrez votre programme ex1.php et constatez qu'il est bien revenu à une version antérieure.
 f. Revenez au tag master.
 g. Quelle commande avez-vous utilisée ?

@@ -253,7 +253,7 @@ Ici, nous avons travaillé sur notre dépot local: tout est stocké dans notre o
 Il existe différents modèles de gestion:
 1. Modèle centralisé (svn, cvs): Tout est stocké sur un serveur central qui contrôle toute la base du code. 
 2. Modèle distribué (git, mercurial): Tous les développeurs ont une copie de base du projet. L'intérêt c'est que l'on ne doit pas être en permanence connecté au serveur pour travailler.
-Nous avons notre dépot git hébergé sur un serveur (GitHub, GitLab) qui comprend un certains nombres de commits. Si des développeurs veulent travailler sur notre dépot distant, les développeurs vont devoir dupliquer notre dépot. Cela va dupliquer l'intégralité du dépot et le .git et donc de l'ensemble des commits. Prenons deux développeurs: Eleonor et Mahsum.  Si Eleonor travaille sur sa version locale, elle va faire un commit. Et envoyer sur le dépot distant, l'ensemble des commits qu'elle a réalisés. Mahsum ayant la version de base pourra se synchroniser avec le dépot distant et récevoir les modifications faites pour Eleonor.
+Nous avons notre dépot git hébergé sur un serveur (GitHub, GitLab) qui comprend un certains nombres de commits. Si des développeurs veulent travailler sur notre dépot distant, les développeurs vont devoir dupliquer notre dépot. Cela va dupliquer l'intégralité du dépot et le .git et donc de l'ensemble des commits. Prenons deux développeurs: Sophie et Simon.  Si Sophie travaille sur sa version locale, elle va faire un commit. Et envoyer sur le dépot distant, l'ensemble des commits qu'elle a réalisés. Simon ayant la version de base pourra se synchroniser avec le dépot distant et récevoir les modifications faites pour Sophie.
 
 XIX. GitHub
 ===========
@@ -496,6 +496,7 @@ XXIII. Faire un git pull avec une modification en local et distante
 ===================================================================
 Lors du rapatriement du cours un élève m'a dit: monsieur je ne sais pas faire un git pull origin car ça génère une erreur !
 En effet, celui-ci a modifié le fichier théorie git.txt pour sans doute corriger des éventuelles erreurs.
+On verra ce que nous pourrons faire au chapitre suivant.
 
 XXXIV. Modifications conflictuelles 
 ====================================
