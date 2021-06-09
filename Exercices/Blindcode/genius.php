@@ -46,8 +46,8 @@ function Display()
 function DisplayFormControls()
 {
     echo "
-    <input name='number1' type='text' id='number1Input'  placeholder='Entrez le premier nombre' required><br/><br/>
-    <input name='number2' type='text' id='number2Input'  placeholder='Entrez le second nombre' required><br/><br/>
+    <input name='number1' type='number' id='number1Input'  placeholder='Entrez le premier nombre' required><br/><br/>
+    <input name='number2' type='number' id='number2Input'  placeholder='Entrez le second nombre' required><br/><br/>
     <input type='submit' value='Envoyer'>
     ";
 }
