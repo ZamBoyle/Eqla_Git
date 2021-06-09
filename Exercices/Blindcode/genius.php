@@ -16,6 +16,11 @@ function Multiply($number1, $number2)
     return $number1 * $number2;
 }
 
+function Divide($number1, $number2)
+{
+    return $number1 * $number2;
+}
+
 function Display()
 {
     echo "<form action='genius.php' method='post'>";
