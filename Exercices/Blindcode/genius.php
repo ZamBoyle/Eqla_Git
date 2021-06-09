@@ -11,19 +11,23 @@ function Substract($number1, $number2)
     return $number1 - $number2;
 }
 
+function Multiply($number1, $number2)
+{
+    return $number1 * $number2;
+}
+
 function Display()
 {
     echo "<form action='genius.php' method='post'>";
     if (!empty($_POST["number1"]) && !empty($_POST["number2"])) {
         $number1 = $_POST["number1"];
         $number2 = $_POST["number2"];
-        if(is_numeric($number1) && is_numeric($number2)){
+        if (is_numeric($number1) && is_numeric($number2)) {
             echo "<p>La somme est égale à " . Add($number1, $number2) . ".</p>";
             echo "<p>La soustraction est égale à " . Substract($number1, $number2) . ".</p>";
             echo "<input type='submit' value='Recommencer'>";
-        }
-        else{
-            Echo "<p>Les entrées n'étaient pas toutes les deux des nombres.</p><p>Vous avez entré:$number1 et $number2.</p><p>Veuillez recommencer:</p>";
+        } else {
+            echo "<p>Les entrées n'étaient pas toutes les deux des nombres.</p><p>Vous avez entré:$number1 et $number2.</p><p>Veuillez recommencer:</p>";
             DisplayFormControls();
         }
     } else {
