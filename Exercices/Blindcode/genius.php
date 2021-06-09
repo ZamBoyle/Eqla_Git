@@ -30,6 +30,8 @@ function Display()
         if (is_numeric($number1) && is_numeric($number2)) {
             echo "<p>La somme est égale à " . Add($number1, $number2) . ".</p>";
             echo "<p>La soustraction est égale à " . Substract($number1, $number2) . ".</p>";
+            echo "<p>La multiplication est égale à " . Multiply($number1, $number2) . ".</p>";
+            echo "<p>La soustraction est égale à " . Divide($number1, $number2) . ".</p>";
             echo "<input type='submit' value='Recommencer'>";
         } else {
             echo "<p>Les entrées n'étaient pas toutes les deux des nombres.</p><p>Vous avez entré:$number1 et $number2.</p><p>Veuillez recommencer:</p>";
