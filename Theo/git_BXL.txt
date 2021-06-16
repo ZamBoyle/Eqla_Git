@@ -332,14 +332,14 @@ La procédure d'Authentification suivante ne devra être faite qu'une fois: gh r
 
 XXIII. Creation d'un gist public
 ================================
-Un gist est simplement un partage d'informations. Ca peut être un programme python, du c, un listing, du texte, etc. Bref ça doit être du texte mais vu que l'on est sur GitHub, c'est principalement du code. ;) Via GitHub on peut directement écrire son gist.
+Un gist est simplement un partage d'informations. Ca peut être un programme PHP, du c, un listing, du texte, etc. Bref ça doit être du texte mais vu que l'on est sur GitHub, c'est principalement du code. ;) Via GitHub on peut directement écrire son gist.
 L'intérêt d'un gist, c'est qu'il ne fait pas partie d'un dépot. C'est du code que vous partagez par exemple avec un formateur ou une connaissance. Si ce code est bugué, on pourra éventuellement vous aider via les commentaires.
 S'il est public, tout le monde peut y accéder. S'il est privé, il faudra avoir son url pour y accéder car il ne sera pas trouvable via la recherche GitHub pour tout le monde.
 Il est possible à toute personne d'ajouter un commentaire et d'y attacher des fichiers à ce commentaire.
 C'est un outil vraiment fort utile. Vous pourriez donc l'utiliser avec vos formateurs quand vous rencontrez un problème. Vous donnez l'url de votre gist à la personne.
 1. Ouvrez un invite de commandes/terminal.
-2. Allez dans un répertoire où vous avez du code python.
-3. Tapez la commande gh gist create <VotreFichierPython> -d "Ceci est mon premier gist" -p
+2. Allez dans un répertoire où vous avez du code PHP.
+3. Tapez la commande gh gist create <VotreFichierPHP> -d "Ceci est mon premier gist" -p
 Le paramètre -d donne la description
 Le paramètre -p met le gist en public.
 4. Vous recevez une url pour le partager.
@@ -413,9 +413,9 @@ L'éttude de Markdown n'entre dans pas dans ce cours mais je vais vous donner qu
 1. Mettre un titre <h1>: on commence la ligne par un #
 # Ceci est un titre 1
 ## Ceci est un titre 2
-2. Pour mettre du code on utilise ```python avant notre code et après notre code ```. L'intérêt est d'avoir un affichage du code propre et avec une colorisation syntaxique.
-Exemple pour du code python:
-```python
+2. Pour mettre du code on utilise ```PHP avant notre code et après notre code ```. L'intérêt est d'avoir un affichage du code propre et avec une colorisation syntaxique.
+Exemple pour du code PHP:
+```PHP
 name = input("Quel est votre nom ?")
 firstname = input("Quel est votre prenom ?")
 ```
@@ -451,7 +451,7 @@ git push origin --tags enverra tous les tags
 XXIX Les issues
 =================
 C'est une partie intéressante de GitHub. On peut signaler un bug ou une demande de fonctionalité via ce qu'on appelle les issues.
-Si votre dépot est public, vous pouvez avoir des utilisateurs qui demanderont de l'aide ou une fonctionalité de votre programme python par exemple.
+Si votre dépot est public, vous pouvez avoir des utilisateurs qui demanderont de l'aide ou une fonctionalité de votre programme PHP par exemple.
 Pour créer une issue on rentre dans le dépot local où l'on veut créer une issue.
 1. cd mesdepots
 2. gh repo create testsIssues --public --confirm
