@@ -1,0 +1,29 @@
+Dépôts de chaque stagiaire:
+
+BLINDCODE
+Abdu                    : https://github.com/BrunoDefalque/
+Karim   (zackakyo)      : https://github.com/zackakyo/
+Akim
+Sophio
+Muriel
+
+Johnny  (ZamBoyle)      : https://github.com/ZamBoyle/
+Serge   (DenisSerge)    : https://github.com/Deniserge
+Philip  (Kraktu)        : https://github.com/Kraktu
+
+Pour accéder à la liste des dépôts distants de Serge:
+gh repo list DenisSerge
+
+
+
+
+Créer un dépôt python pour le cours de Philip:
+1. Allez dans le répertoire d'exercices python.
+2. Faites git init
+3. Faites un git status pour voir l'ensemble des modifications à ajouter à la zone d'index.
+4. Faites git add .  (le point reprend tous les répertoires/fichiers et les sous-répertoires)
+5. Faites git commit -m "Initial commit"
+6. gh repo create ExercicesPython --public --confirm 
+7. Faites git push -u origin master 
+
+
