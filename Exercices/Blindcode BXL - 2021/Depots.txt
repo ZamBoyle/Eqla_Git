@@ -1,11 +1,6 @@
 Dépôts de chaque stagiaire:
 
 BLINDCODE
-Abdu                    : https://github.com/BrunoDefalque/
-Karim   (zackakyo)      : https://github.com/zackakyo/
-Akim
-Sophio
-Muriel
 
 Johnny  (ZamBoyle)      : https://github.com/ZamBoyle/
 Serge   (DenisSerge)    : https://github.com/Deniserge
