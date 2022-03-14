@@ -1,11 +1,15 @@
-<html>
+<!DOCTYPE html>
+<html lang="fr">
 <head>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>    
 </head>
 <body>
 <div class='container'>
-
 <h1 style="text-align:center">
 Formation Git
 </h1>
@@ -29,45 +33,54 @@ Table des matières
 <ul>
 <li><a href="#41-installation">4.1 Installation</a></li>
 <li><a href="#42-lancement-du-terminal">4.2 Lancement du terminal</a></li>
-<li><a href="#43-changer-le-terminal-par-défaut">4.3 Changer le terminal par défaut</a></li>
+<li><a href="#43-changer-le-terminal-par-defaut">4.3 Changer le terminal par défaut</a></li>
 <li><a href="#44-nouvel-onglet">4.4 Nouvel onglet</a></li>
+<li><a href="#45-naviguer-entre-onglets">4.5 Naviguer entre onglets</a></li>
 </ul></li>
 <li><a href="#5-utiliser-la-ligne-de-commandes">5. Utiliser la ligne de commandes</a></li>
-<li><a href="#5quest-ce-un-dépôtrepository-git">5. Qu’est-ce un dépôt/repository Git ?</a></li>
-<li><a href="#6répertoire-courant-vs-la-zone-dindexation-vs-dépôt">6. Répertoire courant vs la zone d’indexation vs dépôt</a></li>
-<li><a href="#7-chronologie-des-actions-avant-que-vos-modifications-fassent-partie-de-votre-dépôt">7. Chronologie des actions avant que vos modifications fassent partie de votre dépôt</a></li>
-<li><a href="#8-configurer-les-informations-de-lutilisateur-pour-tous-les-dépôts-locaux">8. Configurer les informations de l’utilisateur pour tous les dépôts locaux</a></li>
-<li><a href="#9-création-de-notre-premier-dépôt-local">9. Création de notre premier dépôt local</a></li>
-<li><a href="#10-status-de-notre-dépôt">10. Status de notre dépôt</a></li>
-<li><a href="#11-ajouter-un-fichier">11. Ajouter un fichier</a></li>
-<li><a href="#12-indexerdésindexer-ses-modifications">12. Indexer/désindexer ses modifications</a></li>
-<li><a href="#13-notre-premier-commit">13. Notre premier commit</a></li>
-<li><a href="#14-modifications-dun-fichier">14. Modifications d’un fichier</a></li>
-<li><a href="#15-voyage-dans-lhistorique-dun-dépôt">15. Voyage dans l’historique d’un dépôt</a></li>
-<li><a href="#16-naviguer-dans-lhistorique-de-notre-dépôt">16. Naviguer dans l’historique de notre dépôt</a></li>
-<li><a href="#17-les-tags">17. Les tags</a></li>
-<li><a href="#18-le-modèle-distribué">18. Le modèle distribué</a></li>
-<li><a href="#19-github">19. GitHub</a></li>
-<li><a href="#20-clone-un-dépôt-hébergé-sur-github-avec-la-commande-git-clone">20. clone un dépôt hébergé sur GitHub avec la commande git clone</a></li>
-<li><a href="#21-présentation-de-la-commande-gh">21. Présentation de la commande gh</a></li>
-<li><a href="#21-installation-de-gh">21. Installation de gh</a>
+<li><a href="#6-quest-ce-qun-depotrepository-git">6. Qu’est-ce un dépôt/repository Git ?</a></li>
+<li><a href="#7-repertoire-courant-vs-la-zone-dindexation-vs-depot">7. Répertoire courant vs la zone d’indexation vs dépôt</a></li>
+<li><a href="#8-chronologie-des-actions-avant-que-vos-modifications-fassent-partie-de-votre-depot">8. Chronologie des actions avant que vos modifications fassent partie de votre dépôt</a></li>
+<li><a href="#9-configurer-les-informations-de-lutilisateur-pour-tous-les-depots-locaux">9. Configurer les informations de l’utilisateur pour tous les dépôts locaux</a></li>
+<li><a href="#10-creation-de-notre-premier-depot-local">10. Création de notre premier dépôt local</a></li>
+<li><a href="#11-status-de-notre-depot">11. Status de notre dépôt</a></li>
+<li><a href="#12-ajouter-un-fichier">12. Ajouter un fichier</a></li>
+<li><a href="#13-indexerdesindexer-ses-modifications">13. Indexer/désindexer ses modifications</a></li>
+<li><a href="#14-notre-premier-commit">14. Notre premier commit</a></li>
+<li><a href="#15-modifications-dun-fichier">15. Modifications d’un fichier</a></li>
+<li><a href="#16-voyage-dans-lhistorique-dun-depot">16. Voyage dans l’historique d’un dépôt</a></li>
+<li><a href="#17-naviguer-dans-lhistorique-de-notre-depot">17. Naviguer dans l’historique de notre dépôt</a></li>
+<li><a href="#18-les-tags">18. Les tags</a></li>
+<li><a href="#19-le-modele-distribue">19. Le modèle distribué</a></li>
+<li><a href="#20-github">20. GitHub</a></li>
+<li><a href="#21-cloner-un-depot-heberge-sur-github-avec-la-commande-git-clone">21. Cloner un dépôt hébergé sur GitHub avec la commande git clone</a></li>
+<li><a href="#22-presentation-de-la-commande-gh">22. Présentation de la commande gh</a></li>
+<li><a href="#23-installation-de-gh">23. Installation de gh</a>
 <ul>
-<li><a href="#211-windows">21.1 Windows</a></li>
-<li><a href="#212-mac-os">21.2 Mac Os</a></li>
-<li><a href="#213-ubuntu">21.3 Ubuntu</a></li>
+<li><a href="#231-windows">23.1 Windows</a></li>
+<li><a href="#232-mac-os">23.2 Mac Os</a></li>
+<li><a href="#233-ubuntu">23.3 Ubuntu</a></li>
 </ul></li>
-<li><a href="#22-authentification-sur-github-via-gh">22. Authentification sur GitHub via gh</a></li>
-<li><a href="#23-creation-dun-gist-public">23. Creation d’un gist public</a></li>
-<li><a href="#24-clone-un-dépôt-hébergé-sur-github-avec-la-commande-gh-repo-clone">24. clone un dépôt hébergé sur GitHub avec la commande gh repo clone</a></li>
-<li><a href="#25-créer-un-dépôt-sur-github">25. Créer un dépôt sur GitHub</a></li>
-<li><a href="#26-le-fichier-gitignore">26. Le fichier .gitignore</a></li>
-<li><a href="#27-le-fichier-readmemd-et-le-format-markdown">27. Le fichier README.md et le format Markdown</a></li>
-<li><a href="#28-pousser-ses-tags-sur-github">28. Pousser ses tags sur Github</a></li>
-<li><a href="#29-les-issues">29. Les issues</a></li>
-<li><a href="#30-informations-de-modifications-dun-fichier">30. Informations de modifications d’un fichier</a></li>
-<li><a href="#31-git-stash-garder-des-modifications-non-commitées">31. Git stash: garder des modifications non commitées</a></li>
-<li><a href="#32-faire-un-git-pull-avec-une-modification-en-local-et-distante">32. Faire un git pull avec une modification en local et distante</a></li>
-<li><a href="#33-modifications-conflictuelles">33. Modifications conflictuelles</a></li>
+<li><a href="#24-authentification-sur-github-via-gh">24. Authentification sur GitHub via gh</a></li>
+<li><a href="#25-creation-dun-gist-public">25. Creation d’un gist public</a></li>
+<li><a href="#26-cloner-un-depot-heberge-sur-github-avec-la-commande-gh-repo-clone">26. Cloner un dépôt hébergé sur GitHub avec la commande gh repo clone</a></li>
+<li><a href="#27-creer-un-depot-sur-github">27. Créer un dépôt sur GitHub</a></li>
+<li><a href="#28-le-fichier-gitignore">28. Le fichier .gitignore</a></li>
+<li><a href="#29-le-fichier-readmemd-et-le-format-markdown">29. Le fichier README.md et le format Markdown</a>
+<ul>
+<li><a href="#291-mettre-un-titre-h1">29.1 Mettre un titre h1</a></li>
+<li><a href="#292-afficher-du-code">29.2 Afficher du code</a></li>
+<li><a href="#293-mettre-en-gras">29.3 Mettre en gras</a></li>
+<li><a href="#294-mettre-en-italic">29.4 Mettre en italic</a></li>
+<li><a href="#295-liens-hypertextes">29.5 Liens hypertextes</a></li>
+<li><a href="#296-les-tableaux">29.6 Les tableaux</a></li>
+</ul></li>
+<li><a href="#30-pousser-ses-tags-sur-github">30. Pousser ses tags sur Github</a></li>
+<li><a href="#31-les-issues">31. Les issues</a></li>
+<li><a href="#32-informations-de-modifications-dun-fichier">32. Informations de modifications d’un fichier</a></li>
+<li><a href="#33-git-stash-garder-des-modifications-non-commitees">33. Git stash: garder des modifications non commitées</a></li>
+<li><a href="#34-faire-un-git-pull-avec-une-modification-en-local-et-distante">34. Faire un git pull avec une modification en local et distante</a></li>
+<li><a href="#35-modifications-conflictuelles">35. Modifications conflictuelles</a></li>
 </ul>
 <h2 id="1-introduction">
 <ol type="1">
@@ -169,7 +182,7 @@ Microsoft a remis aux goûts du jour son Terminal. Il l’a rendu beaucoup plus 
 4.2 Lancement du terminal
 </h3>
 <p>Pour exécuter le programme, on effectue la combinaison des touches Windows + R et on y écrit wt appuyez sur la touche ENTER.</p>
-<h3 id="43-changer-le-terminal-par-défaut">
+<h3 id="43-changer-le-terminal-par-defaut">
 4.3 Changer le terminal par défaut
 </h3>
 <p>C’est Powershell qui est installé par défaut. On pourrait l’utiliser mais utilisera dans le cadre de notre cours ça sera l’invite de commandes (cmd).</p>
@@ -181,9 +194,13 @@ Microsoft a remis aux goûts du jour son Terminal. Il l’a rendu beaucoup plus 
 <li>Dans démarrage, changez le profil par défaut et mettez “Invite de commandes”</li>
 <li>Validez en appuyant sur le bouton Enregistrer</li>
 </ol>
-<h3 id="nouvel-onglet">4.4 Nouvel onglet</h3>
+<h3 id="44-nouvel-onglet">
+4.4 Nouvel onglet
+</h3>
 <p>Il suffit de faire la combinaison de touches: CTRL + SHIFT + T</p>
-<h3 id="naviguer-entre-onglets">4.5 Naviguer entre onglets</h3>
+<h3 id="45-naviguer-entre-onglets">
+4.5 Naviguer entre onglets
+</h3>
 <p>Si vous voulez aller: - au premier onglet: CTRL + ALT + 1 - au deuxième: CTRL + ALTR + 2 - au troisième: CTRL + ALTR + 3 - etc…</p>
 <p>Si vous essayez d’accéder à l’onglet n°9 alors que vous n’en avez que 5. Il ira à l’onglet numéro 5.</p>
 <h2 id="5-utiliser-la-ligne-de-commandes">
@@ -247,25 +264,47 @@ Il y a deux façons d’utiliser git: par interface graphique ou via la ligne de
 <li>Création du fichier avec &gt; par exemple dir &gt; listing.txt (redirige le résultat de la commande dans un nouveau fichier nommé listing.txt)</li>
 <li>Concaténation du résultat dans un fichier avec &gt;&gt; par exemple dir &gt;&gt; listing.txt (Si le fichier existe, le résultat de la commande dir est ajouté au fichier listing.txt sinon le fichier sera créé). Dans le temps (vieux suis, vieux je resterai), on pouvait rediriger vers une imprimante. Par exemple dir &gt; prn</li>
 </ol>
-<ol start="10" type="1">
+<ol start="11" type="1">
 <li>Customiser son prompt Il correspond à la string(chaîne de caractères) qui se trouve à gauche du curseur dans l’invite de commandes. Sous Windows par défaut c’est c:\RépertoireEnCours&gt; il est défini par la commande prompt $p$g Il est possible de customiser le prompt de l’invite de commandes:
 <ol type="A">
 <li>Sur Windows: C’est la commande prompt qui le permet. Pour certains, un prompt plus succinct est sans doute intéressant. Exemple: prompt $g Donnera que le symbole &gt; pour votre invite de commandes</li>
 <li>Sur Mac: Il faut définir une variable d’environnement PS1. Exemple: PS1=“&gt;” Pour Windows, il existe des variables prédéfinies que l’on peut utiliser. Pour les connaître faites un prompt /?</li>
 </ol></li>
 </ol>
-<h2 id="quest-ce-un-dépôtrepository-git">5. Qu’est-ce un dépôt/repository Git ?</h2>
+<h2 id="6-quest-ce-qun-depotrepository-git">
+<ol start="6" type="1">
+<li>Qu’est-ce qu’un dépôt/repository Git ?
+</h2></li>
+</ol>
 <p>Un dépôt Git est en quelque une sorte de livre journal où l’on peut retrouver tout l’historique des modifications. Il vous permet d’enregistrer les différentes versions de votre code et d’y accéder au besoin.</p>
-<h2 id="quest-ce-un-dépôtrepository-git-1">6. Qu’est-ce un dépôt/repository Git ?</h2>
-<p>Un dépôt Git est un en quelque sorte de livre journal où l’on peut retrouver tout l’historique des modifications. Il vous permet d’enregistrer les différentes versions de votre code et d’y accéder au besoin.</p>
-<h2 id="répertoire-courant-vs-la-zone-dindexation-vs-dépôt">7. Répertoire courant vs la zone d’indexation vs dépôt</h2>
-<p>Répertoire de travail = Lieu où sont stockés vos fichiers de travail. Zone d’indexation = La zone d’index est un simple fichier, généralement situé dans le répertoire Git, qui stocke les informations concernant ce qui fera partie du prochain instantané. On l’appelle aussi des fois la zone de préparation. dépôt (repository) = répertoire portant le nom .git. Le répertoire Git est l’endroit où Git stocke les métadonnées et la base de données des objets de votre projet. Vous ne devez jamais aller modifier manuellement ce répertoire.</p>
-<h2 id="chronologie-des-actions-avant-que-vos-modifications-fassent-partie-de-votre-dépôt">8. Chronologie des actions avant que vos modifications fassent partie de votre dépôt</h2>
-<p>L’utilisation standard de Git se passe comme suit : Vous modifiez des fichiers dans votre répertoire de travail. Vous indexez les fichiers modifiés, ce qui ajoute des instantanés (une sorte de photo si vous voulez) de ces fichiers dans la zone d’index. Vous validez ces modifications qui sont en zone d’index, ce qui a pour effet de basculer les instantanés des fichiers de l’index dans la base de données du répertoire Git.</p>
-<p>Si une version particulière d’un fichier est dans le répertoire Git, il est considéré comme validé. S’il est modifié mais a été ajouté dans la zone d’index, il est indexé. S’il a été modifié depuis le dernier instantané mais n’a pas été indexé, il est modifié.</p>
-<h2 id="configurer-les-informations-de-lutilisateur-pour-tous-les-dépôts-locaux">9. Configurer les informations de l’utilisateur pour tous les dépôts locaux</h2>
-<p>Pour que l’on sache qui a fait une action sur un dépôt, il est de mise de configurer les variables globales suivantes: a. git config –global user.name “nom” - Exemple: git config –global user.name “Johnny Piette” b. git config –global user.email “adresse email” Exemple: git config –global user.email “johnny.piette@gmail.com” Vérification de la configuration de git globale. git config –global –list Pour supprimer une entrée de notre configuration globale, on utilise: git config –unset –global user.name (Ici ça va supprimer notre prénom et nom).</p>
-<h2 id="création-de-notre-premier-dépôt-local">10. Création de notre premier dépôt local</h2>
+<h2 id="7-repertoire-courant-vs-la-zone-dindexation-vs-depot">
+<ol start="7" type="1">
+<li>Répertoire courant vs la zone d’indexation vs dépôt
+</h2>
+Répertoire de travail = Lieu où sont stockés vos fichiers de travail. Zone d’indexation = La zone d’index est un simple fichier, généralement situé dans le répertoire Git, qui stocke les informations concernant ce qui fera partie du prochain instantané. On l’appelle aussi des fois la zone de préparation. dépôt (repository) = répertoire portant le nom .git. Le répertoire Git est l’endroit où Git stocke les métadonnées et la base de données des objets de votre projet. Vous ne devez jamais aller modifier manuellement ce répertoire.</li>
+</ol>
+<h2 id="8-chronologie-des-actions-avant-que-vos-modifications-fassent-partie-de-votre-depot">
+<ol start="8" type="1">
+<li>Chronologie des actions avant que vos modifications fassent partie de votre dépôt
+</h2>
+L’utilisation standard de Git se passe comme suit : Vous modifiez des fichiers dans votre répertoire de travail. Vous indexez les fichiers modifiés, ce qui ajoute des instantanés (une sorte de photo si vous voulez) de ces fichiers dans la zone d’index. Vous validez ces modifications qui sont en zone d’index, ce qui a pour effet de basculer les instantanés des fichiers de l’index dans la base de données du répertoire Git.</li>
+</ol>
+<p>Si une version particulière d’un fichier est dans le répertoire Git, il est considéré comme validé.</p>
+<p>S’il est modifié mais a été ajouté dans la zone d’index, il est indexé.</p>
+<p>S’il a été modifié depuis le dernier instantané mais n’a pas été indexé, il est modifié.</p>
+<h2 id="9-configurer-les-informations-de-lutilisateur-pour-tous-les-depots-locaux">
+<ol start="9" type="1">
+<li>Configurer les informations de l’utilisateur pour tous les dépôts locaux
+</h2>
+Pour que l’on sache qui a fait une action sur un dépôt, il est de mise de configurer les variables globales suivantes:</li>
+</ol>
+<ol type="a">
+<li>git config –global user.name “nom” - Exemple: git config –global user.name “Johnny Piette”</li>
+<li>git config –global user.email “adresse email” Exemple: git config –global user.email “johnny.piette@gmail.com” Vérification de la configuration de git globale. git config –global –list Pour supprimer une entrée de notre configuration globale, on utilise: git config –unset –global user.name (Ici ça va supprimer notre prénom et nom).</li>
+</ol>
+<h2 id="10-creation-de-notre-premier-depot-local">
+10. Création de notre premier dépôt local
+</h2>
 <ol type="1">
 <li>Création d’un répertoire de travail: créer le répertoire cours_git</li>
 <li>En ligne de commandes aller dans le répertoire de travail à l’aide de la commande cd: cd cours_git</li>
@@ -279,20 +318,30 @@ Il y a deux façons d’utiliser git: par interface graphique ou via la ligne de
 </ol></li>
 <li>On constate que l’on a un répertoire .git caché, notre dépôt.</li>
 </ol>
-<h2 id="status-de-notre-dépôt">11. Status de notre dépôt</h2>
+<h2 id="11-status-de-notre-depot">
+11. Status de notre dépôt
+</h2>
 <p>Taper la commande git status que voyez-vous ? git status va nous indiquer l’état de notre dépôt. Y a-t-il des fichiers modifiés/créés/supprimés qui n’ont pas été indexés ?</p>
-<h2 id="ajouter-un-fichier">12. Ajouter un fichier</h2>
+<h2 id="12-ajouter-un-fichier">
+12. Ajouter un fichier
+</h2>
 <p>Copiez le fichier genius.js dans le répertoire cours_git</p>
-<h2 id="indexerdésindexer-ses-modifications">13. Indexer/désindexer ses modifications</h2>
+<h2 id="13-indexerdesindexer-ses-modifications">
+13. Indexer/désindexer ses modifications
+</h2>
 <p>Pour indexer un fichier on utilise la commande git add 1. git status (qu’est-ce qui a changé ?) On voit qu’il est indiqué untracked files. Il y est indiqué notre fichier genius.js 2. git add genius.js (on l’ajoute dans la zone d’index) 3. git status (il indique les changements à commiter. ici genius.js qui est marqué comme “new file”) Pour désindexer un fichier on utilise la commande git reset. 1. git reset genius.js (on a retiré les modifications de la zone d’index) 2. git status</p>
-<h2 id="notre-premier-commit">14. Notre premier commit</h2>
+<h2 id="14-notre-premier-commit">
+14. Notre premier commit
+</h2>
 <ol type="1">
 <li>git commit -m “Ajout du fichier genius.js”</li>
 <li>git status (nothing to commit)</li>
 <li>git tag v1 (Je vous expliquerai pourquoi plus tard)</li>
 </ol>
-<h2 id="modifications-dun-fichier">15. Modifications d’un fichier</h2>
-<h3 id="première-modification">Première modification</h3>
+<h2 id="15-modifications-dun-fichier">
+15. Modifications d’un fichier
+</h2>
+<p><strong>Première modification</strong></p>
 <ol type="1">
 <li>Ouvrez votre programme genius.js avec vscode</li>
 <li>Ajoutez une fonctions Multiply qui multiplie deux nombres.</li>
@@ -305,33 +354,11 @@ Il y a deux façons d’utiliser git: par interface graphique ou via la ligne de
 <li>git status (essayez de toujours faire un status par précaution)</li>
 <li>git tag v2 (Je vous expliquerai pourquoi plus tard)</li>
 </ol>
-<h3 id="deuxième-modification">Deuxième modification</h3>
-<ol type="1">
-<li>Ouvrez votre programme genius.js avec vscode</li>
-<li>Ajoutez une fonctions Divide qui divise deux nombres.</li>
-<li>Dans la fonction Display(), ajoutez un echo s’inspirant des précédents echo pour afficher le résultat de la division.</li>
-<li>Testez votre programme jusqu’à ce qu’il fonctionne. :)</li>
-<li>git status (git nous indique que notre fichier a été modifié)</li>
-<li>git diff genius.js (Ca vous affichera les modifications: les ajouts (+) ou suppressions (-) de lignes)</li>
-<li>git add genius.js (permet d’ajouter toutes les modifications du point de fichiers)</li>
-<li>git commit -m “Ajout de la division” (Essayer de ne pas taper des accents)</li>
-<li>git status (essayez de toujours faire un status par précaution)</li>
-<li>git tag v3 (Je vous expliquerai pourquoi plus tard)</li>
-</ol>
-<h3 id="troisième-modification">Troisième modification</h3>
-<ol type="1">
-<li>Ouvrez votre programme genius.js avec vscode</li>
-<li>Dans la fonction DisplayFormControls()</li>
-<li>Modifiez les balises input et changez type=“text” par type=“number”. Vous devez le faire à deux endroids. (Ca permettra de vérifier côté client que l’on a bien entré un nombre).</li>
-<li>Testez votre programme jusqu’à ce qu’il fonctionne. :)</li>
-<li>git status (git nous indique que notre fichier a été modifié)</li>
-<li>git diff genius.js (Ca vous affichera les modifications: les ajouts (+) ou suppressions (-) de lignes)</li>
-<li>git add genius.js (permet d’ajouter toutes les modifications du point de fichiers)</li>
-<li>git commit -m “Modification du type d’input: number a la place de text” (Essayer de ne pas taper des accents)</li>
-<li>git status (essayez de toujours faire un status par précaution)</li>
-<li>git tag v3 (Je vous expliquerai pourquoi plus tard)</li>
-</ol>
-<h2 id="voyage-dans-lhistorique-dun-dépôt">16. Voyage dans l’historique d’un dépôt</h2>
+<p><strong>Deuxième modification</strong> 1. Ouvrez votre programme genius.js avec vscode 2. Ajoutez une fonctions Divide qui divise deux nombres. 3. Dans la fonction Display(), ajoutez un echo s’inspirant des précédents echo pour afficher le résultat de la division. 4. Testez votre programme jusqu’à ce qu’il fonctionne. :) 5. git status (git nous indique que notre fichier a été modifié) 6. git diff genius.js (Ca vous affichera les modifications: les ajouts (+) ou suppressions (-) de lignes) 7. git add genius.js (permet d’ajouter toutes les modifications du point de fichiers) 8. git commit -m “Ajout de la division” (Essayer de ne pas taper des accents) 9. git status (essayez de toujours faire un status par précaution) 10. git tag v3 (Je vous expliquerai pourquoi plus tard)</p>
+<p><strong>Troisième modification</strong> 1. Ouvrez votre programme genius.js avec vscode 2. Dans la fonction DisplayFormControls() 3. Modifiez les balises input et changez type=“text” par type=“number”. Vous devez le faire à deux endroids. (Ca permettra de vérifier côté client que l’on a bien entré un nombre). 4. Testez votre programme jusqu’à ce qu’il fonctionne. :) 5. git status (git nous indique que notre fichier a été modifié) 6. git diff genius.js (Ca vous affichera les modifications: les ajouts (+) ou suppressions (-) de lignes) 7. git add genius.js (permet d’ajouter toutes les modifications du point de fichiers) 8. git commit -m “Modification du type d’input: number a la place de text” (Essayer de ne pas taper des accents) 9. git status (essayez de toujours faire un status par précaution) 10. git tag v3 (Je vous expliquerai pourquoi plus tard)</p>
+<h2 id="16-voyage-dans-lhistorique-dun-depot">
+16. Voyage dans l’historique d’un dépôt
+</h2>
 <p>Un ensemble de commits reliés entre eux par un pointer constitue ce qu’on appelle une branche. Ici on est sur la branche master. C’est la branche principale. Un commit est constitué:</p>
 <ul>
 <li>d’un identifiant unique appelé SHA1 constitué de 40 caractères.</li>
@@ -341,16 +368,10 @@ Il y a deux façons d’utiliser git: par interface graphique ou via la ligne de
 <li>une date de création.</li>
 <li>Liste de son/ses parent/s (Allant de 0 à N parents).</li>
 </ul>
-<p>Voyons l’historique de notre dépôt:</p>
-<ol type="1">
-<li>Tapez git log</li>
-<li>git show SHA-1 (Pour un commit ayant ce SHA-1). Certains auront peut-être des problèmes pour copier/coller le SHA1. Ce n’est pas grave car nous avons tagué/nommé nos commits:v1, v2, v3.</li>
-<li>git show v1</li>
-<li>git show v2</li>
-<li>git show v3</li>
-<li>git show master (montre les dernières modifications du commit avec le tag master)</li>
-</ol>
-<h2 id="naviguer-dans-lhistorique-de-notre-dépôt">17. Naviguer dans l’historique de notre dépôt</h2>
+<p>Voyons l’historique de notre dépôt: 1. Tapez git log 2. git show SHA-1 (Pour un commit ayant ce SHA-1). Certains auront peut-être des problèmes pour copier/coller le SHA1. Ce n’est pas grave car nous avons tagué/nommé nos commits:v1, v2, v3. 3. git show v1 4. git show v2 5. git show v3 6. git show master (montre les dernières modifications du commit avec le tag master)</p>
+<h2 id="17-naviguer-dans-lhistorique-de-notre-depot">
+17. Naviguer dans l’historique de notre dépôt
+</h2>
 <ol type="1">
 <li>git log</li>
 <li>Identifier le premier commit ainsi que son SHA1.</li>
@@ -361,17 +382,24 @@ Il y a deux façons d’utiliser git: par interface graphique ou via la ligne de
 <li>Ouvrez genius.js</li>
 </ol>
 <p>Essayez de revenir sur les différentes versions de notre programme genius.js et regardez si on est bien revenu dans une version précédente à l’aide des SHA1 ou des tags.</p>
-<h2 id="les-tags">18. Les tags</h2>
+<h2 id="18-les-tags">
+18. Les tags
+</h2>
 <p>Certains ont remarqué qu’il est plus aisé de créer des tags pour naviguer dans l’historique et pour revenir à une version antérieur de notre dépôt. Cependant on ne crée pas des tags pour tous les commits. On le fait quand c’est nécessaire. Je vous ai fait créer des tags à chaque commit pour que certains aient plus facile d’utiliser des tags que des SHA1.</p>
 <p>On peut avoir plusieurs tags pour un même commit.</p>
 <p>Donc pour créer un tag, on utilise la commande git tag montag. Pour supprimer un tag, on utilise la commande git tag -d montag</p>
-<h2 id="le-modèle-distribué">19. Le modèle distribué</h2>
+<h2 id="19-le-modele-distribue">
+19. Le modèle distribué
+</h2>
 <p>Ici, nous avons travaillé sur notre dépôt local: tout est stocké dans notre ordinateur. Il existe différents modèles de gestion:</p>
 <ol type="1">
-<li>Modèle centralisé (svn, cvs): Tout est stocké sur un serveur central qui contrôle toute la base du code.</li>
-<li>Modèle distribué (git, mercurial): Tous les développeurs ont une copie de base du projet. L’intérêt c’est que l’on ne doit pas être en permanence connecté au serveur pour travailler. Nous avons notre dépôt git hébergé sur un serveur (GitHub, GitLab) qui comprend un certains nombres de commits. Si des développeurs veulent travailler sur notre dépôt distant, les développeurs vont devoir dupliquer notre dépôt. Cela va dupliquer l’intégralité du dépôt et le .git et donc de l’ensemble des commits. Prenons deux développeurs: Sophie et Simon. Si Sophie travaille sur sa version locale, elle va faire un commit. Et envoyer sur le dépôt distant, l’ensemble des commits qu’elle a réalisés. Simon ayant la version de base pourra se synchroniser avec le dépôt distant et récevoir les modifications faites pour Sophie.</li>
+<li><p>Modèle centralisé (svn, cvs): Tout est stocké sur un serveur central qui contrôle toute la base du code.</p></li>
+<li><p>Modèle distribué (git, mercurial): Tous les développeurs ont une copie de base du projet. L’intérêt c’est que l’on ne doit pas être en permanence connecté au serveur pour travailler.</p>
+<p>Nous avons notre dépôt git hébergé sur un serveur (GitHub, GitLab) qui comprend un certains nombres de commits. Si des développeurs veulent travailler sur notre dépôt distant, les développeurs vont devoir dupliquer notre dépôt. Cela va dupliquer l’intégralité du dépôt et le .git et donc de l’ensemble des commits. Prenons deux développeurs: Sophie et Simon. Si Sophie travaille sur sa version locale, elle va faire un commit. Et envoyer sur le dépôt distant, l’ensemble des commits qu’elle a réalisés. Simon ayant la version de base pourra se synchroniser avec le dépôt distant et récevoir les modifications faites pour Sophie.</p></li>
 </ol>
-<h2 id="github">20. GitHub</h2>
+<h2 id="20-github">
+20. GitHub
+</h2>
 <p>Git est donc un outil de suivi des modifications d’un dépôt : il en contient son historique. GitHub est un hébergeur web de dépôts distants. C’est en quelque sorte un front end web Git pour des projets distants hébergés sur GitHub.</p>
 <p>Mais il offre beaucoup plus que Git :</p>
 <ul>
@@ -387,7 +415,9 @@ Il y a deux façons d’utiliser git: par interface graphique ou via la ligne de
 <p>Il y a plus de 56 millions de développeurs et plus de 3 millions d’organisations qui l’utilisent.</p>
 <p>Vous pouvez créer des dépôts publics et des dépôts privés. Avant on avait une limitation pour les dépôts privés. Maintenant GitHub permet de créer un nombre illimités de dépôts privés. :)</p>
 <p>Apparemment, vous n’auriez pas de limite de taille par dépôt mais on conseille que cela soit entre 500MB et 1GB. La taille max d’un fichier ne peut faire plus de 100MB.</p>
-<h2 id="clone-un-dépôt-hébergé-sur-github-avec-la-commande-git-clone">21. clone un dépôt hébergé sur GitHub avec la commande git clone</h2>
+<h2 id="21-cloner-un-depot-heberge-sur-github-avec-la-commande-git-clone">
+21. Cloner un dépôt hébergé sur GitHub avec la commande git clone
+</h2>
 <p>Cloner un dépôt signifie de faire une copie parfaite d’un dépôt distant. Sur GitHub, il y a énormément de dépôts publics. Nous allons dans un premier temps clone les notes de cours qui se trouvent sur GitHub. La commande qui permet de faire un clone d’un dépôt distant est la commande git clone suivie du nom du dépôt à clone.</p>
 <ol type="1">
 <li>Ouvrez un invite de commandes/terminal.</li>
@@ -401,20 +431,31 @@ Il y a deux façons d’utiliser git: par interface graphique ou via la ligne de
 <li>Mettez à jour votre dépôt: git pull</li>
 <li>Chaque semaine, vous ferez un git pull dans le dépôt local de notre cours et le cours se mettra à jour depuis GitHub.</li>
 </ol>
-<h2 id="présentation-de-la-commande-gh">22. Présentation de la commande gh</h2>
+<h2 id="22-presentation-de-la-commande-gh">
+22. Présentation de la commande gh
+</h2>
 <p>gh est un outil en ligne de commandes qui permet de gérer vos dépôts sur GitHub. L’utilisation de cet outil vient du constat qu’un stagiaire m’a dit que le site internet GitHub n’était pas du tout accessible. Si vous tapez gh tout seul dans la console, gh vous affichera son menu d’aide et ses différents paramètres. Il faut voir gh comme un ensemble de commandes différentes que l’on appelle via des paramètres. Les commandes principales sont: gh repo pour la gestion des repos gh gist pour la gestion des gists gh issue pour la gestion des issues (problèmes rencontrés, demande d’amélioration, etc) gh pr pour la gestion des pull requests</p>
 <p>Et gh auth qui permet l’authentification que nous allons voir plus loin.</p>
-<h2 id="installation-de-gh">23. Installation de gh</h2>
-<h3 id="windows">23.1 Windows</h3>
+<h2 id="23-installation-de-gh">
+23. Installation de gh
+<h3 id="231-windows">
+23.1 Windows
+</h3>
 <p>Téléchargez le fichier à cette adresse: https://github.com/cli/cli/releases/download/v2.5.2/gh_2.5.2_windows_amd64.msi</p>
-<h3 id="mac-os">23.2 Mac Os</h3>
+<h3 id="232-mac-os">
+23.2 Mac Os
+</h3>
 <pre><code>brew install gh</code></pre>
-<h3 id="ubuntu">23.3 Ubuntu</h3>
+<h3 id="233-ubuntu">
+23.3 Ubuntu
+</h3>
 <pre><code>curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
 echo &quot;deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main&quot; | sudo tee /etc/apt/sources.list.d/github-cli.list &gt; /dev/null
 sudo apt update
 sudo apt install gh</code></pre>
-<h2 id="authentification-sur-github-via-gh">24. Authentification sur GitHub via gh</h2>
+<h2 id="24-authentification-sur-github-via-gh">
+24. Authentification sur GitHub via gh
+</h2>
 <p>La procédure d’Authentification suivante ne devra être faite qu’une fois: gh retiendra nos credentials(=Informations d’Authentification).</p>
 <ol type="1">
 <li>Ouvrez un invite de commandes/terminal.</li>
@@ -435,7 +476,9 @@ sudo apt install gh</code></pre>
 <li>Appuyez sur ENTER pour continuer suite à l’Authentification réussie sur GitHub.</li>
 <li>Et voilà !!!!! :)</li>
 </ol>
-<h2 id="creation-dun-gist-public">25. Creation d’un gist public</h2>
+<h2 id="25-creation-dun-gist-public">
+25. Creation d’un gist public
+</h2>
 <p>Un gist est simplement un partage d’informations. Ca peut être un programme PHP, du c, un listing, du texte, etc. Bref ça doit être du texte mais vu que l’on est sur GitHub, c’est principalement du code. ;) Via GitHub on peut directement écrire son gist. L’intérêt d’un gist, c’est qu’il ne fait pas partie d’un dépôt. C’est du code que vous partagez par exemple avec un formateur ou une connaissance. Si ce code est bugué, on pourra éventuellement vous aider via les commentaires. S’il est public, tout le monde peut y accéder. S’il est privé, il faudra avoir son url pour y accéder car il ne sera pas trouvable via la recherche GitHub pour tout le monde. Il est possible à toute personne d’ajouter un commentaire et d’y attacher des fichiers à ce commentaire. C’est un outil vraiment fort utile. Vous pourriez donc l’utiliser avec vos formateurs quand vous rencontrez un problème. Vous donnez l’url de votre gist à la personne.</p>
 <ol type="1">
 <li>Ouvrez un invite de commandes/terminal.</li>
@@ -444,7 +487,9 @@ sudo apt install gh</code></pre>
 <li>Vous recevez une url pour le partager.</li>
 <li>Pour vérifier qu’il a été créé: gh gist list Votre nouveau gist devrait être listé.</li>
 </ol>
-<h2 id="clone-un-dépôt-hébergé-sur-github-avec-la-commande-gh-repo-clone">26. clone un dépôt hébergé sur GitHub avec la commande gh repo clone</h2>
+<h2 id="26-cloner-un-depot-heberge-sur-github-avec-la-commande-gh-repo-clone">
+26. Cloner un dépôt hébergé sur GitHub avec la commande gh repo clone
+</h2>
 <p>Cette fois-ci nous allons le faire via la commande gh repo clone En fait l’intérêt principal d’utiliser gh repo clone c’est de rapidement cloner ses repos mais il peut aussi clone d’autres repos mais autant utiliser alors la commande git clone.</p>
 <ol type="1">
 <li>Ouvrez un invite de commandes/terminal.</li>
@@ -457,7 +502,9 @@ sudo apt install gh</code></pre>
 <li>Mettez à jour votre dépôt: git pull</li>
 <li>Chaque semaine, vous ferez un git pull dans le dépôt local de notre cours et le cours se mettra à jour depuis GitHub.</li>
 </ol>
-<h2 id="créer-un-dépôt-sur-github">27. Créer un dépôt sur GitHub</h2>
+<h2 id="27-creer-un-depot-sur-github">
+27. Créer un dépôt sur GitHub
+</h2>
 <p>Ici, on va créer un dépôt sur GitHub et en même temps notre dépôt local.</p>
 <ol type="1">
 <li>Ouvrez un invite de commandes/terminal.</li>
@@ -473,7 +520,9 @@ sudo apt install gh</code></pre>
 <li>Commitez le tout: git commit -m “Initial Commit”</li>
 <li>git push -u origin master On envoie nos modifications sur le remote origin (ici GitHub) de la branche master.</li>
 </ol>
-<h2 id="le-fichier-.gitignore">28. Le fichier .gitignore</h2>
+<h2 id="28-le-fichier-gitignore">
+28. Le fichier .gitignore
+</h2>
 <p>Il peut arriver que dans votre dépôt que vous travaillez sur des fichiers temporaires pour vos tests et programmes. Il arrive aussi qu’en fonction de votre environnement de développement, celui-ci génère un nombre impressionnant de fichiers. Il est dès lors peu intéressant, de commiter des fichiers “non utiles” pour notre projet. Via l’interface web on peut dire qu’on veut un gitignore pour python, visual studio, Unity, R, etc.</p>
 <p>Maintenant, il peut arriver que vous travailliez dans un répertoire temporaire. Pour vos tests, essais et que vous n’avez pas envie de pousser ce répertoire sur GitHub. On ajoutera dans le .gitignore l’information suivante tmp/*</p>
 <p>On pourrait aller dans le répertoire .git/info (celui dans lequel il ne faut jamais aller) et ouvrir le fichier exclude. L’intérêt de faire ça, c’est que personne n’est au courant que vous avez un répertoire tmp/ avec des fichiers dedans. En effet, si une personne regarde le .gitignore elle verra la présence du répertoire.</p>
@@ -499,23 +548,91 @@ sudo apt install gh</code></pre>
 <li>Faites un git commit -m “commit de test”</li>
 <li>Faites un git push -u origin master</li>
 </ol>
-<h2 id="le-fichier-readme.md-et-le-format-markdown">29. Le fichier README.md et le format Markdown</h2>
-<p>Ce fichier donne des informations sur le dépôt en question. Quand vous avez créé un fichier README.md son contenu est directement affiché sur la page du dépôt. Un peu comme un index.html sur un site internet. Ce fichier a une structure bien particulière est se base sur Markdown. Markdown permet de faire une belle mise en page. L’étude de Markdown n’entre dans pas dans ce cours mais je vais vous donner quelques exemples.</p>
-<ol type="1">
-<li>Mettre un titre h1: on commence la ligne par un #</li>
+<h2 id="29-le-fichier-readmemd-et-le-format-markdown">
+29. Le fichier README.md et le format Markdown
+</h2>
+<p>Ce fichier donne des informations sur le dépôt en question.</p>
+<p>Quand vous avez créé un fichier README.md son contenu est directement affiché sur la page du dépôt. Un peu comme un index.html sur un site internet.</p>
+<p>Ce fichier a une structure bien particulière est se base sur Markdown. Markdown permet de faire une belle mise en page.</p>
+<p>L’étude de Markdown n’entre dans pas dans ce cours mais je vais vous donner quelques exemples.</p>
+<h3 id="291-mettre-un-titre-h1">
+29.1 Mettre un titre h1
+</h3>
+<p>On commence la ligne par un # ```markdown # Ceci est un titre 1</p>
+<p>## Ceci est un titre 2 ```</p>
+<h3 id="292-afficher-du-code">
+29.2 Afficher du code
+</h3>
+<p>On utilise ```PHP avant notre code et après notre code ```. L’intérêt est d’avoir un affichage du code propre et avec une colorisation syntaxique.</p>
+<p>Exemple pour du code PHP:</p>
+<p>```php<br> name = input(“Quel est votre nom ?”)<br> firstname = input(“Quel est votre prenom ?”)<br> ```</p>
+<p>Donnera le résultat suivant (voir le résultat sur github et pas via un pdf/html):</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode php"><code class="sourceCode php"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true"></a>name = input<span class="ot">(</span><span class="st">&quot;Quel est votre nom ?&quot;</span><span class="ot">)</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true"></a>firstname = input<span class="ot">(</span><span class="st">&quot;Quel est votre prenom ?&quot;</span><span class="ot">)</span></span></code></pre></div>
+<p>On a plusieurs languages supportés: c, php, js, html, etc…</p>
+<h3 id="293-mettre-en-gras">
+29.3 Mettre en gras
+</h3>
+<p>On encadre avec ** ou __ce qu’on veut mettre en gras. Une partie de ce texte est en **gras*_.</p>
+<h3 id="294-mettre-en-italic">
+29.4 Mettre en italic
+</h3>
+<p>On encadre avec _ ou _ ce qu’on veut mettre en italique. Une partie de ce texte est en  <em>italic</em>.</p>
+<h3 id="295-liens-hypertextes">
+29.5 Liens hypertextes
+</h3>
+<p>Il est courant de donner des liens hypertextes dans le fichier README.md</p>
+<ol type="a">
+<li>Mettre le lien directement: http://www.google.be</li>
+<li>Mettre entre crochet notre texte décrivant le lien hypertext <a href="http://www.google.be">Lien vers Google</a></li>
+<li>Description du lien plus un title <a href="http://www.google.be" title="Allons sur Google !">Lien vers Google</a></li>
+<li>Pointer vers un fichier <a href="./toto.txt">Ce lien pointe vers un fichier de votre dépôt</a></li>
 </ol>
-<div class="sourceCode" id="cb6"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true"></a><span class="fu"># Ceci est un titre 1</span></span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true"></a></span>
-<span id="cb6-3"><a href="#cb6-3" aria-hidden="true"></a><span class="fu">## Ceci est un titre 2</span></span></code></pre></div>
-<ol start="2" type="1">
-<li>Pour mettre du code on utilise <code>PHP avant notre code et après notre code</code>. L’intérêt est d’avoir un affichage du code propre et avec une colorisation syntaxique. Exemple pour du code PHP:</li>
-</ol>
-<div class="sourceCode" id="cb7"><pre class="sourceCode php"><code class="sourceCode php"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true"></a>name = input<span class="ot">(</span><span class="st">&quot;Quel est votre nom ?&quot;</span><span class="ot">)</span></span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true"></a>firstname = input<span class="ot">(</span><span class="st">&quot;Quel est votre prenom ?&quot;</span><span class="ot">)</span></span></code></pre></div>
-<p>3.Pour mettre en gras, on encadre avec ** ou __ce qu’on veut mettre en gras. Une partie de ce texte est en **gras*<em>. 4.Pour mettre en italic on encadre avec </em> ou _ ce qu’on veut mettre en italique. Une partie de ce texte est en <em>italic</em>. 6. Les liens hypertextes. Il est courant de donner des liens hypertextes dans le fichier README.md a. Mettre le lien directement: http://www.google.be b. Mettre entre crochet notre texte décrivant le lien hypertext <a href="http://www.google.be">Lien vers Google</a> c. Description du lien plus un title <a href="http://www.google.be" title="Allons sur Google !">Lien vers Google</a> d. Pointer vers un fichier <a href="./toto.txt">Ce lien pointe vers un fichier de votre dépôt</a> 5. Pour faire un tableau: Colonne 1|Colonne 2|Colonne 3 —|—|— Cellule 1|Cellule 2|Cellule 3 Cellule 4|Cellule 5|Cellule 6 Cellule 7|Cellule 8|Cellule 9 On constate que pour faire un tableau, qu’il faut séparer le nom des colonnes par des |. Ensuite on met autant de triple tirets (—) qu’on a de colonnes séparés par un |. On a ensuite nos colonnes séparées par un |</p>
-<h2 id="pousser-ses-tags-sur-github">30. Pousser ses tags sur Github</h2>
+<h3 id="296-les-tableaux">
+29.6 Les tableaux
+</h3>
+<div class="sourceCode" id="cb7"><pre class="sourceCode md"><code class="sourceCode markdown"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true"></a>Colonne 1|Colonne 2|Colonne 3</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true"></a>---|---|---</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true"></a>Cellule 1|Cellule 2|Cellule 3</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true"></a>Cellule 4|Cellule 5|Cellule 6</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true"></a>Cellule 7|Cellule 8|Cellule 9</span></code></pre></div>
+<p>Aura pour résultat:</p>
+<table>
+<thead>
+<tr class="header">
+<th>Colonne 1</th>
+<th>Colonne 2</th>
+<th>Colonne 3</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Cellule 1</td>
+<td>Cellule 2</td>
+<td>Cellule 3</td>
+</tr>
+<tr class="even">
+<td>Cellule 4</td>
+<td>Cellule 5</td>
+<td>Cellule 6</td>
+</tr>
+<tr class="odd">
+<td>Cellule 7</td>
+<td>Cellule 8</td>
+<td>Cellule 9</td>
+</tr>
+</tbody>
+</table>
+<p>On constate que pour faire un tableau, qu’il faut séparer le nom des colonnes par des |.</p>
+<p>Ensuite on met autant de triple tirets (—) qu’on a de colonnes séparés par un |.</p>
+<p>On a ensuite nos colonnes séparées par un |</p>
+<h2 id="30-pousser-ses-tags-sur-github">
+30. Pousser ses tags sur Github
+</h2>
 <p>Par défaut, les tags ne sont pas explicitement poussés. Il faut le faire via la commande git push origin v1 enverra le tag v1 sur le bon commit. ou encore git push origin –tags enverra tous les tags</p>
-<h2 id="les-issues">31. Les issues</h2>
+<h2 id="31-les-issues">
+31. Les issues
+</h2>
 <p>C’est une partie intéressante de GitHub. On peut signaler un bug ou une demande de fonctionalité via ce qu’on appelle les issues. Si votre dépôt est public, vous pouvez avoir des utilisateurs qui demanderont de l’aide ou une fonctionalité de votre programme PHP par exemple. Pour créer une issue on rentre dans le dépôt local où l’on veut créer une issue.</p>
 <ol type="1">
 <li>cd mesdepots</li>
@@ -535,31 +652,63 @@ sudo apt install gh</code></pre>
 <li>cloture d’une issue via gh de notre issue: gh issue close 1 (Notre issue sera cloturée)</li>
 <li>Vérifions que l’issue à été cloturée: gh issue list (Vous devriez avoir le message suivant: There are no open issues)</li>
 </ol>
-<h2 id="informations-de-modifications-dun-fichier">32. Informations de modifications d’un fichier</h2>
+<h2 id="32-informations-de-modifications-dun-fichier">
+32. Informations de modifications d’un fichier
+</h2>
 <p>Pour voir toutes les modifications faites sur un fichier, on utilise la commande git blame. Par exemple:</p>
 <ol type="1">
 <li>cd mesdepots</li>
 <li>cd Eqla_Git</li>
 <li>cd Theo</li>
-<li>git blame git.txt ou git blame -l git.txt pour avoir le sha1 complet du commit. Ca nous affiche les commits, la date de modification, l’auteur et la modification (+ ou -).</li>
+<li>git blame git.txt ou git blame -l git.txt pour avoir le sha1 complet du commit.</li>
 </ol>
-<h2 id="git-stash-garder-des-modifications-non-commitées">33. Git stash: garder des modifications non commitées</h2>
-<p>Il peut arriver que nous ayont besoin de retourner à une version antérieure de notre dépôt avec la commande git checkout V1 (ou via un sha1). Cependant, vous avez fait des modifications mais n’avez pas envie de commiter celles-ci car vous n’avez pas terminé. Dans ce cas, si vous faites un git checkout V1 git vous dira qu’il ne peut revenir à une version antérieure car vous avez des modifications non commitées. Il vous indiquera que vous pouvez aussi faire un git commit ou un git stash. Pour le stash, vous faites un git stash save “Un message portant sur vos modifications”. Ca va indexer ça dans notre zone de Stash. Heinnnn ??? Une zone de stash ? Une zone en plus de la zone d’index ? Oui mais à la différence que la zone d’index peut être commitée et non la zone de stash. Affichons les stashs présents: git stash list Ensuite, vous pouvez revenir à votre version V1: git checkout V1 Revenons à notre tag master: git checkout master Affichons les stashs présents: git stash list Rechargeons nos modifications de la zone de stash: git stash pop 0 (0 car c’est le premier stash et en informatique bcp de choses ont comme premier index le 0) Si vous avez terminés avec vos modifications ajoutez-les à la zone d’index, commitez et envoyez sur Github si nécessaire.</p>
-<h2 id="faire-un-git-pull-avec-une-modification-en-local-et-distante">34. Faire un git pull avec une modification en local et distante</h2>
-<p>Lors du rapatriement du cours un élève m’a dit: monsieur je ne sais pas faire un git pull origin car ça génère une erreur ! En effet, celui-ci a modifié le fichier théorie git.txt pour sans doute corriger des éventuelles erreurs. On verra ce que nous pourrons faire au chapitre suivant.</p>
-<h2 id="modifications-conflictuelles">35. Modifications conflictuelles</h2>
-<p>Vous avez un dépôt sur GitHub. Vous bossez sur votre dépôt à la maison depuis votre dépôt local A sur votre ordinateur. Votre collègue bosse sur son dépôt au boulot depuis son dépôt local B sur l’ordinateur de son employeur.</p>
-<p>A la maison, vous modifiez votre dépôt local A et vous poussez vos modifications sur GitHub. Votre collègue modifie son dépôt local B et il va poussez ses modifications sur GitHub. Il va rencontrer une erreur: hint: Updates were rejected because the remote contains work that you do hint: not have locally. This is usually caused by another repository pushing hint: to the same ref. You may want to first integrate the remote changes hint: (e.g., ‘git pull …’) before pushing again. hint: See the ‘Note about fast-forwards’ in ‘git push –help’ for details.</p>
-<p>Il faut savoir que git a toujours connaissance du parent de tout commit. Quand vous avez poussez vos modifications du dépôt A sur GitHub, le dépôt B n’a pas le dernier commit de GitHub. Hors, git va constater que le dépôt B n’est pas à jour. git propose de faire un git pull auparavant sur le dépôt B. Le pull s’effectue mais git nous signale qu’il va y avoir un ou des conflits et qu’il a “mergé” (fusionné) nos fichiers modifiés locaux avec les distants. Auto-merging Theo/git.txt CONFLICT (content): Merge conflict in Theo/git.txt Automatic merge failed; fix conflicts and then commit the result.</p>
+<p>Ca nous affiche les commits, la date de modification, l’auteur et la modification (+ ou -).</p>
+<h2 id="33-git-stash-garder-des-modifications-non-commitees">
+33. Git stash: garder des modifications non commitées
+</h2>
+<p>Il peut arriver que nous ayont besoin de retourner à une version antérieure de notre dépôt avec la commande git checkout V1 (ou via un sha1).</p>
+<p>Cependant, vous avez fait des modifications mais n’avez pas envie de commiter celles-ci car vous n’avez pas terminé.</p>
+<p>Dans ce cas, si vous faites un git checkout V1 git vous dira qu’il ne peut revenir à une version antérieure car vous avez des modifications non commitées. Il vous indiquera que vous pouvez aussi faire un git commit ou un git stash.</p>
+<p>Pour le stash, vous faites un git stash save “Un message portant sur vos modifications”. Ca va indexer ça dans notre zone de Stash. Heinnnn ??? Une zone de stash ? Une zone en plus de la zone d’index ? Oui mais à la différence que la zone d’index peut être commitée et non la zone de stash.</p>
+<p>Affichons les stashs présents: git stash list Ensuite, vous pouvez revenir à votre version V1: git checkout V1</p>
+<p>Revenons à notre tag master: git checkout master Affichons les stashs présents: git stash list</p>
+<p>Rechargeons nos modifications de la zone de stash: git stash pop 0 (0 car c’est le premier stash et en informatique bcp de choses ont comme premier index le 0)</p>
+<p>Si vous avez terminés avec vos modifications ajoutez-les à la zone d’index, commitez et envoyez sur Github si nécessaire.</p>
+<h2 id="34-faire-un-git-pull-avec-une-modification-en-local-et-distante">
+34. Faire un git pull avec une modification en local et distante
+</h2>
+<p>Lors du rapatriement du cours un élève m’a dit: monsieur je ne sais pas faire un git pull origin car ça génère une erreur !</p>
+<p>En effet, celui-ci a modifié le fichier théorie git.txt pour sans doute corriger des éventuelles erreurs.</p>
+<p>On verra ce que nous pourrons faire au chapitre suivant.</p>
+<h2 id="35-modifications-conflictuelles">
+35. Modifications conflictuelles
+</h2>
+<p>Vous avez un dépôt sur GitHub.</p>
+<p>Vous bossez sur votre dépôt à la maison depuis votre dépôt local A sur votre ordinateur.</p>
+<p>Votre collègue bosse sur son dépôt au boulot depuis son dépôt local B sur l’ordinateur de son employeur.</p>
+<p>A la maison, vous modifiez votre dépôt local A et vous poussez vos modifications sur GitHub.</p>
+<p>Votre collègue modifie son dépôt local B et il va poussez ses modifications sur GitHub.</p>
+<p>Il va rencontrer une erreur:</p>
+<pre><code>hint: Updates were rejected because the remote contains work that you do hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., &#39;git pull ...&#39;) before pushing again.
+hint: See the &#39;Note about fast-forwards&#39; in &#39;git push --help&#39; for details.</code></pre>
+<p>Il faut savoir que git a toujours connaissance du parent de tout commit. Quand vous avez poussez vos modifications du dépôt A sur GitHub, le dépôt B n’a pas le dernier commit de GitHub. Hors, git va constater que le dépôt B n’est pas à jour. git propose de faire un git pull auparavant sur le dépôt B.</p>
+<p>Le pull s’effectue mais git nous signale qu’il va y avoir un ou des conflits et qu’il a “mergé” (fusionné) nos fichiers modifiés locaux avec les distants.</p>
+<pre><code>Auto-merging Theo/git.txt
+CONFLICT (content): Merge conflict in Theo/git.txt
+Automatic merge failed; fix conflicts and then commit the result.</code></pre>
 <p>Deux cas se posent à vous:</p>
 <ul>
 <li>Vous ne voulez pas merger et vous voulez revenir à l’étape avant vos modifications. Faites un git merge –abort et vous reviendrez à l’étape précédente.</li>
-<li>Vous voulez analyser le merge effectué: éditez le/les fichiers en question. On va supposer que vous voulez garder le merge. On doit maintenant manuellement valider les merges(fusions) en éditant le fichier. Dans un merge il y a 5 parties:</li>
+<li>Vous voulez analyser le merge effectué: éditez le/les fichiers en question. On va supposer que vous voulez garder le merge. On doit maintenant manuellement valider les merges(fusions) en éditant le fichier. Dans un merge il y a 5 parties:
+<ul>
 <li>le début (&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD),</li>
 <li>Des modifications locales</li>
 <li>une suite des caractères pour séparer les modifications locales et distantes: =======</li>
 <li>Les modifications distantes.</li>
 <li>la fin (&gt;&gt;&gt;&gt;&gt;&gt;&gt;)</li>
+</ul></li>
 </ul>
 <p>A vous de voir ce qui a lieu de garder dans les modifications. Une fois que c’est fait, vous devez aussi supprimer le &lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD, les ====== et le &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; Vous enregistrez vos modifications. Vous ajoutez dans la zone d’index, vous commitez et vous poussez vos modifications sur GitHub.</p>
 <p>Maintenant notre dépôt distant est à jour. Mais le dépôt B va avoir quelques problèmes car il va vouloir faire un git push qui va ne pas fonctionner car le dépôt A a déjà pushé ses modifs.</p>
