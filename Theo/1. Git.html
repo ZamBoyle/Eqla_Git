@@ -85,24 +85,24 @@ Table des matières
 <h2 id="1-introduction">
 <ol type="1">
 <li>Introduction
-</h2>
-Nous allons illustrer l’utilité de Git dans la pratique de votre métier via deux exemples:</li>
+</h2></li>
 </ol>
+<p>Nous allons illustrer l’utilité de Git dans la pratique de votre métier via deux exemples:</p>
 <ul>
 <li><p>Le premier: Imaginez qu’un client vous demande de faire un site de ventes en ligne : vous le faites et il fonctionne nickel.</p>
 <p>Pendant la période de Noël, il vous demande de faire de grosses modifications et bardaf, il ne fonctionne plus du tout : erreur 500… Le client vous demandera de remettre immédiatement le site à l’état précédent les modifications problématiques pour ne pas perdre trop de ventes en cette période très lucrative pour lui.</p>
 <p>Si vous n’aviez pas un backup de la précédente version ou un système de gestion de l’historique des modifications, vous risquez d’être bien embêté…</p>
 <p>C’est ici qu’entre en scène l’outil git.</p></li>
-<li><p>Le second:vous devez travailler sur un projet à plusieurs mais vous ne savez pas comment faire pour collaborer de manière efficace avec vos collègues pour la gestion du code et voir comment gérer/fusionner le travail fait par chacun. C’est ici qu’entre en scène git via l’intermédiaire d’outils comme GitHub, Gitlab, etc.</p></li>
+<li><p>Le second: vous devez travailler sur un projet à plusieurs mais vous ne savez pas comment faire pour collaborer de manière efficace avec vos collègues pour la gestion du code et voir comment gérer/fusionner le travail fait par chacun. C’est ici qu’entre en scène git via l’intermédiaire d’outils comme <a href="https://github.com/">GitHub</a>, <a href="https://gitlab.com/">Gitlab</a>, etc.</p></li>
 <li><p>Le dernier: ce cours. Je vous l’ai envoyé par email et partagé dans un Google Drive. Cependant, si je modifie ce cours comme je le fais en ce moment, vous n’aurez pas la dernière version. Il faudra que je vous l’envoie à nouveau par email et que je remette ce document sur le Drive. Alors qu’avec l’utilisation de Git et GitHub se problème de dernière version est facilement géré.</p></li>
 </ul>
 <h2 id="2-git-cest-quoi">
 <ol start="2" type="1">
 <li>Git c’est quoi ?
-</h2>
-Git a été créé en 2005 par le papa de Linux (1991) : Linus Torvalds pour le développement du noyau Linux. Il permet de faire le suivi des différentes modifications d’un projet et de revenir dans un état précédent. Et surtout, il permet de travailler à plusieurs sur un même projet.</li>
+</h2></li>
 </ol>
-<p>Auparavant, les développeurs utilisaient Bitkeeper de la société Bitmover qui concédait une licence gratuite d’utilisation au développement du noyau Linux. Mais un développeur du Noyau commença a créé un client opensource pour accéder à Bitkeeper. Ce qui provoqua après de longues négociations la suppression de la licence gratuite aux développeurs du noyau Linux. Réaction que l’on peut comprendre dans l’absolu… C’est pourquoi Linus Torvalds coda Git pour éviter tout futurs problèmes de licence d’utilisation. Ce qui devait sans doute arriver tôt ou tard car car les puristes du logiciel libres dont le grand gourou du logiciel libre Richard Stallman prônait depuis longtemps qu’il n’était pas acceptable que le noyau Linux utilise un logiciel propriétaire pour la gestion de son code source.</p>
+<p>Git a été créé en 2005 par le papa de Linux (1991) : Linus Torvalds pour le développement du noyau Linux. Il permet de faire le suivi des différentes modifications d’un projet et de revenir dans un état précédent. Et surtout, il permet de travailler à plusieurs sur un même projet.</p>
+<p>Auparavant, les développeurs utilisaient Bitkeeper de la société Bitmover qui concédait une licence gratuite d’utilisation au développement du noyau Linux. Mais un développeur du Noyau commença a créé un client opensource pour accéder à Bitkeeper. Ce qui provoqua après de longues négociations la suppression de la licence gratuite aux développeurs du noyau Linux. Réaction que l’on peut comprendre dans l’absolu… C’est pourquoi Linus Torvalds coda Git pour éviter tout futurs problèmes de licence d’utilisation. Ce qui devait sans doute arriver tôt ou tard car les puristes du logiciel libres dont le grand gourou du logiciel libre Richard Stallman prônait depuis longtemps qu’il n’était pas acceptable que le noyau Linux utilise un logiciel propriétaire pour la gestion de son code source.</p>
 <p>Git est le logiciel de versions le plus populaire, utilisé par plus de 56.000.000 de développeurs dans le monde. Il est un incontournable des grandes sociétés de logiciel. Grandement utilisé dans le développement de logiciels OpenSource via la plateforme GitHub qui a été rachetée par Microsoft.</p>
 <h2 id="3-installation-de-git">
 <ol start="3" type="1">
@@ -281,15 +281,17 @@ Il y a deux façons d’utiliser git: par interface graphique ou via la ligne de
 <h2 id="7-repertoire-courant-vs-la-zone-dindexation-vs-depot">
 <ol start="7" type="1">
 <li>Répertoire courant vs la zone d’indexation vs dépôt
-</h2>
-Répertoire de travail = Lieu où sont stockés vos fichiers de travail. Zone d’indexation = La zone d’index est un simple fichier, généralement situé dans le répertoire Git, qui stocke les informations concernant ce qui fera partie du prochain instantané. On l’appelle aussi des fois la zone de préparation. dépôt (repository) = répertoire portant le nom .git. Le répertoire Git est l’endroit où Git stocke les métadonnées et la base de données des objets de votre projet. Vous ne devez jamais aller modifier manuellement ce répertoire.</li>
+</h2></li>
 </ol>
+<p>Répertoire de travail = Lieu où sont stockés vos fichiers de travail.</p>
+<p>Zone d’indexation = La zone d’index est un simple fichier, généralement situé dans le répertoire Git, qui stocke les informations concernant ce qui fera partie du prochain instantané. On l’appelle aussi des fois la zone de préparation.</p>
+<p>Dépôt (repository) = répertoire portant le nom .git. Le répertoire Git est l’endroit où Git stocke les métadonnées et la base de données des objets de votre projet. Vous ne devez jamais aller modifier manuellement ce répertoire.</p>
 <h2 id="8-chronologie-des-actions-avant-que-vos-modifications-fassent-partie-de-votre-depot">
 <ol start="8" type="1">
 <li>Chronologie des actions avant que vos modifications fassent partie de votre dépôt
-</h2>
-L’utilisation standard de Git se passe comme suit : Vous modifiez des fichiers dans votre répertoire de travail. Vous indexez les fichiers modifiés, ce qui ajoute des instantanés (une sorte de photo si vous voulez) de ces fichiers dans la zone d’index. Vous validez ces modifications qui sont en zone d’index, ce qui a pour effet de basculer les instantanés des fichiers de l’index dans la base de données du répertoire Git.</li>
+</h2></li>
 </ol>
+<p>L’utilisation standard de Git se passe comme suit : - Vous modifiez des fichiers dans votre répertoire de travail. - Vous indexez les fichiers modifiés, ce qui ajoute des instantanés (une sorte de photo si vous voulez) de ces fichiers dans la zone d’index. - Vous validez ces modifications qui sont en zone d’index, ce qui a pour effet de basculer les instantanés des fichiers de l’index dans la base de données du répertoire Git.</p>
 <p>Si une version particulière d’un fichier est dans le répertoire Git, il est considéré comme validé.</p>
 <p>S’il est modifié mais a été ajouté dans la zone d’index, il est indexé.</p>
 <p>S’il a été modifié depuis le dernier instantané mais n’a pas été indexé, il est modifié.</p>
