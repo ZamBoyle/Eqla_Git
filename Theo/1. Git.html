@@ -458,7 +458,8 @@ Pour que l’on sache qui a fait une action sur un dépôt, il est de mise de co
 <h2 id="22-presentation-de-la-commande-gh">
 22. Présentation de la commande gh
 </h2>
-<p>gh est un outil en ligne de commandes qui permet de gérer vos dépôts sur GitHub. L’utilisation de cet outil vient du constat qu’un stagiaire m’a dit que le site internet GitHub n’était pas du tout accessible. Si vous tapez gh tout seul dans la console, gh vous affichera son menu d’aide et ses différents paramètres. Il faut voir gh comme un ensemble de commandes différentes que l’on appelle via des paramètres. Les commandes principales sont: gh repo pour la gestion des repos gh gist pour la gestion des gists gh issue pour la gestion des issues (problèmes rencontrés, demande d’amélioration, etc) gh pr pour la gestion des pull requests</p>
+<p>gh est un outil en ligne de commandes qui permet de gérer vos dépôts sur GitHub.</p>
+<p>L’utilisation de cet outil vient du constat qu’un stagiaire m’a dit que le site internet GitHub n’était pas du tout accessible. Si vous tapez gh tout seul dans la console, gh vous affichera son menu d’aide et ses différents paramètres. Il faut voir gh comme un ensemble de commandes différentes que l’on appelle via des paramètres. Les commandes principales sont: gh repo pour la gestion des repos gh gist pour la gestion des gists gh issue pour la gestion des issues (problèmes rencontrés, demande d’amélioration, etc) gh pr pour la gestion des pull requests</p>
 <p>Et gh auth qui permet l’authentification que nous allons voir plus loin.</p>
 <h2 id="23-installation-de-gh">
 23. Installation de gh
@@ -582,8 +583,10 @@ sudo apt install gh</code></pre>
 <h3 id="291-mettre-un-titre-h1">
 29.1 Mettre un titre h1
 </h3>
-<p>On commence la ligne par un # ```markdown # Ceci est un titre 1</p>
-<p>## Ceci est un titre 2 ```</p>
+<p>On commence la ligne par un #</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true"></a><span class="fu"># Ceci est un titre 1</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true"></a></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true"></a><span class="fu">## Ceci est un titre 2</span></span></code></pre></div>
 <h3 id="292-afficher-du-code">
 29.2 Afficher du code
 </h3>
@@ -591,8 +594,8 @@ sudo apt install gh</code></pre>
 <p>Exemple pour du code PHP:</p>
 <p>```php<br> name = input(“Quel est votre nom ?”)<br> firstname = input(“Quel est votre prenom ?”)<br> ```</p>
 <p>Donnera le résultat suivant (voir le résultat sur github et pas via un pdf/html):</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode php"><code class="sourceCode php"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true"></a>name = input<span class="ot">(</span><span class="st">&quot;Quel est votre nom ?&quot;</span><span class="ot">)</span></span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true"></a>firstname = input<span class="ot">(</span><span class="st">&quot;Quel est votre prenom ?&quot;</span><span class="ot">)</span></span></code></pre></div>
+<div class="sourceCode" id="cb7"><pre class="sourceCode php"><code class="sourceCode php"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true"></a>name = input<span class="ot">(</span><span class="st">&quot;Quel est votre nom ?&quot;</span><span class="ot">)</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true"></a>firstname = input<span class="ot">(</span><span class="st">&quot;Quel est votre prenom ?&quot;</span><span class="ot">)</span></span></code></pre></div>
 <p>On a plusieurs languages supportés: c, php, js, html, etc…</p>
 <h3 id="293-mettre-en-gras">
 29.3 Mettre en gras
@@ -615,11 +618,11 @@ sudo apt install gh</code></pre>
 <h3 id="296-les-tableaux">
 29.6 Les tableaux
 </h3>
-<div class="sourceCode" id="cb7"><pre class="sourceCode md"><code class="sourceCode markdown"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true"></a>Colonne 1|Colonne 2|Colonne 3</span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true"></a>---|---|---</span>
-<span id="cb7-3"><a href="#cb7-3" aria-hidden="true"></a>Cellule 1|Cellule 2|Cellule 3</span>
-<span id="cb7-4"><a href="#cb7-4" aria-hidden="true"></a>Cellule 4|Cellule 5|Cellule 6</span>
-<span id="cb7-5"><a href="#cb7-5" aria-hidden="true"></a>Cellule 7|Cellule 8|Cellule 9</span></code></pre></div>
+<div class="sourceCode" id="cb8"><pre class="sourceCode md"><code class="sourceCode markdown"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true"></a>Colonne 1|Colonne 2|Colonne 3</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true"></a>---|---|---</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true"></a>Cellule 1|Cellule 2|Cellule 3</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true"></a>Cellule 4|Cellule 5|Cellule 6</span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true"></a>Cellule 7|Cellule 8|Cellule 9</span></code></pre></div>
 <p>Aura pour résultat:</p>
 <table>
 <thead>

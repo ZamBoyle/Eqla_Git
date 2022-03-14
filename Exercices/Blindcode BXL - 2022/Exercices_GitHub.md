@@ -1,4 +1,5 @@
-#Exercices - GitHub
+# Exercices - GitHub
+ 
 
 ## Partie 1 - Création du dépot myjs sur GitHub
 a. Ouvrez un invite de commandes/terminal.
@@ -104,3 +105,5 @@ d. Quelle commande avez-vous utilisée ?
 e. Ouvrez votre programme ex1.js et constatez qu'il est bien revenu à une version antérieure.
 f. Revenez au tag master.
 g. Quelle commande avez-vous utilisée ?
+
+  
