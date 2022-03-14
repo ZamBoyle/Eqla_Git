@@ -97,7 +97,6 @@ c. clonons notre dépot distant myjs avec git: git clone https://github.com/Votr
 
 
 
-
 a. Affichez l'historique des commits
 b. Quelle commande avez-vous utilisée ?
 c. Revenez au deuxième commit.

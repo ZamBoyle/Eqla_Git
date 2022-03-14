@@ -1,3 +1,4 @@
+"use strict";
 /**
  * 
  * @param {string} str - Chaîne de caractères à afficher
