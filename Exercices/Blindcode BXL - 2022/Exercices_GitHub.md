@@ -2,6 +2,7 @@
  
 
 ## Partie 1 - Création du dépot myjs sur GitHub
+
 a. Ouvrez un invite de commandes/terminal.
 b. Allez dans le répertoire mesdepots
 b. Si vous êtes dans le répertoire cours_git, sortez de ce répertoire.
@@ -9,6 +10,7 @@ c. Créez un nouveau dépot distant ayant pour nom myjs: gh repo create myjs --p
 d. Allez dans le répertoire créé: cd myjs
 
 ## Partie 2 
+
 a. Créez un programme fonctionnel en js qui s'appelle ex1.js et qui demande le nom et le prénom d'une personne.
 Exemple:
 - Quel est ton prenom ? Johnny
@@ -24,6 +26,7 @@ h. Faites un git status (observez ce que donne la sortie de cette commande).
 i. Envoyez vos modifications en ligne: git push -u origin master
 
 ## Partie 3
+
 a. Ajoutez une fonction DisplayName qui affiche le nom de la personne.
 b. Appelez(=Utilisez) votre fonction DisplayName en passant le nom comme paramètre.
 Exemple:
@@ -39,6 +42,7 @@ h. Faites un git status (observez ce que donne la sortie de cette commande).
 i. Envoyez vos modifications en ligne: git push -u origin master
 
 ## Partie 4
+
 a. Ajoutez une fonction DisplayFirstname qui affiche le prénom de la personne.
 b. Appelez(=Utilisez) votre fonction DisplayFirstname en passant le prénom comme paramètre.
 Exemple:
@@ -54,6 +58,7 @@ h. Faites un git status (observez ce que donne la sortie de cette commande).
 i. Envoyez vos modifications en ligne: git push -u origin master
 
 ## Partie 5
+
 a. Ajoutez une fonction DisplayFullName qui affiche le prénom et prénom de la personne.
 b. Appelez(=Utilisez) votre fonction DisplayFullName en passant le nom et le prénom comme paramètres.
 Exemple:
@@ -69,6 +74,7 @@ h. Faites un git status (observez ce que donne la sortie de cette commande).
 i. Envoyez vos modifications en ligne: git push -u origin master
 
 ## Partie 6 - git clone et git pull
+
 Je vais vous attribuer le dépot d'une personne que vous allez cloner.
 1. Retournez dans le répertoire mesdepots.
 2. Si vous êtes dans le répertoire myjs, faites un cd .. pour revenir à mesdepots
@@ -90,6 +96,7 @@ LES UTILISATEURS DE DEPOTS CLONES:
 9. Vous vérifierez les modifications quand le gestionnaire du dépot vous indiquera dès que vous pouvez le faire.
 
 ## Partie 7
+
 Ici, nous allons cloner notre dépot myjs en myjsClone.
 a. Remonter d'un répertoire cd ..
 b. Vous devriez être dans le répertoire mesdepots. Pour le vérifier: cd (Sous windows) ou bien pwd sous Linux/Mac
