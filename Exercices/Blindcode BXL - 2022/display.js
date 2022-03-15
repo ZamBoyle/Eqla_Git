@@ -1,6 +1,6 @@
 "use strict";
 /**
- * Affiche une chaîne de caractères dans une page
+ * Affiche une chaîne de caractères dans la page web
  * @param {string} str - Chaîne de caractères à afficher
  * @param {string} id - id de l'element où str sera affiché. Par défaut, c'est "display". Si l'id n'existe pas, l'element sera créé.
  * @param {boolean} append - indique si str doit être ajouté à l'innerHTML existant. Par défaut, oui.
