@@ -3,57 +3,58 @@
 ## Partie 1 - Ouvrir un invite de commandes
 
 Pour ouvrir un invite de commandes sous Windows effectuez les actions suivantes:
-a. Effectuez combinaison des touches Windows + R
-b. Ecrivez cmd
-c. Validez avec la touche ENTER
+
+1. Effectuez combinaison des touches Windows + R
+2. Ecrivez cmd
+3. Validez avec la touche ENTER
 
 ## Partie 2 - Affichez le répertoire en cours
 
-a. Ouvrez un invite de commandes.
-b. Tapez une commande qui vous permettra d'afficher le répertoire courant.
+1. Ouvrez un invite de commandes.<br/>
+2. Tapez une commande qui vous permettra d'afficher le répertoire courant.
 
 ## Partie 3 - Affichez les fichiers / répertoires
 
-a. Ouvrez un invite de commandes.
-b. Affichez les fichiers/répertoires présents dans le répertoire courant.
+1. Ouvrez un invite de commandes.
+2. Affichez les fichiers/répertoires présents dans le répertoire courant.
 
 ## Partie 4 - Créer un répertoire
 
-a. Ouvrez un invite de commandes.
-b. Créez le répertoire MesDépôts
-c. Créez le répertoire tmp
-d. Créez le répertoire Programmation
+1. Ouvrez un invite de commandes.
+2. Créez le répertoire MesDépôts
+3. Créez le répertoire tmp
+4. Créez le répertoire Programmation
 
 ## Partie 5 - Changer de répertoire
 
-a. Ouvrez un invite de commandes.
-b. Allez dans le répertoire MesDépôts
-c. Revenez dans le répertoire parent. (On dit aussi remonter d'un répertoire)
-d. Allez dans le répertoire tmp
-e. Revenez dans le répertoire parent.
-f. Allez dans le répertoire Programmation
-g. Revenez dans le répertoire parent.
+1. Ouvrez un invite de commandes.
+2. Allez dans le répertoire MesDépôts
+3. Revenez dans le répertoire parent. (On dit aussi remonter d'un répertoire)
+4. Allez dans le répertoire tmp
+5. Revenez dans le répertoire parent.
+6. Allez dans le répertoire Programmation
+7. Revenez dans le répertoire parent.
 
 ## Partie 6 - Supprimer un répertoire
 
-a. Ouvrez un invite de commandes.
-b. Supprimez le répertoire Programmation
+1. Ouvrez un invite de commandes.
+2. Supprimez le répertoire Programmation
 
 ## Partie 7 - Supprimer un fichier
 
-a. Ouvrez un explorateur de fichiers.
-b. Copiez un fichier de votre choix dans le répertoire tmp que vous avez créé précédemment 
-c. Ouvrez un invite de commandes.
-d. Allez dans le répertoire tmp
-e. Affichez les fichiers présents dans le répertoire.
-f. Si votre fichier n'est pas là, recommencez à l'étape a.
-g. Supprimez via une commande le fichier que vous avez copié dans le répertoire tpm
+1. Ouvrez un explorateur de fichiers.
+2. Copiez un fichier de votre choix dans le répertoire tmp que vous avez créé précédemment 
+3. Ouvrez un invite de commandes.
+4. Allez dans le répertoire tmp
+5. Affichez les fichiers présents dans le répertoire.
+6. Si votre fichier n'est pas là, recommencez au point 1.
+7. Supprimez via une commande le fichier que vous avez copié dans le répertoire tpm
 
 ## Partie 8 - Renommer un fichier
-a. Ouvrez un explorateur de fichiers.
-b. Copiez un fichier de votre choix dans le répertoire tmp que vous avez créé précédemment 
-c. Ouvrez un invite de commandes.
-d. Allez dans le répertoire tmp
-e. Affichez les fichiers présents dans le répertoire.
-f. Si votre fichier n'est pas là, recommencez à l'étape a.
-g. Renommez le fichier copié en toto.txt
+1. Ouvrez un explorateur de fichiers.
+2. Copiez un fichier de votre choix dans le répertoire tmp que vous avez créé précédemment 
+3. Ouvrez un invite de commandes.
+4. Allez dans le répertoire tmp
+5. Affichez les fichiers présents dans le répertoire.
+6. Si votre fichier n'est pas là, recommencez au point 1.
+7. Renommez le fichier copié en toto.txt
