@@ -10,11 +10,9 @@
 
 ## Partie 2 
 
-a. Créez un programme fonctionnel en js qui s'appelle ex1.js et qui demande le nom et le prénom d'une personne.
-Exemple:
-- Quel est ton prenom ? Johnny
-- Quel est ton nom ? Piette
-
+a. Créez un programme fonctionnel en js qui s'appelle ex1.js et qui demande le nom et le prénom d'une personne. Exemple:
+    - Quel est ton prenom ? Johnny
+    - Quel est ton nom ? Piette
 b. Faites un git status (observez ce que donne la sortie de cette commande).
 c. Faites un git diff ex1.js (Observez bien les ajouts et modifications de votre programme).
 d. Ajoutez ce fichier à la zone d'index: git add ex1.js
