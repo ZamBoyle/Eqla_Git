@@ -42,35 +42,37 @@
 
 ## Partie 4
 
-a. Ajoutez une fonction DisplayFirstname qui affiche le prénom de la personne.
-b. Appelez(=Utilisez) votre fonction DisplayFirstname en passant le prénom comme paramètre.
-Exemple:
-- Quel est votre prenom ? Johnny
-- Quel est votre nom ? Piette
-Votre prénom est Johnny.
-c. Faites un git status (observez ce que donne la sortie de cette commande).
-d. Faites un git diff ex1.js (Observez bien les ajouts et modifications de votre programme).
-e. Ajoutez ce fichier à la zone d'index.
-f. Commitez vos changements avec le message suivant: "Ajout de la fonction DisplayFirstname".
-g. Donnez un tag à ce commit. (v3)
-h. Faites un git status (observez ce que donne la sortie de cette commande).
-i. Envoyez vos modifications en ligne: git push -u origin master
+1. Ajoutez une fonction DisplayFirstname qui affiche le prénom de la personne.
+2. Appelez(=Utilisez) votre fonction DisplayFirstname en passant le prénom comme paramètre.
+    Exemple:
+    - Quel est votre prenom ? Johnny
+    - Quel est votre nom ? Piette
+
+    Votre prénom est Johnny.
+3. Faites un git status (observez ce que donne la sortie de cette commande).
+4. Faites un git diff ex1.js (Observez bien les ajouts et modifications de votre programme).
+5. Ajoutez ce fichier à la zone d'index.
+6. Commitez vos changements avec le message suivant: "Ajout de la fonction DisplayFirstname".
+7. Donnez un tag à ce commit. (v3)
+8. Faites un git status (observez ce que donne la sortie de cette commande).
+9. Envoyez vos modifications en ligne: git push -u origin master
 
 ## Partie 5
 
-a. Ajoutez une fonction DisplayFullName qui affiche le prénom et prénom de la personne.
-b. Appelez(=Utilisez) votre fonction DisplayFullName en passant le nom et le prénom comme paramètres.
-Exemple:
-- Quel est votre prenom ? Johnny
-- Quel est votre nom ? Piette
-Vous vous appelez Johnny Piette. (Si vous êtes motivé et en avance, si c'est votre nom et prénom qui sont entrés, affichez:"Bonjour Masjesté !" dans le cas contraire affichez la phrase par défaut).
-c. Faites un git status (observez ce que donne la sortie de cette commande).
-d. Faites un git diff ex1.js (Observez bien les ajouts et modification de votre programme).
-e. Ajoutez ce fichier à la zone d'index.
-f. Commitez vos changements avec le message suivant: "Ajout de la fonction GetFullName".
-g. Donnez un tag à ce commit. (v4)
-h. Faites un git status (observez ce que donne la sortie de cette commande).
-i. Envoyez vos modifications en ligne: git push -u origin master
+1. Ajoutez une fonction DisplayFullName qui affiche le prénom et prénom de la personne.
+2. Appelez(=Utilisez) votre fonction DisplayFullName en passant le nom et le prénom comme paramètres.
+    Exemple:
+    - Quel est votre prenom ? Johnny
+    - Quel est votre nom ? Piette
+
+    Vous vous appelez Johnny Piette. (Si vous êtes motivé et en avance, si c'est votre nom et prénom qui sont entrés, affichez:"Bonjour Masjesté !" dans le cas contraire affichez la phrase par défaut).
+3. Faites un git status (observez ce que donne la sortie de cette commande).
+4. Faites un git diff ex1.js (Observez bien les ajouts et modification de votre programme).
+5. Ajoutez ce fichier à la zone d'index.
+6. Commitez vos changements avec le message suivant: "Ajout de la fonction GetFullName".
+7. Donnez un tag à ce commit. (v4)
+8. Faites un git status (observez ce que donne la sortie de cette commande).
+9. Envoyez vos modifications en ligne: git push -u origin master
 
 ## Partie 6 - git clone et git pull
 
@@ -97,18 +99,18 @@ LES UTILISATEURS DE DEPOTS CLONES:
 ## Partie 7
 
 Ici, nous allons cloner notre dépot myjs en myjsClone.
-a. Remonter d'un répertoire cd ..
-b. Vous devriez être dans le répertoire mesdepots. Pour le vérifier: cd (Sous windows) ou bien pwd sous Linux/Mac
-c. clonons notre dépot distant myjs avec git: git clone https://github.com/VotreNomDutilisateur/myjs.git myjsClone
+1. Remonter d'un répertoire cd ..
+2. Vous devriez être dans le répertoire mesdepots. Pour le vérifier: cd (Sous windows) ou bien pwd sous Linux/Mac
+3. clonons notre dépot distant myjs avec git: git clone https://github.com/VotreNomDutilisateur/myjs.git myjsClone
 
 
-
-a. Affichez l'historique des commits
-b. Quelle commande avez-vous utilisée ?
-c. Revenez au deuxième commit.
-d. Quelle commande avez-vous utilisée ?
-e. Ouvrez votre programme ex1.js et constatez qu'il est bien revenu à une version antérieure.
-f. Revenez au tag master.
-g. Quelle commande avez-vous utilisée ?
+## Partie 8
+1. Affichez l'historique des commits
+2. Quelle commande avez-vous utilisée ?
+3. Revenez au deuxième commit.
+4. Quelle commande avez-vous utilisée ?
+5. Ouvrez votre programme ex1.js et constatez qu'il est bien revenu à une version antérieure.
+6. Revenez au tag master.
+7. Quelle commande avez-vous utilisée ?
 
   
