@@ -77,6 +77,7 @@
 ## Partie 6 - git clone et git pull
 
 Je vais vous attribuer le dépot d'une personne que vous allez cloner.
+
 1. Retournez dans le répertoire mesdepots.
 2. Si vous êtes dans le répertoire myjs, faites un cd .. pour revenir à mesdepots
 3. Vous allez cloner le dépot qui vous sera assigné:
@@ -89,17 +90,21 @@ Je vais vous attribuer le dépot d'une personne que vous allez cloner.
     Maxime prendra le dépot d'Eleonor   : git clone https://github.com/ele-sana/myjs.git myjsEleonor
 
 LES RESPONSABLES DE DEPOTS:
+
 4. Chaque responsable de son dépot adressera ses salutations via le fichier Hello.txt et saluera la personne qui a cloné son dépot après qu'elle est cloné votre dépot.
 5. Vous ajouterez votre fichier Hello.txt dans la zone d'index.
 6. Vous commiterez vos modifications.
 7. vous enverrez celles-ci sur github.
 8. Vous prévenez la personne qu'elle peut récupérer les modifications que vous venez de faire.
+
 LES UTILISATEURS DE DEPOTS CLONES:
+
 9. Vous vérifierez les modifications quand le gestionnaire du dépot vous indiquera dès que vous pouvez le faire.
 
 ## Partie 7
 
 Ici, nous allons cloner notre dépot myjs en myjsClone.
+
 1. Remonter d'un répertoire cd ..
 2. Vous devriez être dans le répertoire mesdepots. Pour le vérifier: cd (Sous windows) ou bien pwd sous Linux/Mac
 3. clonons notre dépot distant myjs avec git: git clone https://github.com/VotreNomDutilisateur/myjs.git myjsClone
