@@ -10,34 +10,35 @@
 
 ## Partie 2 
 
-a. Créez un programme fonctionnel en js qui s'appelle ex1.js et qui demande le nom et le prénom d'une personne. Exemple:
+1. Créez un programme fonctionnel en js qui s'appelle ex1.js et qui demande le nom et le prénom d'une personne. Exemple:
     - Quel est ton prenom ? Johnny
     - Quel est ton nom ? Piette
-    
-b. Faites un git status (observez ce que donne la sortie de cette commande).
-c. Faites un git diff ex1.js (Observez bien les ajouts et modifications de votre programme).
-d. Ajoutez ce fichier à la zone d'index: git add ex1.js
-e. Commitez vos changements avec le message suivant "Initial Commit": git commit -m "Initial Commit"
-f. Faites un git status (observez ce que donne la sortie de cette commande).
-g. Donnez un tag à ce commit. (v1)
-h. Faites un git status (observez ce que donne la sortie de cette commande).
-i. Envoyez vos modifications en ligne: git push -u origin master
+
+2. Faites un git status (observez ce que donne la sortie de cette commande).
+3. Faites un git diff ex1.js (Observez bien les ajouts et modifications de votre programme).
+4. Ajoutez ce fichier à la zone d'index: git add ex1.js
+5. Commitez vos changements avec le message suivant "Initial Commit": git commit -m "Initial Commit"
+6. Faites un git status (observez ce que donne la sortie de cette commande).
+7. Donnez un tag à ce commit. (v1)
+8. Faites un git status (observez ce que donne la sortie de cette commande).
+9. Envoyez vos modifications en ligne: git push -u origin master
 
 ## Partie 3
 
-a. Ajoutez une fonction DisplayName qui affiche le nom de la personne.
-b. Appelez(=Utilisez) votre fonction DisplayName en passant le nom comme paramètre.
-Exemple:
-- Quel est votre prenom ? Johnny
-- Quel est votre nom ? Piette
-Votre nom est Piette.
-c. Faites un git status (observez ce que donne la sortie de cette commande).
-d. Faites un git diff ex1.js (Observez bien les ajouts et modifications de votre programme).
-e. Ajoutez ce fichier à la zone d'index.
-f. Commitez vos changements avec le message suivant: "Ajout de la fonction DisplayName"
-g. Donnez un tag à ce commit. (v2)
-h. Faites un git status (observez ce que donne la sortie de cette commande).
-i. Envoyez vos modifications en ligne: git push -u origin master
+1. Ajoutez une fonction DisplayName qui affiche le nom de la personne.
+2. Appelez(=Utilisez) votre fonction DisplayName en passant le nom comme paramètre.
+    Exemple:
+    - Quel est votre prenom ? Johnny
+    - Quel est votre nom ? Piette
+    
+    Votre nom est Piette.
+3. Faites un git status (observez ce que donne la sortie de cette commande).
+4. Faites un git diff ex1.js (Observez bien les ajouts et modifications de votre programme).
+5. Ajoutez ce fichier à la zone d'index.
+6. Commitez vos changements avec le message suivant: "Ajout de la fonction DisplayName"
+7. Donnez un tag à ce commit. (v2)
+8. Faites un git status (observez ce que donne la sortie de cette commande).
+9. Envoyez vos modifications en ligne: git push -u origin master
 
 ## Partie 4
 
