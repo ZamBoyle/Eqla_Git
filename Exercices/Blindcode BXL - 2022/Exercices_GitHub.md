@@ -80,13 +80,14 @@ Je vais vous attribuer le dépot d'une personne que vous allez cloner.
 1. Retournez dans le répertoire mesdepots.
 2. Si vous êtes dans le répertoire myjs, faites un cd .. pour revenir à mesdepots
 3. Vous allez cloner le dépot qui vous sera assigné:
-Jessie prendra le dépot d'Alain     : git clone https://github.com/alduf1972/myjs.git myjsAlain
-Alain prendra le dépot de Bruno     : git clone https://github.com/BrunoDefalque/myjs.git myjsBruno
-Mahsum prendra le dépot d'Isaac     : git clone https://github.com/zackakyo/myjs.git myjsIsaac
-Isaac prendra le dépot de Mahsum    : git clone https://github.com/Mahsum21/myjs.git myjsMahsum
-Eleonor prendra le dépot de Jessie  : git clone https://github.com/jessiebak/myjs.git myjsJessie
-Bruno prendra le dépot de Maxime    : git clone https://github.com/maximeborsen/myjs.git myjsMaxime
-Maxime prendra le dépot d'Eleonor   : git clone https://github.com/ele-sana/myjs.git myjsEleonor
+    Jessie prendra le dépot d'Alain     : git clone https://github.com/alduf1972/myjs.git myjsAlain
+    Alain prendra le dépot de Bruno     : git clone https://github.com/BrunoDefalque/myjs.git myjsBruno
+    Mahsum prendra le dépot d'Isaac     : git clone https://github.com/zackakyo/myjs.git myjsIsaac
+    Isaac prendra le dépot de Mahsum    : git clone https://github.com/Mahsum21/myjs.git myjsMahsum
+    Eleonor prendra le dépot de Jessie  : git clone https://github.com/jessiebak/myjs.git myjsJessie
+    Bruno prendra le dépot de Maxime    : git clone https://github.com/maximeborsen/myjs.git myjsMaxime
+    Maxime prendra le dépot d'Eleonor   : git clone https://github.com/ele-sana/myjs.git myjsEleonor
+
 LES RESPONSABLES DE DEPOTS:
 4. Chaque responsable de son dépot adressera ses salutations via le fichier Hello.txt et saluera la personne qui a cloné son dépot après qu'elle est cloné votre dépot.
 5. Vous ajouterez votre fichier Hello.txt dans la zone d'index.
@@ -105,6 +106,7 @@ Ici, nous allons cloner notre dépot myjs en myjsClone.
 
 
 ## Partie 8
+
 1. Affichez l'historique des commits
 2. Quelle commande avez-vous utilisée ?
 3. Revenez au deuxième commit.
