@@ -81,12 +81,19 @@ Je vais vous attribuer le dépot d'une personne que vous allez cloner.
 1. Retournez dans le répertoire mesdepots.
 2. Si vous êtes dans le répertoire myjs, faites un cd .. pour revenir à mesdepots
 3. Vous allez cloner le dépot qui vous sera assigné:
+
     Jessie prendra le dépot d'Alain     : git clone https://github.com/alduf1972/myjs.git myjsAlain
+
     Alain prendra le dépot de Bruno     : git clone https://github.com/BrunoDefalque/myjs.git myjsBruno
+
     Mahsum prendra le dépot d'Isaac     : git clone https://github.com/zackakyo/myjs.git myjsIsaac
+
     Isaac prendra le dépot de Mahsum    : git clone https://github.com/Mahsum21/myjs.git myjsMahsum
+
     Eleonor prendra le dépot de Jessie  : git clone https://github.com/jessiebak/myjs.git myjsJessie
+
     Bruno prendra le dépot de Maxime    : git clone https://github.com/maximeborsen/myjs.git myjsMaxime
+    
     Maxime prendra le dépot d'Eleonor   : git clone https://github.com/ele-sana/myjs.git myjsEleonor
 
 LES RESPONSABLES DE DEPOTS:
