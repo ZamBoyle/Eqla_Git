@@ -2,7 +2,7 @@ Dépôts de chaque stagiaire:
 
 BLINDCODE
 Abdu                    : https://github.com/
-Karim                   : https://github.com/
+Karim                   : https://github.com/KarimUchiwa
 Akim                    : https://github.com/
 Sophio                  : https://github.com/
 Muriel                  : https://github.com/

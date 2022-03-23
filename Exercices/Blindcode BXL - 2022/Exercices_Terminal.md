@@ -60,4 +60,4 @@ Pour ouvrir un invite de commandes sous Windows effectuez les actions suivantes:
 7. Renommez le fichier copié en toto.txt
 
 ***
-_[Eqla](http://www.eqla.be) 2022 - Formation Git_ :-) :p ?? :p :) :p
+_[Eqla](http://www.eqla.be) 2022 - Formation Git_
