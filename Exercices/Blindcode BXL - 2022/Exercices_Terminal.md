@@ -1,4 +1,4 @@
-# Exercices sur la ligne de commandes
+<h1 class="text-center"> Exercices sur la ligne de commandes</h1>
 
 ## Partie 1 - Ouvrir un invite de commandes
 
@@ -58,6 +58,7 @@ Pour ouvrir un invite de commandes sous Windows effectuez les actions suivantes:
 5. Affichez les fichiers présents dans le répertoire.
 6. Si votre fichier n'est pas là, recommencez au point 1.
 7. Renommez le fichier copié en toto.txt
+
 
 ***
 _[Eqla](http://www.eqla.be) 2022 - Formation Git_

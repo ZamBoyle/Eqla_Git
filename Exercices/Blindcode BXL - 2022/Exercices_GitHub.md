@@ -1,4 +1,4 @@
-# Exercices - GitHub
+<h1 class="text-center">Exercices - GitHub</h1>
 
 ## Partie 1 - Création du dépot myjs sur GitHub
 
@@ -127,4 +127,5 @@ Ici, nous allons cloner notre dépot myjs en myjsClone.
 6. Revenez au tag master.
 7. Quelle commande avez-vous utilisée ?
 
-  
+***
+_[Eqla](http://www.eqla.be) 2022 - Formation Git_
