@@ -10,7 +10,7 @@ Ne faites pas toutes les commandes sans les noter ainsi que leur résultat sinon
 ### 1.1 - Création d'un dépôt
 1. Créez un répertoire nommé premierDepot
 2. Faites-en un dépôt.
-3. Faites un git status pour vérifier que le répertoire est bien devenu un dépôt.
+3. Quelle commande utiliser pour vérifier que le répertoire est bien devenu un dépôt ?
 
 ### 1.2 - Modification (Ajouter de fichiers)
 
@@ -26,7 +26,7 @@ Pour éviter des alertes de sécurité de Chrome, j'ai nommé les fichiers avec 
 
 1. Indexez le fichier index.txt avec git.
 2. Indexez les autres fichiers avec une seule commande git.
-3. Vérifiez avec la bonne commande git si les 2 indexations se sont bien passées.
+3. Vérifiez avec la bonne commande git si les 2 indexations se sont bien passées. (Comment le voyez-vous ?)
 
 ### 1.4 - Validation/Commit
 
@@ -34,7 +34,7 @@ Validez les fichiers présents dans la zone d'index avec le message suivant:"Com
 
 ### 1.5 - Modifications (Renommer des fichiers)
 
-Ici la modification va porter sur le fait que l'on va renommer nos fichiers.
+Ici les modifications vont porter sur le fait que l'on va renommer nos fichiers.
 
 Pour rappel, voilà comment renommer un fichier en ligne de commandes:
 
@@ -46,7 +46,7 @@ Renommez les fichiers de la manière suivante:
 1. index.txt devient index.html
 2. genius.txt devient index.js
 3. display.txt devient display.js
-4. Evidemment vérifiez avec dir (windows) ou ls (mac/linux) s'ils sont bien renommés.
+4. Évidemment vérifiez avec dir (windows) ou ls (mac/linux) s'ils sont bien renommés.
 
 ### 1.6 - Indexation
 
@@ -57,7 +57,7 @@ Renommez les fichiers de la manière suivante:
 ### 1.7 - Validation/Commit
 
 1. Faites un git status
-2. Validez/Commitez vos fichiez en ajoutant comme message "Commit initial"
+2. Validez/Commitez vos fichiers en ajoutant comme message "Renommage d'index, genius et display"
 3. Faits un git status (vous voyez ce qui a changé depuis le point 1 ? Quoi ?)
 
 ## 1.8 - Affichage de l'historique des commits
