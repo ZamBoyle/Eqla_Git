@@ -17,7 +17,7 @@ Ne faites pas toutes les commandes sans les noter ainsi que leur résultat sinon
 Pour éviter des alertes de sécurité de Chrome, j'ai nommé les fichiers avec l'extension .txt. Nous les renommerons plus tard avec la bonne extension.
 
 1. Dans le répertoire que vous venez de créer, copiez les 3 fichiers suivants:
-- [index.txt](http://zamboyle.github.io/Cours/2022/Git/Files/index.txt)
+- <a href="http://zamboyle.github.io/Cours/2022/Git/Files/index.txt" download>index.txt</a>
 - [genius.txt](http://zamboyle.github.io/Cours/2022/Git/Files/genius.txt)
 - [display.txt](http://zamboyle.github.io/Cours/2022/Git/Files/display.txt)
 2. Faites un git status. (Que vous dit/signale git ?)
