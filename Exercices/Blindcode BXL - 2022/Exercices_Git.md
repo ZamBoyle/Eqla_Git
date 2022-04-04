@@ -30,7 +30,9 @@ Pour éviter des alertes de sécurité de Chrome, j'ai nommé les fichiers avec 
 
 ### 1.4 - Validation/Commit
 
-Validez les fichiers présents dans la zone d'index avec le message suivant:"Commit initial" (C'est souvent le premier message que l'on donne pour le tout premier commit)
+1. Validez les fichiers présents dans la zone d'index avec le message suivant:"Commit initial" (C'est souvent le premier message que l'on donne pour le tout premier commit)
+2. Faites un git status (vous voyez ce qui a changé depuis le point 1 ? Quoi ?)
+3. Tapez la commande git tag v1
 
 ### 1.5 - Modifications (Renommer des fichiers)
 
@@ -38,8 +40,8 @@ Ici les modifications vont porter sur le fait que l'on va renommer nos fichiers.
 
 Pour rappel, voilà comment renommer un fichier en ligne de commandes:
 
-A. Windows: ren fichier1 fichier2 (va renommer le fichier1 avec le nom fichier2)
-B. Mac Os/Linux: mv fichier1 fichier2 (va renommer le fichier1 avec le nom fichier2)
+1. Windows: ren fichier1 fichier2 (va renommer le fichier1 avec le nom fichier2)
+2. Mac Os/Linux: mv fichier1 fichier2 (va renommer le fichier1 avec le nom fichier2)
 
 Renommez les fichiers de la manière suivante:
 
@@ -58,7 +60,8 @@ Renommez les fichiers de la manière suivante:
 
 1. Faites un git status
 2. Validez/Commitez vos fichiers en ajoutant comme message "Renommage d'index, genius et display"
-3. Faits un git status (vous voyez ce qui a changé depuis le point 1 ? Quoi ?)
+3. Faites un git status (vous voyez ce qui a changé depuis le point 1 ? Quoi ?)
+4. Tapez la commande git tag v2
 
 ## 1.8 - Affichage de l'historique des commits
 
@@ -96,6 +99,7 @@ Vous devrez ajouter une fonction qui multiplie deux nombres dans genius.js et l'
 1. Faites un git status
 2. Validez/Commitez vos fichiez en ajoutant comme message "Ajout de la fonction multiply et adaptation du fichier genius.html"
 3. Faites un git status (vous voyez ce qui a changé depuis le point 1 ? Quoi ?)
+4. Tapez la commande git tag v3
 
 ***
 _[Eqla](http://www.eqla.be) 2022 - Formation Git_
