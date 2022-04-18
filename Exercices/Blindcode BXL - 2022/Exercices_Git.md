@@ -2,7 +2,7 @@
 
 Pour ces exercices, en plus de taper dans le terminal vos commandes, veuillez me rendre le répertoire de votre dépôté zipé.
 
-Le nom du fichier zip aura la structure suivante prenom_ex1.zip. Par exemples: johnny_ex1.zip ou encore bruno_ex1.zip
+Le nom du fichier zip aura la structure suivante **prenom_ex1.zip**. Par exemples: **johnny_ex1.zip** ou encore **bruno_ex1.zip**.
 
 Vous me l'enverrez sur mon adresse email.
 
