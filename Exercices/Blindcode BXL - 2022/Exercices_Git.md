@@ -34,7 +34,13 @@ Pour éviter des alertes de sécurité de Chrome, j'ai nommé les fichiers avec 
 2. Faites un git status (vous voyez ce qui a changé depuis le point 1 ? Quoi ?)
 3. Tapez la commande git tag v1 (Je vous expliquerai plus tard dans le cours l'utilité de git tag. Donc, comme un robot, exécutez les "ordres" et tapez git tag v1 :-) )
 
-### 1.5 - Modifications (Renommer des fichiers)
+## 1.5 - Affichage de l'historique des commits
+
+Affichez l'historique des commits à l'aide de la commande: git log
+Vous verrez l'ensemble des commits effectués avec la date, l'heure, l'auteur et le message de commit.
+Le nouveau commit que vous venez de faire doit y figurer.
+
+### 1.6 - Modifications (Renommer des fichiers)
 
 Ici les modifications vont porter sur le fait que l'on va renommer nos fichiers.
 
@@ -50,24 +56,25 @@ Renommez les fichiers de la manière suivante:
 3. display.txt devient display.js
 4. Évidemment vérifiez avec dir (windows) ou ls (mac/linux) s'ils sont bien renommés.
 
-### 1.6 - Indexation
+### 1.7 - Indexation
 
 1. Faites un git status
 2. Indexez les fichiers modifiés.
 3. Refaites un git status (vous voyez ce qui a changé depuis le point 1 ? Quoi ?)
 
-### 1.7 - Validation/Commit
+### 1.8 - Validation/Commit
 
 1. Faites un git status
 2. Validez/Commitez vos fichiers en ajoutant comme message "Renommage d'index, genius et display"
 3. Faites un git status (vous voyez ce qui a changé depuis le point 1 ? Quoi ?)
 4. Tapez la commande git tag v2
 
-## 1.8 - Affichage de l'historique des commits
+## 1.9 - Affichage de l'historique des commits
 
 Affichez l'historique des commits à l'aide de la commande: git log
+Vous verrez l'ensemble des commits effectués avec la date, l'heure, l'auteur et le message de commit.
 
-### 1.9 - Modification (de code)
+### 1.10 - Modification (de code)
 
 <u>Explication des différents fichiers</u>:
 
@@ -88,24 +95,26 @@ Vous devrez ajouter une fonction qui multiplie deux nombres dans genius.js et l'
 7. Si votre programme fonctionne allez au point suivant sinon cherchez votre erreur.
 6. Faites un git status (vous voyez ce qui a changé depuis le point 1 ? Quoi ?)
 
-### 1.10 - Indexation
+### 1.11 - Indexation
 
 1. Faites un git status
 2. Indexez les fichiers modifiés.
 3. Refaites un git status (vous voyez ce qui a changé depuis le point 1 ? Quoi ?)
 
-### 1.11 - Validation
+### 1.12 - Validation
 
 1. Faites un git status
 2. Validez/Commitez vos fichiez en ajoutant comme message "Ajout de la fonction multiply et adaptation du fichier genius.html"
 3. Faites un git status (vous voyez ce qui a changé depuis le point 1 ? Quoi ?)
 4. Tapez la commande git tag v3
 
-## 1.12 - Affichage de l'historique des commits
+## 1.13 - Affichage de l'historique des commits
 
 Affichez l'historique des commits à l'aide de la commande: git log
+Vous verrez l'ensemble des commits effectués avec la date, l'heure, l'auteur et le message de commit.
+Le nouveau commit que vous venez de faire doit y figurer.
 
-### 1.13 - Modification (de code)
+### 1.14 - Modification (de code)
 
 Vous devrez ajouter une fonction qui divise deux nombres dans genius.js et l'utiliser dans genius.html. Le code devra être fonctionnel. C'est à dire qu'à l'affichage dans genius.html, votre fonction calcule bien la division de deux nombres et affiche à l'écran le résultat. Donc genius.html permettra de vérifier à l'affichage de la page web si votre code est bon.
 
@@ -118,19 +127,24 @@ Vous devrez ajouter une fonction qui divise deux nombres dans genius.js et l'uti
 7. Si votre programme fonctionne allez au point suivant sinon cherchez votre erreur.
 6. Faites un git status (vous voyez ce qui a changé depuis le point 1 ? Quoi ?)
 
-### 1.14 - Indexation
+### 1.15 - Indexation
 
 1. Faites un git status
 2. Indexez les fichiers modifiés.
 3. Refaites un git status (vous voyez ce qui a changé depuis le point 1 ? Quoi ?)
 
-### 1.15 - Validation
+### 1.16 - Validation
 
 1. Faites un git status
 2. Validez/Commitez vos fichiez en ajoutant comme message "Ajout de la fonction divide et adaptation du fichier genius.html"
 3. Faites un git status (vous voyez ce qui a changé depuis le point 1 ? Quoi ?)
 4. Tapez la commande git tag v4
 
+## 1.17 - Affichage de l'historique des commits
+
+Affichez l'historique des commits à l'aide de la commande: git log
+Vous verrez l'ensemble des commits effectués avec la date, l'heure, l'auteur et le message de commit.
+Le nouveau commit que vous venez de faire doit y figurer.
 
 
 ***
