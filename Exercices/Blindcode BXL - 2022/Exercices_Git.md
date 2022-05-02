@@ -251,8 +251,5 @@ Mais, comme tout chef, il faut être organisé avec vos recettes. C'est pourquoi
 3. Faites un git status (vous voyez ce qui a changé depuis le point 1 ? Quoi ?)
 4. Tapez la commande git tag v4
 
-
-
-
 ***
 _[Eqla](http://www.eqla.be) 2022 - Formation Git_
