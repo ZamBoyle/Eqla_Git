@@ -187,9 +187,10 @@ Le nouveau commit que vous venez de faire doit y figurer.
 
 Vous vous sentez l'âme d'un grand cuistot. Et vous avez trouvé que votre recette est meilleure avec du gruyère.
 
-1. Vous allez modifier le fichier de votre recette et ajouter la ligne suivante:30g de gruyère râpé
+1. Ouvrez le fichier omelette.txt
+2. Ajoutez la ligne suivante: 30g de gruyère râpé
+3. Ajoutez la ligne suivante: une pincée d'origan.
 2. Vous sauvegardez votre recette modifiée.
-
 
 ### 2.5 - Indexation
 
@@ -200,9 +201,52 @@ Vous vous sentez l'âme d'un grand cuistot. Et vous avez trouvé que votre recet
 ### 2.6 - Validation
 
 1. Faites un git status
-2. Validez/Commitez votre fichiers en ajoutant comme message "Ajout du gruyère dans la recette de l'omelette"
+2. Validez/Commitez votre fichiers en ajoutant comme message "Ajout du gruyère et l'origan dans la recette de l'omelette"
 3. Faites un git status (vous voyez ce qui a changé depuis le point 1 ? Quoi ?)
 4. Tapez la commande git tag v2
+
+### 2.7 - Modification 
+
+Votre grand-mère est de passage chez vous et goûte votre super omelette. Vous la voyez faire la grimace et vous dire:"Ne me dis pas que tu fais tes omelettes sans mettre un petit peu de lait dedans ? Tu ne savais pas que c'était meilleur ?!"
+
+1. Ouvrez le fichier omelette.txt
+2. Ajoutez la ligne suivante: un petit peu de lait.
+3. Vous sauvegardez votre recette modifiée.
+
+### 2.8 - Indexation
+
+1. Faites un git status et vous verrez que git détecte bien qu'il y a eu modification dans votre recette.
+2. Indexez notre recette modifiée.
+3. Refaites un git status.
+
+### 2.9 - Validation
+
+1. Faites un git status
+2. Validez/Commitez votre fichiers en ajoutant comme message "Ajout un peu de lait dans la recette de l'omelette"
+3. Faites un git status (vous voyez ce qui a changé depuis le point 1 ? Quoi ?)
+4. Tapez la commande git tag v3
+
+### 2.10 - Modification
+
+Aujourd'hui, vous sentez que vous êtes parti à faire beaucoup de recettes de cuisine. C'est en vous, vous êtes un futur chef ! :)
+
+Mais, comme tout chef, il faut être organisé avec vos recettes. C'est pourquoi chaque recette sera placée dans un répertoire de l'ingrédient principal.
+
+1. Créez un répertoire oeufs.
+2. Déplacez votre recette omelette.txt dans le répertoire oeufs. (soit via la commande move omelettes oeufs ou via l'explorateur de fichiers)
+
+### 2.11 - Indexation
+
+1. Faites un git status et vous verrez que git détecte bien qu'un répertoire a été créé et que votre recette omelette.txt a été déplacée dans le répertoire oeufs.
+2. Indexez toutes les modifications en une seule commande.
+3. Refaites un git status.
+
+### 2.12 - Validation
+
+1. Faites un git status
+2. Validez/Commitez votre fichiers en ajoutant comme message "Déplacement de la recette de l'omelette dans le répertoire oeufs"
+3. Faites un git status (vous voyez ce qui a changé depuis le point 1 ? Quoi ?)
+4. Tapez la commande git tag v4
 
 
 
