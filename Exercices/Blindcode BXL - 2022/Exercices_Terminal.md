@@ -43,7 +43,7 @@ Pour ouvrir un invite de commandes sous Windows effectuez les actions suivantes:
 ## Partie 7 - Supprimer un fichier
 
 1. Ouvrez un explorateur de fichiers.
-2. Copiez un fichier de votre choix dans le répertoire tmp que vous avez créé précédemment 
+2. Copiez un fichier de votre choix dans le répertoire tmp que vous avez créé précédemment dans un terminal.
 3. Ouvrez un invite de commandes.
 4. Allez dans le répertoire tmp
 5. Affichez les fichiers présents dans le répertoire.
@@ -52,7 +52,7 @@ Pour ouvrir un invite de commandes sous Windows effectuez les actions suivantes:
 
 ## Partie 8 - Renommer un fichier
 1. Ouvrez un explorateur de fichiers.
-2. Copiez un fichier de votre choix dans le répertoire tmp que vous avez créé précédemment 
+2. Copiez un fichier de votre choix dans le répertoire tmp que vous avez créé précédemment dans un terminal.
 3. Ouvrez un invite de commandes.
 4. Allez dans le répertoire tmp
 5. Affichez les fichiers présents dans le répertoire.

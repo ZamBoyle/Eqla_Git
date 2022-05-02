@@ -2,11 +2,12 @@
 
 Pour ces exercices, en plus de taper dans le terminal vos commandes, veuillez me rendre le répertoire de votre dépôté zipé.
 
-Le nom du fichier zip aura la structure suivante **prenom_ex1.zip**. Par exemples: **johnny_ex1.zip** ou encore **bruno_ex1.zip**.
-
-Vous me l'enverrez sur mon adresse email.
+Vous m'enverrez via WhatsApp vos exercices.
 
 ## Exercice n°1 - Creation / indexation / validation
+
+Le nom du fichier zip aura la structure suivante **prenom_ex1.zip**. Par exemples: **johnny_ex1.zip** ou encore **bruno_ex1.zip**.
+
 ### 1.1 - Création d'un dépôt
 1. Créez un répertoire nommé PremierDepot
 2. Faites-en un dépôt à l'aide d'une commande git bien entendu.
@@ -109,7 +110,7 @@ Vous devrez ajouter une fonction qui multiplie deux nombres dans genius.js et l'
 ### 1.12 - Validation
 
 1. Faites un git status
-2. Validez/Commitez vos fichiez en ajoutant comme message "Ajout de la fonction multiply et adaptation du fichier index.html"
+2. Validez/Commitez vos fichiers en ajoutant comme message "Ajout de la fonction multiply et adaptation du fichier index.html"
 3. Faites un git status (vous voyez ce qui a changé depuis le point 1 ? Quoi ?)
 4. Tapez la commande git tag v3
 
@@ -143,7 +144,7 @@ Vous devrez ajouter une fonction qui divise deux nombres dans genius.js et l'uti
 ### 1.16 - Validation
 
 1. Faites un git status
-2. Validez/Commitez vos fichiez en ajoutant comme message "Ajout de la fonction divide et adaptation du fichier index.html"
+2. Validez/Commitez vos fichiers en ajoutant comme message "Ajout de la fonction divide et adaptation du fichier index.html"
 3. Faites un git status (vous voyez ce qui a changé depuis le point 1 ? Quoi ?)
 4. Tapez la commande git tag v4
 
@@ -154,6 +155,56 @@ Affichez l'historique des commits à l'aide de la commande: git log
 Vous verrez l'ensemble des commits effectués avec la date, l'heure, l'auteur et le message de commit.
 
 Le nouveau commit que vous venez de faire doit y figurer.
+
+## Exercice n°2 - Creation / indexation / validation
+
+### 2.1 - Création d'un dépôt
+
+1. Créez un répertoire nommé Recettes
+2. Allez dans le répertoire Recettes
+3. Faites-en un dépôt à l'aide d'une commande git bien entendu.
+4. Quelle commande utiliser pour vérifier que le répertoire est bien devenu un dépôt ?
+
+### 2.2 - Ajout d'une recette et Indexation
+
+1. Allez dans le répertoire Recettes
+2. Copiez le fichier [omelette.txt](https://zamboyle.github.io/Cours/2022/Git/Files/omelette.txt) dans votre répertoire Recettes.
+3. Faites un git status, vous verrez que git a bien détecté notre nouveau fichier.
+
+### 2.3 - Indexation
+
+1. Indexez notre recette à l'aide d'une commande git.
+2. Vérifiez à l'aide d'une commande git que celle-ci est bien indexée.
+
+### 2.4 - Validation
+
+1. Faites un git status
+2. Validez/Commitez votre fichier en ajoutant comme message "Ajout de la recette de base de l'omelette"
+3. Faites un git status (vous voyez ce qui a changé depuis le point 1 ? Quoi ?)
+4. Tapez la commande git tag v1
+
+### 2.4 - Modification 
+
+Vous vous sentez l'âme d'un grand cuistot. Et vous avez trouvé que votre recette est meilleure avec du gruyère.
+
+1. Vous allez modifier le fichier de votre recette et ajouter la ligne suivante:30g de gruyère râpé
+2. Vous sauvegardez votre recette modifiée.
+
+
+### 2.5 - Indexation
+
+1. Faites un git status et vous verrez que git détecte bien qu'il y a eu modification dans votre recette.
+2. Indexez notre recette modifiée.
+2. Refaites un git status.
+
+### 2.6 - Validation
+
+1. Faites un git status
+2. Validez/Commitez votre fichiers en ajoutant comme message "Ajout du gruyère dans la recette de l'omelette"
+3. Faites un git status (vous voyez ce qui a changé depuis le point 1 ? Quoi ?)
+4. Tapez la commande git tag v2
+
+
 
 
 ***
