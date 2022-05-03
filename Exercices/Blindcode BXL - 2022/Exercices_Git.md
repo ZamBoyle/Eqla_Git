@@ -186,7 +186,15 @@ Le nouveau commit que vous venez de faire doit y figurer.
 3. Faites un git status (vous voyez ce qui a changé depuis le point 1 ? Quoi ?)
 4. Tapez la commande git tag v1
 
-### 2.4 - Modification 
+## 2.5 - Affichage de l'historique des commits
+
+Affichez l'historique des commits à l'aide de la commande: git log
+
+Vous verrez l'ensemble des commits effectués avec la date, l'heure, l'auteur et le message de commit.
+
+Le nouveau commit que vous venez de faire doit y figurer.
+
+### 2.6 - Modification 
 
 Vous vous sentez l'âme d'un grand cuistot. Et vous avez trouvé que votre recette est meilleure avec du gruyère.
 
@@ -195,20 +203,29 @@ Vous vous sentez l'âme d'un grand cuistot. Et vous avez trouvé que votre recet
 3. Ajoutez la ligne suivante: une pincée d'origan.
 2. Vous sauvegardez votre recette modifiée.
 
-### 2.5 - Indexation
+### 2.7 - Indexation
 
 1. Faites un git status et vous verrez que git détecte bien qu'il y a eu modification dans votre recette.
 2. Indexez notre recette modifiée.
 2. Refaites un git status.
 
-### 2.6 - Validation
+### 2.8 - Validation
 
 1. Faites un git status
 2. Validez/Commitez votre fichiers en ajoutant comme message "Ajout du gruyère et l'origan dans la recette de l'omelette"
 3. Faites un git status (vous voyez ce qui a changé depuis le point 1 ? Quoi ?)
 4. Tapez la commande git tag v2
 
-### 2.7 - Modification 
+## 2.9 - Affichage de l'historique des commits
+
+Affichez l'historique des commits à l'aide de la commande: git log
+
+Vous verrez l'ensemble des commits effectués avec la date, l'heure, l'auteur et le message de commit.
+
+Le nouveau commit que vous venez de faire doit y figurer.
+
+
+### 2.10 - Modification 
 
 Votre grand-mère est de passage chez vous et goûte votre super omelette. Vous la voyez faire la grimace et vous dire:"Ne me dis pas que tu fais tes omelettes sans mettre un petit peu de lait dedans ? Tu ne savais pas que c'était meilleur ?!"
 
@@ -216,20 +233,28 @@ Votre grand-mère est de passage chez vous et goûte votre super omelette. Vous 
 2. Ajoutez la ligne suivante: un petit peu de lait.
 3. Vous sauvegardez votre recette modifiée.
 
-### 2.8 - Indexation
+### 2.11 - Indexation
 
 1. Faites un git status et vous verrez que git détecte bien qu'il y a eu modification dans votre recette.
 2. Indexez notre recette modifiée.
 3. Refaites un git status.
 
-### 2.9 - Validation
+### 2.12 - Validation
 
 1. Faites un git status
 2. Validez/Commitez votre fichiers en ajoutant comme message "Ajout un peu de lait dans la recette de l'omelette"
 3. Faites un git status (vous voyez ce qui a changé depuis le point 1 ? Quoi ?)
 4. Tapez la commande git tag v3
 
-### 2.10 - Modification
+## 2.13 - Affichage de l'historique des commits
+
+Affichez l'historique des commits à l'aide de la commande: git log
+
+Vous verrez l'ensemble des commits effectués avec la date, l'heure, l'auteur et le message de commit.
+
+Le nouveau commit que vous venez de faire doit y figurer.
+
+### 2.14 - Modification
 
 Aujourd'hui, vous sentez que vous êtes parti à faire beaucoup de recettes de cuisine. C'est en vous, vous êtes un futur chef ! :)
 
@@ -238,18 +263,28 @@ Mais, comme tout chef, il faut être organisé avec vos recettes. C'est pourquoi
 1. Créez un répertoire oeufs.
 2. Déplacez votre recette omelette.txt dans le répertoire oeufs. (soit via la commande move omelettes oeufs ou via l'explorateur de fichiers)
 
-### 2.11 - Indexation
+### 2.15 - Indexation
 
 1. Faites un git status et vous verrez que git détecte bien qu'un répertoire a été créé et que votre recette omelette.txt a été déplacée dans le répertoire oeufs.
 2. Indexez toutes les modifications en une seule commande.
 3. Refaites un git status.
 
-### 2.12 - Validation
+### 2.16 - Validation
 
 1. Faites un git status
 2. Validez/Commitez votre fichiers en ajoutant comme message "Déplacement de la recette de l'omelette dans le répertoire oeufs"
 3. Faites un git status (vous voyez ce qui a changé depuis le point 1 ? Quoi ?)
 4. Tapez la commande git tag v4
+
+## 2.17 - Affichage de l'historique des commits
+
+Affichez l'historique des commits à l'aide de la commande: git log
+
+Vous verrez l'ensemble des commits effectués avec la date, l'heure, l'auteur et le message de commit.
+
+Le nouveau commit que vous venez de faire doit y figurer.
+
+
 
 ***
 _[Eqla](http://www.eqla.be) 2022 - Formation Git_
