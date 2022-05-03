@@ -284,7 +284,5 @@ Vous verrez l'ensemble des commits effectués avec la date, l'heure, l'auteur et
 
 Le nouveau commit que vous venez de faire doit y figurer.
 
-
-
 ***
 _[Eqla](http://www.eqla.be) 2022 - Formation Git_
