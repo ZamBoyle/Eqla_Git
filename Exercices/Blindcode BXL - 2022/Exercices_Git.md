@@ -266,7 +266,7 @@ Mais, comme tout chef, il faut être organisé avec vos recettes. C'est pourquoi
 Vous avez deux manières de déplacer ce fichier:
 - soit via la commande Windows move omelettes.txt oeufs ou sous Mac mv omelettes.txt oeufs
 - soit via l'explorateur de fichiers
-
+ 
 ### 2.15 - Indexation
 
 1. Faites un git status et vous verrez que git détecte bien qu'un répertoire a été créé et que votre recette omelette.txt a été déplacée dans le répertoire oeufs.
