@@ -261,7 +261,11 @@ Aujourd'hui, vous sentez que vous êtes parti à faire beaucoup de recettes de c
 Mais, comme tout chef, il faut être organisé avec vos recettes. C'est pourquoi chaque recette sera placée dans un répertoire de l'ingrédient principal.
 
 1. Créez un répertoire oeufs.
-2. Déplacez votre recette omelette.txt dans le répertoire oeufs. (soit via la commande move omelettes oeufs ou via l'explorateur de fichiers)
+2. Déplacez votre recette omelette.txt dans le répertoire oeufs.
+
+Vous avez deux manières de déplacer ce fichier:
+- soit via la commande Windows move omelettes.txt oeufs ou sous Mac mv omelettes.txt oeufs
+- soit via l'explorateur de fichiers
 
 ### 2.15 - Indexation
 
