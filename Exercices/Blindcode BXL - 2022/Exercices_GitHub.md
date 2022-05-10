@@ -5,15 +5,13 @@
 1. Ouvrez un invite de commandes/terminal.
 2. Allez dans le répertoire mesdepots
 3. Si vous êtes dans le répertoire cours_git, sortez de ce répertoire.
-4. Créez un nouveau dépot distant ayant pour nom myjs: gh repo create myjs --public --confirm
+4. Créez un nouveau dépot distant ayant pour nom myjs: gh repo create myjs --public --clone
 5. Allez dans le répertoire créé: cd myjs
 
 ## Partie 2 
-
 1. Créez un programme fonctionnel en js qui s'appelle ex1.js et qui demande le nom et le prénom d'une personne. Exemple:
     - Quel est ton prenom ? Johnny
     - Quel est ton nom ? Piette
-
 2. Faites un git status (observez ce que donne la sortie de cette commande).
 3. Faites un git diff ex1.js (Observez bien les ajouts et modifications de votre programme).
 4. Ajoutez ce fichier à la zone d'index: git add ex1.js
