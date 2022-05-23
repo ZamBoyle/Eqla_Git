@@ -43,13 +43,12 @@ Choisissez un autre répertoire si vous le désirez.
 9. Envoyez vos modifications en ligne: git push -u origin master
 
 ## Partie 4
-
 1. Ajoutez une fonction DisplayName qui affiche le nom de la personne.
 2. Appelez(=Utilisez) votre fonction DisplayName en passant le nom comme paramètre.
     Exemple:
     - Quel est votre prenom ? Johnny
     - Quel est votre nom ? Piette
-    
+
     Votre nom est Piette.
 3. Faites un git status (observez ce que donne la sortie de cette commande).
 4. Faites un git diff ex1.js (Observez bien les ajouts et modifications de votre programme).
