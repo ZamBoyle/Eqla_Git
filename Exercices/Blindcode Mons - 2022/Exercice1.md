@@ -1,13 +1,13 @@
-Exercice N°1
-============
-Partie 1 - Création du dépot mypython sur GitHub
+# Exercice N°1
+
+## Partie 1 - Création du dépot mypython sur GitHub
 a. Ouvrez un invite de commandes/terminal.
 b. Allez dans le répertoire mesdepots
 b. Si vous êtes dans le répertoire cours_git, sortez de ce répertoire.
 c. Créez un nouveau dépot distant ayant pour nom mypython: gh repo create mypython --public --confirm
 d. Allez dans le répertoire créé: cd mypython
 
-Partie 2 - 
+## Partie 2 - 
 a. Créez un programme fonctionnel en python qui s'appelle ex1_git.py et qui demande le nom et le prénom d'une personne.
 Exemple:
 - Quel est ton prenom ? Johnny
