@@ -22,7 +22,7 @@ Pour éviter des alertes de sécurité de Chrome, j'ai nommé les fichiers avec 
 
 1. Dans le répertoire que vous venez de créer, copiez les 3 fichiers suivants:
 - <a href="http://zamboyle.github.io/Cours/2022/Git/Files/index.txt" download>index.txt</a>
-- [geniusjava.txt](http://zamboyle.github.io/Cours/2022/Git/Files/geniusjava.txt)
+- [genius.txt](http://zamboyle.github.io/Cours/2022/Git/Files/genius.txt)
 - [display.txt](http://zamboyle.github.io/Cours/2022/Git/Files/display.txt)
 2. Faites un git status. (Que vous dit/signale git ?)
 
@@ -58,7 +58,7 @@ Pour rappel, voilà comment renommer un fichier en ligne de commandes:
 Renommez les fichiers de la manière suivante:
 
 1. index.txt devient index.html
-2. geniusjava.txt devient genius.java
+2. genius.txt devient genius.js
 3. display.txt devient display.js
 4. Évidemment vérifiez avec dir (windows) ou ls (mac/linux) s'ils sont bien renommés.
 
@@ -93,13 +93,14 @@ Le nouveau commit que vous venez de faire doit y figurer.
 
 <u>L'exercice</u>:
 
-Vous devrez ajouter une fonction qui multiplie deux nombres dans genius.java. Le code devra être fonctionnel. C'est à dire que votre fonction calcule bien la multiplication de deux nombres et affiche à l'écran le résultat. 
+Vous devrez ajouter une fonction qui multiplie deux nombres dans genius.js et l'utiliser dans index.html. Le code devra être fonctionnel. C'est à dire qu'à l'affichage dans index.html, votre fonction calcule bien la multiplication de deux nombres et affiche à l'écran le résultat. Donc index.html permettra de vérifier à l'affichage de la page web si votre code est bon.
 
-1. Éditez le fichier genius.java
+1. Editez le fichier genius.js 
 2. Ajoutez la fonction multiply qui retourne (return) la multiplication des deux nombres donnés en paramètre dans la signature de la fonction multiply.
-3. Inspirez-vous des fonctions qui font la soustraction et l'addition de a et b.
-4. Utilisez votre fonction multiply dans un println comme celui-ci le fait en appelant add et substract.
-6. Testez votre programme et voyez le résultat.
+3. Editez le fichier index.html
+4. Appelez la fonction display pour qu'elle affiche la multiplication de a par b (a * b).
+5. Pour l'utilisation de display dans index.html, inspirez-vous des deux lignes précédentes qui font la soustraction et l'addition de a et b.
+6. Testez votre programme en lançant index.html et voyez le résultat.
 7. Si votre programme fonctionne allez au point suivant sinon cherchez votre erreur.
 6. Faites un git status (vous voyez ce qui a changé depuis le point 1 ? Quoi ?)
 
@@ -112,7 +113,7 @@ Vous devrez ajouter une fonction qui multiplie deux nombres dans genius.java. Le
 ### 1.12 - Validation
 
 1. Faites un git status
-2. Validez/Commitez vos fichiers en ajoutant comme message "Ajout de la fonction multiply et adaptation du fichier genius.java"
+2. Validez/Commitez vos fichiers en ajoutant comme message "Ajout de la fonction multiply et adaptation du fichier index.html"
 3. Faites un git status (vous voyez ce qui a changé depuis le point 1 ? Quoi ?)
 4. Tapez la commande git tag v3
 
@@ -126,15 +127,16 @@ Le nouveau commit que vous venez de faire doit y figurer.
 
 ### 1.14 - Modification (de code)
 
-1. Éditez le fichier genius.java 
-2. Ajoutez la fonction divide qui retourne (return) la division des deux nombres donnés en paramètre dans la signature de la fonction divide. N'oubliez pas que l'on ne peut diviser par 0 en mathématiques. Donc il faudra tester que le diviseur est bien différent de 0 avant de retourner le quotient. Si vous n'avez pas vu les conditions, ne traitez pas le cas du 0.
+Vous devrez ajouter une fonction qui divise deux nombres dans genius.js et l'utiliser dans index.html. Le code devra être fonctionnel. C'est à dire qu'à l'affichage dans index.html, votre fonction calcule bien la division de deux nombres et affiche à l'écran le résultat. Donc index.html permettra de vérifier à l'affichage de la page web si votre code est bon.
 
-3. Éditez le fichier genius.java
+1. Editez le fichier genius.js 
+2. Ajoutez la fonction divide qui retourne (return) la division des deux nombres donnés en paramètre dans la signature de la fonction divide. N'oubliez pas que l'on ne peut diviser par 0 en mathématiques. Donc il faudra tester que le diviseur est bien différent de 0 avant de retourner le quotient.
+3. Editez le fichier index.html
 4. Appelez la fonction display pour qu'elle affiche la division de a par b (a / b).
 5. Pour l'utilisation de display dans index.html, inspirez-vous des trois lignes précédentes qui font la soustraction, l'addition et la multiplication de a et b.
-6. Utilisez votre fonction multiply dans un println comme celui-ci le fait en appelant add et substract.
+6. Testez votre programme en lançant index.html et voyez le résultat.
 7. Si votre programme fonctionne allez au point suivant sinon cherchez votre erreur.
-8. Faites un git status (vous voyez ce qui a changé depuis le point 1 ? Quoi ?)
+6. Faites un git status (vous voyez ce qui a changé depuis le point 1 ? Quoi ?)
 
 ### 1.15 - Indexation
 
@@ -145,7 +147,7 @@ Le nouveau commit que vous venez de faire doit y figurer.
 ### 1.16 - Validation
 
 1. Faites un git status
-2. Validez/Commitez vos fichiers en ajoutant comme message "Ajout de la fonction divide et adaptation du fichier genius.java"
+2. Validez/Commitez vos fichiers en ajoutant comme message "Ajout de la fonction divide et adaptation du fichier index.html"
 3. Faites un git status (vous voyez ce qui a changé depuis le point 1 ? Quoi ?)
 4. Tapez la commande git tag v4
 
