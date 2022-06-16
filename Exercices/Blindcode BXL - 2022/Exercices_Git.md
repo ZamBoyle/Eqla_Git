@@ -85,12 +85,6 @@ Le nouveau commit que vous venez de faire doit y figurer.
 
 ### 1.10 - Modification (de code)
 
-<u>Explication des différents fichiers</u>:
-
-- index.html: il sert à afficher une page qui affiche le résultat de calculs.
-- genius.js: c'est le fichier qui contient nos fonctions javascript de mathématique: add et substract.
-- display.js: il contient une fonction display qui permet d'afficher le résultat d'un calcul à l'écran. Vous ne devez pas y toucher !
-
 <u>L'exercice</u>:
 
 Vous devrez ajouter une fonction qui multiplie deux nombres dans genius.java. Le code devra être fonctionnel. C'est à dire que votre fonction calcule bien la multiplication de deux nombres et affiche à l'écran le résultat. 
