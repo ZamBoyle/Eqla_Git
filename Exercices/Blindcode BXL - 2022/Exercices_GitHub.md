@@ -13,7 +13,7 @@ Choisissez un autre répertoire si vous le désirez.
 2. Allez dans le répertoire MesDocuments.
 4. Créez un nouveau dépôt distant ayant pour nom EqlaExercices: gh repo create EqlaExercices --public --clone
 5. Allez dans le répertoire créé: cd EqlaExercices
-6. Créez dans ce répertoire les répertoires suivants: js java php html accessibilite css db laravel mysql
+6. Créez dans ce répertoire les répertoires suivants: js java php html accessibilite bootstrap css db laravel mysql
 7. Faites un git status (observez ce que donne la sortie de cette commande).
 8. Ajoutez les nouveaux répertoires dans la zone d'index.
 9. Commitez vos changements avec le message suivant "Initial Commit"
@@ -92,7 +92,24 @@ Choisissez un autre répertoire si vous le désirez.
 8. Faites un git status (observez ce que donne la sortie de cette commande).
 9. Envoyez vos modifications en ligne: git push -u
 
-## Partie 7 - git clone et git pull
+## Partie 7 - .gitignore
+1. Créez un fichier nommé .gitignore
+2. Ajoutez les lignes suivantes:
+    - password.txt
+    - *.sqlite
+3. Faites un git status (observez ce que donne la sortie de cette commande).
+4. Créez un fichier nommé password.txt
+5. Faites un git status (password.txt ne devrait pas être affiché).
+6. Ajoutez ce fichier à la zone d'index.
+7. Commitez vos changements avec le message suivant: "Ajout du fichier .gitignore".
+8. Donnez un tag à ce commit. (v5)
+9. Faites un git status (observez ce que donne la sortie de cette commande).
+10. Envoyez vos modifications en ligne: git push -u
+
+
+
+
+## Partie 8 - git clone et git pull
 
 Je vais vous attribuer le dépôt d'une personne que vous allez cloner.
 
@@ -100,19 +117,19 @@ Je vais vous attribuer le dépôt d'une personne que vous allez cloner.
 2. Si vous êtes dans le répertoire myjava, faites un cd .. pour revenir à mesdepots
 3. Vous allez cloner le dépôt qui vous sera assigné:
 
-    Jessie prendra le dépôt d'Alain     : git clone https://github.com/alduf1972/myjava.git myjavaAlain
+    Jessie prendra le dépôt d'Alain     : git clone https://github.com/alduf1972/mypython.git mypythonAlain
 
-    Alain prendra le dépôt de Bruno     : git clone https://github.com/BrunoDefalque/myjava.git myjavaBruno
+    Alain prendra le dépôt de Bruno     : git clone https://github.com/BrunoDefalque/mypython.git mypythonBruno
 
-    Mahsum prendra le dépôt d'Isaac     : git clone https://github.com/zackakyo/myjava.git myjavaIsaac
+    Mahsum prendra le dépôt d'Isaac     : git clone https://github.com/zackakyo/mypython.git mypythonIsaac
 
-    Isaac prendra le dépôt de Mahsum    : git clone https://github.com/Mahsum21/myjava.git myjavaMahsum
+    Isaac prendra le dépôt de Mahsum    : git clone https://github.com/Mahsum21/mypython.git mypythonMahsum
 
-    Eleonor prendra le dépôt de Jessie  : git clone https://github.com/jessiebak/myjava.git myjavaJessie
+    Eleonor prendra le dépôt de Jessie  : git clone https://github.com/jessiebak/mypython.git mypythonJessie
 
-    Bruno prendra le dépôt de Maxime    : git clone https://github.com/maximeborsen/myjava.git myjavaMaxime
+    Bruno prendra le dépôt de Maxime    : git clone https://github.com/maximeborsen/mypython.git mypythonMaxime
     
-    Maxime prendra le dépôt d'Eleonor   : git clone https://github.com/ele-sana/myjava.git myjavaEleonor
+    Maxime prendra le dépôt d'Eleonor   : git clone https://github.com/ele-sana/mypython.git mypythonEleonor
 
 LES RESPONSABLES DE DÉPÔTS:
 
@@ -126,7 +143,7 @@ LES UTILISATEURS DE DÉPÔTS CLONES:
 
 9. Vous vérifierez les modifications quand le gestionnaire du dépôt vous indiquera dès que vous pouvez le faire.
 
-## Partie 8
+## Partie 9
 
 Ici, nous allons cloner notre dépôt myjava en myjavaClone.
 
@@ -134,8 +151,7 @@ Ici, nous allons cloner notre dépôt myjava en myjavaClone.
 2. Vous devriez être dans le répertoire mesdepots. Pour le vérifier: cd (Sous windows) ou bien pwd sous Linux/Mac
 3. clonons notre dépôt distant myjava avec git: git clone https://github.com/VotreNomDutilisateur/myjava.git myjavaClone
 
-
-## Partie 9
+## Partie 10
 
 1. Affichez l'historique des commits
 2. Quelle commande avez-vous utilisée ?
