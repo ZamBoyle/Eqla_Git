@@ -13,7 +13,7 @@ Choisissez un autre répertoire si vous le désirez.
 2. Allez dans le répertoire MesDocuments.
 4. Créez un nouveau dépôt distant ayant pour nom EqlaExercices: gh repo create EqlaExercices --public --clone
 5. Allez dans le répertoire créé: cd EqlaExercices
-6. Créez dans ce répertoire les répertoires suivants: js java php html accessibilite bootstrap css db laravel mysql
+6. Créez dans ce répertoire les répertoires suivants: js java php html accessibilité bootstrap css db laravel mysql
 7. Faites un git status (observez ce que donne la sortie de cette commande).
 8. Ajoutez les nouveaux répertoires dans la zone d'index.
 9. Commitez vos changements avec le message suivant "Initial Commit"
@@ -105,9 +105,6 @@ Choisissez un autre répertoire si vous le désirez.
 8. Donnez un tag à ce commit. (v5)
 9. Faites un git status (observez ce que donne la sortie de cette commande).
 10. Envoyez vos modifications en ligne: git push -u
-
-
-
 
 ## Partie 8 - git clone et git pull
 
