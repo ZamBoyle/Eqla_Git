@@ -114,31 +114,29 @@ Je vais vous attribuer le dépôt d'une personne que vous allez cloner.
 2. Si vous êtes dans le répertoire myjava, faites un cd .. pour revenir à mesdepots
 3. Vous allez cloner le dépôt qui vous sera assigné:
 
-    Jessie prendra le dépôt d'Alain     : git clone https://github.com/alduf1972/mypython.git mypythonAlain
+    David prendra le dépôt de Simon     : git clone https://github.com/MattrimCotton/myjava.git myjavaSimon
 
-    Alain prendra le dépôt de Bruno     : git clone https://github.com/BrunoDefalque/mypython.git mypythonBruno
+    Christian prendra le dépôt de Sébastien     : git clone https://github.com/Seb7110/myjava.git mypythonSebastien
 
-    Mahsum prendra le dépôt d'Isaac     : git clone https://github.com/zackakyo/mypython.git mypythonIsaac
+    Malcom prendra le dépôt de Johnny     : git clone https://github.com/zamboyle/myjava.git mypythonJohnny
 
-    Isaac prendra le dépôt de Mahsum    : git clone https://github.com/Mahsum21/mypython.git mypythonMahsum
-
-    Eleonor prendra le dépôt de Jessie  : git clone https://github.com/jessiebak/mypython.git mypythonJessie
-
-    Bruno prendra le dépôt de Maxime    : git clone https://github.com/maximeborsen/mypython.git mypythonMaxime
-    
-    Maxime prendra le dépôt d'Eleonor   : git clone https://github.com/ele-sana/mypython.git mypythonEleonor
+DehoustD                : https://github.com/DehoustD
+Seb7110                 : https://github.com/Seb7110
+MattrimCoton            : https://github.com/MattrimCotton
+baoubaou                : https://github.com/Baoubaou
+joyboy94                : https://github.com/joyboy94
 
 LES RESPONSABLES DE DÉPÔTS:
 
-4. Chaque responsable de son dépôt adressera ses salutations via le fichier Hello.txt et saluera la personne qui a cloné son dépôt après qu'elle est cloné votre dépôt.
-5. Vous ajouterez votre fichier Hello.txt dans la zone d'index.
-6. Vous commiterez vos modifications.
-7. vous enverrez celles-ci sur github.
-8. Vous prévenez la personne qu'elle peut récupérer les modifications que vous venez de faire.
+1. Chaque responsable de son dépôt adressera ses salutations via le fichier Hello.txt et saluera la personne qui a cloné son dépôt après qu'elle est cloné votre dépôt.
+2. Vous ajouterez votre fichier Hello.txt dans la zone d'index.
+3. Vous commiterez vos modifications.
+4. vous enverrez celles-ci sur github.
+5. Vous prévenez la personne qu'elle peut récupérer les modifications que vous venez de faire.
 
 LES UTILISATEURS DE DÉPÔTS CLONES:
 
-9. Vous vérifierez les modifications quand le gestionnaire du dépôt vous indiquera dès que vous pouvez le faire.
+9. Vous vérifierez les modifications quand le gestionnaire du dépôt vous indiquera dès que vous pouvez le faire à l'aide la commande git pull.
 
 ## Partie 9
 
