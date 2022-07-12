@@ -120,11 +120,11 @@ Je vais vous attribuer le dépôt d'une personne que vous allez cloner.
 
     Malcom prendra le dépôt de Johnny     : git clone https://github.com/zamboyle/myjava.git mypythonJohnny
 
-DehoustD                : https://github.com/DehoustD
-Seb7110                 : https://github.com/Seb7110
-MattrimCoton            : https://github.com/MattrimCotton
-baoubaou                : https://github.com/Baoubaou
-joyboy94                : https://github.com/joyboy94
+DehoustD                : https://github.com/DehoustD  
+Seb7110                 : https://github.com/Seb7110  
+MattrimCotton           : https://github.com/MattrimCotton  
+baoubaou                : https://github.com/Baoubaou  
+joyboy94                : https://github.com/joyboy94  
 
 LES RESPONSABLES DE DÉPÔTS:
 
