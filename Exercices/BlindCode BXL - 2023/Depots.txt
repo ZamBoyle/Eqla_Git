@@ -1,0 +1,27 @@
+Dépôts de chaque stagiaire:
+
+BLINDCODE
+Carmen      : https://github.com/
+Anthony     : https://github.com/
+Thomas      : https://github.com/
+Filippo     : https://github.com/
+Baptiste    : https://github.com/
+Amir        : https://github.com/
+Karim       : https://github.com/
+
+Johnny      : https://github.com/zamboyle/
+Philip      : https://github.com/kraktu/
+
+Pour accéder à la liste des dépôts distants de Philip:
+gh repo list kraktu
+
+Créer un dépôt PHP pour le cours de Philip:
+1. Allez dans le répertoire d'exercices python.
+2. Faites git init
+3. Faites un git status pour voir l'ensemble des modifications à ajouter à la zone d'index.
+4. Faites git add .  (le point reprend tous les répertoires/fichiers et les sous-répertoires)
+5. Faites git commit -m "Initial commit"
+6. gh repo create ExercicesPHP --public --confirm 
+7. Faites git push -u origin master 
+
+
