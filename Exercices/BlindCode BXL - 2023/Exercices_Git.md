@@ -1,4 +1,11 @@
+[:arrow_left: Revenir au sommaire.](./README.md#sommaire)
 <h1 class="text-center">Exercices - Git</h1>
+
+<h1 id="Exercices" style="display: flex; align-items: center; justify-content: center;">
+    <img src="/media/eqla.png" style="height:50px" alt="Logo d'Eqla">
+    &nbsp;Exercices Git
+</h1>
+
 
 * [Exercice n°1](#ex1)
 * [Exercice n°2](#ex2)
@@ -284,5 +291,10 @@ Vous verrez l'ensemble des commits effectués avec la date, l'heure, l'auteur et
 
 Le nouveau commit que vous venez de faire doit y figurer.
 
-***
-_[Eqla](http://www.eqla.be) 2022 - Formation Git_
+[:arrow_left: Revenir au sommaire.](./README.md#sommaire)
+
+---
+&copy; 2023 [Johnny Piette](https://github.com/ZamBoyle).  
+[![Creative Commons Attribution 4.0 International License](https://i.creativecommons.org/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)  
+Ce travail est licencié sous [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).   
+_Vous pouvez copier, modifier, distribuer et représenter ce travail, même à des fins commerciales, à condition de donner le crédit approprié, fournir un lien vers la licence, et indiquer si des modifications ont été effectuées._
