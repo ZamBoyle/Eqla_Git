@@ -24,10 +24,9 @@
 Pour éviter des alertes de sécurité de Chrome, j'ai nommé les fichiers avec l'extension .txt. Nous les renommerons plus tard avec la bonne extension.
 
 1. Dans le répertoire que vous venez de créer, copiez les 3 fichiers suivants:
-- <a href="http://zamboyle.github.io/Cours/2022/Git/Files/index.txt" download>index.txt</a>
-- [index.html](http://zamboyle.github.io/Cours/2022/Git/Files/geniusjava.txt)
-- [display.txt](http://zamboyle.github.io/Cours/2022/Git/Files/display.txt)
-2. Faites un git status. (Que vous dit/signale git ?)
+- [index.txt](https://raw.githubusercontent.com/ZamBoyle/Eqla_Git/master/Exercices/BlindCode%20BXL%20-%202023/files/index.txt)
+- [site.txt](https://raw.githubusercontent.com/ZamBoyle/Eqla_Git/master/Exercices/BlindCode%20BXL%20-%202023/files/site.txt)
+- [contact.txt](https://raw.githubusercontent.com/ZamBoyle/Eqla_Git/master/Exercices/BlindCode%20BXL%20-%202023/files/contact.txt)
 
 ### 1.3 - Indexation
 
@@ -61,8 +60,8 @@ Pour rappel, voilà comment renommer un fichier en ligne de commandes:
 Renommez les fichiers de la manière suivante:
 
 1. index.txt devient index.html
-2. genius.txt devient genius.js
-3. display.txt devient display.js
+2. site.txt devient site.css
+3. contact.txt devient contact.html
 4. Évidemment vérifiez avec dir (windows) ou ls (mac/linux) s'ils sont bien renommés.
 
 ### 1.7 - Indexation
@@ -90,7 +89,7 @@ Le nouveau commit que vous venez de faire doit y figurer.
 
 <u>Explication des différents fichiers</u>:
 
-- index.html: il sert à afficher une page qui affiche le résultat de calculs.
+- index.html: il affichera une page très succinte.
 - genius.js: c'est le fichier qui contient nos fonctions javascript de mathématique: add et substract.
 - display.js: il contient une fonction display qui permet d'afficher le résultat d'un calcul à l'écran. Vous ne devez pas y toucher !
 

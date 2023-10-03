@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr-BE">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="site.css">
+    <title>Démo Git</title>
+</head>
+
+<body>
+    <header>
+        <h1>Kokonitch Website</h1>
+        <nav>
+            <ul>
+                <li><a href="">Accueil</a></li>
+                <li><a href="">Produits</a></li>
+                <li><a href="">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Qu'est-ce que Kokonitch ?</h2>
+            <p><span class="kokonitch">Kokonitch</span>, c’est votre nouveau sanctuaire de shopping en ligne où la seule règle est qu'il n'y a aucune règle ! Eh oui, ici, on vend de tout sauf de l’ordinaire : du slip chauffant aux parasols pour chat, en passant par des stylos en forme de baguette de sorcier. Vous cherchiez quelque chose de précis ? Désolé, on ne l'a probablement pas. Mais par contre, on a plein de trucs dont vous n’aviez pas idée qu’ils existaient, et dont vous ne pourrez bientôt plus vous passer. Alors, prêt à tomber dans le terrier du lapin et à explorer notre caverne d’ali... <span class="kokonitch">Kokonitch</span> ? 🐰🎉</p>
+        </section>
+    </main>
+    <footer>
+        <p>(c) 2023 - <span class="kokonitch">Kokonitch</span> Website</p>
+    </footer>
+</body>
+</html>

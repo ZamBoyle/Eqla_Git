@@ -1,0 +1,9 @@
+.kokonitch {
+    font-weight: bolder;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 100px;
+}
