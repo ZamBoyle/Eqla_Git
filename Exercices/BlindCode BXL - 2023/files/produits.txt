@@ -10,9 +10,9 @@
     <header>
         <nav role="navigation">
             <ul>
-                <li><a href="index.html">Accueil</a></li>
+                <li><a href="">Accueil</a></li>
                 <li><a href="" class="active">Produits</a></li>
-                <li><a href="contact.html">Contacts</a></li>
+                <li><a href="">Contacts</a></li>
             </ul>
         </nav>        
         <h1>Nos produits insolites !</h1>

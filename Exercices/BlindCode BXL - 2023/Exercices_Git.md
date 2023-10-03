@@ -25,8 +25,9 @@ Pour éviter des alertes de sécurité de Chrome, j'ai nommé les fichiers avec 
 
 1. Dans le répertoire que vous venez de créer, copiez les 3 fichiers suivants:
 - [index.txt](https://raw.githubusercontent.com/ZamBoyle/Eqla_Git/master/Exercices/BlindCode%20BXL%20-%202023/files/index.txt)
-- [site.txt](https://raw.githubusercontent.com/ZamBoyle/Eqla_Git/master/Exercices/BlindCode%20BXL%20-%202023/files/site.txt)
+- [produits.txt](https://raw.githubusercontent.com/ZamBoyle/Eqla_Git/master/Exercices/BlindCode%20BXL%20-%202023/files/produits.txt)
 - [contact.txt](https://raw.githubusercontent.com/ZamBoyle/Eqla_Git/master/Exercices/BlindCode%20BXL%20-%202023/files/contact.txt)
+- [site.txt](https://raw.githubusercontent.com/ZamBoyle/Eqla_Git/master/Exercices/BlindCode%20BXL%20-%202023/files/site.txt)
 
 ### 1.3 - Indexation
 
@@ -62,7 +63,8 @@ Renommez les fichiers de la manière suivante:
 1. index.txt devient index.html
 2. site.txt devient site.css
 3. contact.txt devient contact.html
-4. Évidemment vérifiez avec dir (windows) ou ls (mac/linux) s'ils sont bien renommés.
+4. produits.txt devient produits.html
+5. Évidemment vérifiez avec dir (windows) ou ls (mac/linux) s'ils sont bien renommés.
 
 ### 1.7 - Indexation
 
@@ -73,7 +75,7 @@ Renommez les fichiers de la manière suivante:
 ### 1.8 - Validation/Commit
 
 1. Faites un git status
-2. Validez/Commitez vos fichiers en ajoutant comme message "Renommage d'index, site et contact"
+2. Validez/Commitez vos fichiers en ajoutant comme message "Renommage d'index, site, produits et contact"
 3. Faites un git status (vous voyez ce qui a changé depuis le point 1 ? Quoi ?)
 4. Tapez la commande git tag v2
 
@@ -90,12 +92,13 @@ Le nouveau commit que vous venez de faire doit y figurer.
 <u>Explication des différents fichiers</u>:
 
 - index.html: il affichera une page très succinte.
-- site.css: contient le css du site.
+- produits.html: il affichera une page de produits.
 - contact.html: contact une page de contact.
+- site.css: contient le css du site.
 
 <u>L'exercice</u>:
 
-Vous devez ajoutez un style css dans le fichier site.css pour le titre h1 de la page index.html. Le titre doit être centré et en rouge.
+Vous devez ajoutez un style css dans le fichier site.css pour les titres h1. Le titre doit être centré et en rouge.
 
 Vous ajouterez aussi un footer comme décrit plus bas
 
@@ -136,10 +139,12 @@ Le nouveau commit que vous venez de faire doit y figurer.
 Vous allez maintenant modifier le menu  des pages index.html et contact.html pour que les liens pointent vers les bonnes pages.
 
 1. Editez le fichier index.html
-2. Ajoutez le lien vers la page contact.html
+2. Ajoutez le lien vers la page contact.html et produits.html
 3. Editez le fichier contact.html
-4. Ajoutez le lien vers la page index.html
-5. Testez la index.html et voyez le résultat et testez la contact.html et voyez le résultat. Vous devez pouvoir naviguer entre les deux pages.
+4. Ajoutez le lien vers la page index.html et produits.html
+5. Editez le fichier produits.html
+6. Ajoutez le lien vers la page index.html et contact.html
+7. Testez les pages index.html, produits.html et contact.html et voyez le résultat. Vous devez pouvoir naviguer entre les trois pages.
 6. Faites un git status (vous voyez ce qui a changé depuis le point 1 ? Quoi ?)
 
 ### 1.15 - Indexation
@@ -151,7 +156,7 @@ Vous allez maintenant modifier le menu  des pages index.html et contact.html pou
 ### 1.16 - Validation
 
 1. Faites un git status
-2. Validez/Commitez vos fichiers en ajoutant comme message "Ajout des liens dans le menu des pages index.html et contact.html"
+2. Validez/Commitez vos fichiers en ajoutant comme message "Ajout des liens dans le menu des pages index.html, produits.html et contact.html"
 3. Faites un git status (vous voyez ce qui a changé depuis le point 1 ? Quoi ?)
 4. Tapez la commande git tag v4
 
