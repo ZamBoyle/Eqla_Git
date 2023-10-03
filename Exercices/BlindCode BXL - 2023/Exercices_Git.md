@@ -25,7 +25,7 @@ Pour éviter des alertes de sécurité de Chrome, j'ai nommé les fichiers avec 
 
 1. Dans le répertoire que vous venez de créer, copiez les 3 fichiers suivants:
 - <a href="http://zamboyle.github.io/Cours/2022/Git/Files/index.txt" download>index.txt</a>
-- [geniusjava.txt](http://zamboyle.github.io/Cours/2022/Git/Files/geniusjava.txt)
+- [index.html](http://zamboyle.github.io/Cours/2022/Git/Files/geniusjava.txt)
 - [display.txt](http://zamboyle.github.io/Cours/2022/Git/Files/display.txt)
 2. Faites un git status. (Que vous dit/signale git ?)
 
