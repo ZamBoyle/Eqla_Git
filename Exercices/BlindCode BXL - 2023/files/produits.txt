@@ -14,7 +14,8 @@
                 <li><a href="" class="active">Produits</a></li>
                 <li><a href="">Contacts</a></li>
             </ul>
-        </nav>        
+        </nav>
+        <img src="banner.png" class="banner" alt="Bannière Kokonitch">        
         <h1>Nos produits insolites !</h1>
     </header>
     <main>

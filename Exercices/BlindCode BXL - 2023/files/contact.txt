@@ -17,6 +17,7 @@
                 <li><a href="" class="active">Contact</a></li>
             </ul>
         </nav>
+        <img src="banner.png" class="banner" alt="Bannière Kokonitch">
     </header>
     <main id="maincontent">
         <section aria-labelledby="contact">

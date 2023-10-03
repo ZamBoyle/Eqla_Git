@@ -107,7 +107,7 @@ Vous ajouterez aussi un footer comme décrit plus bas
 3. Editez le fichier index.html
 4. Ajoutez un footer avec le texte suivant dans un paragraphe: 
     ```html
-    (c) 2023 - <span class="kokonitch">Kokonitch</span> Website.
+    &copy; 2023 <span class="kokonitch">Kokonitch</span>. On fait tout sauf des sandwichs.
     ```
 5. Testez votre programme en lançant index.html et voyez le résultat.
 6. Si votre programme fonctionne allez au point suivant sinon cherchez votre erreur.

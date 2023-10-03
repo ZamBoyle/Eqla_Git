@@ -16,14 +16,22 @@
                 <li><a href="">Produits</a></li>
                 <li><a href="">Contacts</a></li>
             </ul>
-        </nav>    
-        <h1>Kokonitch Website</h1>
+        </nav>
+        <img src="banner.png" class="banner" alt="Bannière Kokonitch">
     </header>
     <main>
+        <h1>Kokonitch Website</h1>
         <section>
             <h2>Qu'est-ce que Kokonitch ?</h2>
-            <p><span class="kokonitch">Kokonitch</span>, c’est votre nouveau sanctuaire de shopping en ligne où la seule règle est qu'il n'y a aucune règle ! Eh oui, ici, on vend de tout sauf de l’ordinaire : du slip chauffant aux parasols pour chat, en passant par des stylos en forme de baguette de sorcier. Vous cherchiez quelque chose de précis ? Désolé, on ne l'a probablement pas. Mais par contre, on a plein de trucs dont vous n’aviez pas idée qu’ils existaient, et dont vous ne pourrez bientôt plus vous passer. Alors, prêt à tomber dans le terrier du lapin et à explorer notre caverne d’ali... <span class="kokonitch">Kokonitch</span> ? 🐰🎉</p>
+            <p><span class="kokonitch">Kokonitch</span>, c’est votre nouveau sanctuaire de shopping en ligne où la seule
+                règle est qu'il n'y a aucune règle ! Eh oui, ici, on vend de tout sauf de l’ordinaire : du slip
+                chauffant aux parasols pour chat, en passant par des stylos en forme de baguette de sorcier. Vous
+                cherchiez quelque chose de précis ? Désolé, on ne l'a probablement pas. Mais par contre, on a plein de
+                trucs dont vous n’aviez pas idée qu’ils existaient, et dont vous ne pourrez bientôt plus vous passer.
+                Alors, prêt à tomber dans le terrier du lapin et à explorer notre caverne d’ali... <span
+                    class="kokonitch">Kokonitch</span> ? 🐰🎉</p>
         </section>
     </main>
 </body>
+
 </html>
