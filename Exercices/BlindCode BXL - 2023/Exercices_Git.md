@@ -73,7 +73,7 @@ Renommez les fichiers de la manière suivante:
 ### 1.8 - Validation/Commit
 
 1. Faites un git status
-2. Validez/Commitez vos fichiers en ajoutant comme message "Renommage d'index, genius et display"
+2. Validez/Commitez vos fichiers en ajoutant comme message "Renommage d'index, site et contact"
 3. Faites un git status (vous voyez ce qui a changé depuis le point 1 ? Quoi ?)
 4. Tapez la commande git tag v2
 
@@ -90,21 +90,25 @@ Le nouveau commit que vous venez de faire doit y figurer.
 <u>Explication des différents fichiers</u>:
 
 - index.html: il affichera une page très succinte.
-- genius.js: c'est le fichier qui contient nos fonctions javascript de mathématique: add et substract.
-- display.js: il contient une fonction display qui permet d'afficher le résultat d'un calcul à l'écran. Vous ne devez pas y toucher !
+- site.css: contient le css du site.
+- contact.html: contact une page de contact.
 
 <u>L'exercice</u>:
 
-Vous devrez ajouter une fonction qui multiplie deux nombres dans genius.js et l'utiliser dans index.html. Le code devra être fonctionnel. C'est à dire qu'à l'affichage dans index.html, votre fonction calcule bien la multiplication de deux nombres et affiche à l'écran le résultat. Donc index.html permettra de vérifier à l'affichage de la page web si votre code est bon.
+Vous devez ajoutez un style css dans le fichier site.css pour le titre h1 de la page index.html. Le titre doit être centré et en rouge.
 
-1. Editez le fichier genius.js 
-2. Ajoutez la fonction multiply qui retourne (return) la multiplication des deux nombres donnés en paramètre dans la signature de la fonction multiply.
+Vous ajouterez aussi un footer comme décrit plus bas
+
+1. Editez le fichier site.css
+2. Ajoutez un style l'élément h1 pour qu'il soit centré et en rouge.
 3. Editez le fichier index.html
-4. Appelez la fonction display pour qu'elle affiche la multiplication de a par b (a * b).
-5. Pour l'utilisation de display dans index.html, inspirez-vous des deux lignes précédentes qui font la soustraction et l'addition de a et b.
-6. Testez votre programme en lançant index.html et voyez le résultat.
-7. Si votre programme fonctionne allez au point suivant sinon cherchez votre erreur.
-6. Faites un git status (vous voyez ce qui a changé depuis le point 1 ? Quoi ?)
+4. Ajoutez un footer avec le texte suivant dans un paragraphe: 
+    ```html
+    (c) 2023 - <span class="kokonitch">Kokonitch</span> Website.
+    ```
+5. Testez votre programme en lançant index.html et voyez le résultat.
+6. Si votre programme fonctionne allez au point suivant sinon cherchez votre erreur.
+7. Faites un git status (vous voyez ce qui a changé depuis le point 1 ? Quoi ?)
 
 ### 1.11 - Indexation
 
@@ -115,7 +119,7 @@ Vous devrez ajouter une fonction qui multiplie deux nombres dans genius.js et l'
 ### 1.12 - Validation
 
 1. Faites un git status
-2. Validez/Commitez vos fichiers en ajoutant comme message "Ajout de la fonction multiply et adaptation du fichier index.html"
+2. Validez/Commitez vos fichiers en ajoutant comme message "Ajout d'un style css pour le titre h1 et ajout d'un footer"
 3. Faites un git status (vous voyez ce qui a changé depuis le point 1 ? Quoi ?)
 4. Tapez la commande git tag v3
 
@@ -129,15 +133,13 @@ Le nouveau commit que vous venez de faire doit y figurer.
 
 ### 1.14 - Modification (de code)
 
-Vous devrez ajouter une fonction qui divise deux nombres dans genius.js et l'utiliser dans index.html. Le code devra être fonctionnel. C'est à dire qu'à l'affichage dans index.html, votre fonction calcule bien la division de deux nombres et affiche à l'écran le résultat. Donc index.html permettra de vérifier à l'affichage de la page web si votre code est bon.
+Vous allez maintenant modifier le menu  des pages index.html et contact.html pour que les liens pointent vers les bonnes pages.
 
-1. Editez le fichier genius.js 
-2. Ajoutez la fonction divide qui retourne (return) la division des deux nombres donnés en paramètre dans la signature de la fonction divide. N'oubliez pas que l'on ne peut diviser par 0 en mathématiques. Donc il faudra tester que le diviseur est bien différent de 0 avant de retourner le quotient.
-3. Editez le fichier index.html
-4. Appelez la fonction display pour qu'elle affiche la division de a par b (a / b).
-5. Pour l'utilisation de display dans index.html, inspirez-vous des trois lignes précédentes qui font la soustraction, l'addition et la multiplication de a et b.
-6. Testez votre programme en lançant index.html et voyez le résultat.
-7. Si votre programme fonctionne allez au point suivant sinon cherchez votre erreur.
+1. Editez le fichier index.html
+2. Ajoutez le lien vers la page contact.html
+3. Editez le fichier contact.html
+4. Ajoutez le lien vers la page index.html
+5. Testez la index.html et voyez le résultat et testez la contact.html et voyez le résultat. Vous devez pouvoir naviguer entre les deux pages.
 6. Faites un git status (vous voyez ce qui a changé depuis le point 1 ? Quoi ?)
 
 ### 1.15 - Indexation
@@ -149,7 +151,7 @@ Vous devrez ajouter une fonction qui divise deux nombres dans genius.js et l'uti
 ### 1.16 - Validation
 
 1. Faites un git status
-2. Validez/Commitez vos fichiers en ajoutant comme message "Ajout de la fonction divide et adaptation du fichier index.html"
+2. Validez/Commitez vos fichiers en ajoutant comme message "Ajout des liens dans le menu des pages index.html et contact.html"
 3. Faites un git status (vous voyez ce qui a changé depuis le point 1 ? Quoi ?)
 4. Tapez la commande git tag v4
 

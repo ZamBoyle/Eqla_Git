@@ -10,11 +10,11 @@
 
 <body>
     <header>
-        <nav>
+        <nav role="navigation">
             <ul>
                 <li><a href="">Accueil</a></li>
                 <li><a href="">Produits</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="" class="active">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -39,7 +39,7 @@
     </main>
     
     <footer>
-        <p>&copy; 2023 Eqla. Tous droits réservés.</p>
+        <p>&copy; 2023 <span class="kokonitch">Kokonitch</span>. On fait tout sauf des sandwichs.</p>
     </footer>
     <script>
         document.addEventListener("DOMContentLoaded", function() {

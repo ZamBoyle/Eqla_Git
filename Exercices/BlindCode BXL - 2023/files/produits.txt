@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produits | Kokonitch</title>
+    <link rel="stylesheet" href="site.css">
+</head>
+<body>
+    <header>
+        <nav role="navigation">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="" class="active">Produits</a></li>
+                <li><a href="contact.html">Contacts</a></li>
+            </ul>
+        </nav>        
+        <h1>Nos produits insolites !</h1>
+    </header>
+    <main>
+        <section class="products">
+            <!-- Produit 1 -->
+            <article class="product">
+                <img src="https://source.unsplash.com/9l_326FISzk/200x200" alt="Bureau en bois brun brun foncé avec un ordinateur portable et une souris">
+                <h3>Bureau en bois brut de Mars</h3>
+                <p>Embarquez pour une odyssée interstellaire avec notre "Bureau en bois brut de Mars" ! Confectionné avec soin et passion, ce bureau n'est pas simplement un meuble, mais une pièce maîtresse qui apportera une atmosphère unique et céleste à votre espace de travail ou d'étude.</p>
+
+                    <p>Le bois brut, scrupuleusement sélectionné, évoque les paysages martiens énigmatiques, avec ses nuances douces, ses grains délicats et sa patine naturellement riche. La construction robuste et les lignes épurées du bureau offrent un mélange subtil entre fonctionnalité moderne et charme rustique, créant ainsi un lieu de travail à la fois inspirant et pragmatique.</p>
+                    
+                    <p>Non seulement un régal pour les yeux, le "Bureau en bois brut de Mars" est également conçu pour optimiser votre espace de travail, avec des compartiments de rangement astucieusement intégrés et une surface spacieuse, prête à accueillir tous vos projets, des plus petits aux plus grandioses.</p>
+                <p>Prix : 250€</p>
+            </article>
+            <!-- Produit 2 -->
+            <article class="product">
+                <img src="https://source.unsplash.com/W1yjvf5idqA/200x200" alt="Image du produit 2">
+                <h3>Bonsai de Vénus</h3>
+                <p>Le Bonsaï de Vénus est bien plus qu'un simple arbre en pot ; c'est une œuvre d'art vivante qui élève et vitalise tout espace dans lequel il se trouve. Plongez dans un monde où la nature rencontre le cosmos, grâce à cet élément de décoration d'intérieur exotique et raffiné.</p>
+
+                    <p>Notre Bonsaï de Vénus est un hommage miniature à la beauté luxuriante et mystérieuse de la planète Vénus, connue pour son éclat saisissant et son atmosphère envoûtante. Les feuilles délicates de notre bonsaï évoquent la brillance dorée de Vénus dans le ciel nocturne, tandis que son tronc torsadé et ses racines aériennes semblent danser en apesanteur dans un lointain cosmos.</p>
+                <p>Prix : 20€</p>
+            </article>
+            <!-- etc. répétez ceci pour 8 produits -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 <span class="kokonitch">Kokonitch</span>. On fait tout sauf des sandwichs.</p>
+    </footer>
+</body>
+</html>
