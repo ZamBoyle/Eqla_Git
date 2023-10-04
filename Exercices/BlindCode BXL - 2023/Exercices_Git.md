@@ -25,7 +25,7 @@ Pour éviter des alertes de sécurité de Chrome, j'ai nommé les fichiers avec 
 - [produits.txt](https://raw.githubusercontent.com/ZamBoyle/Eqla_Git/master/Exercices/BlindCode%20BXL%20-%202023/files/produits.txt)
 - [contact.txt](https://raw.githubusercontent.com/ZamBoyle/Eqla_Git/master/Exercices/BlindCode%20BXL%20-%202023/files/contact.txt)
 - [site.txt](https://raw.githubusercontent.com/ZamBoyle/Eqla_Git/master/Exercices/BlindCode%20BXL%20-%202023/files/site.txt)
-- [banner.jpg](https://raw.githubusercontent.com/ZamBoyle/Eqla_Git/master/Exercices/BlindCode%20BXL%20-%202023/files/banner.png)
+- [banner.png](https://raw.githubusercontent.com/ZamBoyle/Eqla_Git/master/Exercices/BlindCode%20BXL%20-%202023/files/banner.png)
 
 ### 1.3 - Indexation
 
