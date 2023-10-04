@@ -6,11 +6,10 @@
     &nbsp;Exercices Git
 </h1>
 
+* [Exercice n°1](#exercice-n1---creation--indexation--validation) - Code HTML - Creation / indexation / validation
+* [Exercice n°2](#exercice-n2---creation--indexation--validation) - Recette de cuisine - Creation / indexation / validation
 
-* [Exercice n°1](#ex1)
-* [Exercice n°2](#ex2)
-
-<h2 id="ex1"> Exercice n°1 - Creation / indexation / validation</h2>
+## Exercice n°1 - Creation / indexation / validation
 
 <!-- Le nom du fichier zip aura la structure suivante **prenom_ex1.zip**. Par exemples: **johnny_ex1.zip** ou encore **bruno_ex1.zip**. -->
 
@@ -170,7 +169,7 @@ Vous verrez l'ensemble des commits effectués avec la date, l'heure, l'auteur et
 
 Le nouveau commit que vous venez de faire doit y figurer.
 
-<h2 id="ex2">Exercice n°2 - Creation / indexation / validation</h2>
+## Exercice n°2 - Creation / indexation / validation
 
 ### 2.1 - Création d'un dépôt
 
