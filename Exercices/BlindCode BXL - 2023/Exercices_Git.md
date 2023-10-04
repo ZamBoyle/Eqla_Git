@@ -1,6 +1,4 @@
 [:arrow_left: Revenir au sommaire.](./README.md#sommaire)
-<h1 class="text-center">Exercices - Git</h1>
-
 <h1 id="Exercices" style="display: flex; align-items: center; justify-content: center;">
     <img src="/media/eqla.png" style="height:50px" alt="Logo d'Eqla">
     &nbsp;Exercices Git
