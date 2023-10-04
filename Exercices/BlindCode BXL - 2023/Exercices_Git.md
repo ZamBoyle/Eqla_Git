@@ -28,6 +28,7 @@ Pour éviter des alertes de sécurité de Chrome, j'ai nommé les fichiers avec 
 - [produits.txt](https://raw.githubusercontent.com/ZamBoyle/Eqla_Git/master/Exercices/BlindCode%20BXL%20-%202023/files/produits.txt)
 - [contact.txt](https://raw.githubusercontent.com/ZamBoyle/Eqla_Git/master/Exercices/BlindCode%20BXL%20-%202023/files/contact.txt)
 - [site.txt](https://raw.githubusercontent.com/ZamBoyle/Eqla_Git/master/Exercices/BlindCode%20BXL%20-%202023/files/site.txt)
+- [banner.jpg](https://raw.githubusercontent.com/ZamBoyle/Eqla_Git/master/Exercices/BlindCode%20BXL%20-%202023/files/banner.png)
 
 ### 1.3 - Indexation
 
@@ -64,7 +65,8 @@ Renommez les fichiers de la manière suivante:
 2. site.txt devient site.css
 3. contact.txt devient contact.html
 4. produits.txt devient produits.html
-5. Évidemment vérifiez avec dir (windows) ou ls (mac/linux) s'ils sont bien renommés.
+5. banner.jpg ne change pas de nom: on ne fait rien avec ce fichier.
+6. Évidemment vérifiez avec dir (windows) ou ls (mac/linux) s'ils sont bien renommés.
 
 ### 1.7 - Indexation
 
