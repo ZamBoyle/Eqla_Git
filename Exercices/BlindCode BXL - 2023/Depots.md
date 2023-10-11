@@ -15,6 +15,7 @@
 | Baptiste | https://github.com/                  |
 | Amir     | https://github.com/                  |
 | Karim    | https://github.com/                  |
+| Christian| https://github.com/                  |
 
 
 ## Liste des dépôts des formateurs
