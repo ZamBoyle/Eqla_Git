@@ -15,27 +15,27 @@ Choisissez un autre répertoire si vous le désirez.
 
 1. Ouvrez un invite de commandes/terminal.
 2. Allez dans le répertoire MesDocuments.
-3. Créez un nouveau dépôt distant ayant pour nom EqlaExercices: gh repo create EqlaExercices --public --clone
-4. Allez dans le répertoire créé: cd EqlaExercices
-5. Créez dans ce répertoire les répertoires suivants: php html bootstrap css db laravel mysql
-6. Faites un git status (observez ce que donne la sortie de cette commande).
+3. Créez un nouveau dépôt distant ayant pour nom EqlaExercices: `gh repo create EqlaExercices --public --clone`
+4. Allez dans le répertoire créé: `cd EqlaExercices`
+5. Créez dans ce répertoire les répertoires suivants: `php` `html` `bootstrap` `css` `db` `laravel` `mysql`
+6. Faites un `git status` (observez ce que donne la sortie de cette commande).
 7. Ajoutez les nouveaux répertoires dans la zone d'index.
-8. Commitez vos changements avec le message suivant "Initial Commit"
+8. Commitez vos changements avec le message suivant `"Initial Commit"`
 9. Faites un git status (observez ce que donne la sortie de cette commande).
 10. Donnez un tag à ce commit.
 11. Faites un git status (observez ce que donne la sortie de cette commande).
-12. Envoyez vos modifications en ligne: git push -u origin master (les options origin master ne devront êtes faites qu'au premier envoi vers GitHub)
+12. Envoyez vos modifications en ligne: `git push -u origin master` (les options origin master ne devront êtes faites qu'au premier envoi vers GitHub)
 
-## Partie 2 - Création du dépôt myjava sur GitHub
+## Partie 2 - Création du dépôt myhtml sur GitHub
 
 1. Ouvrez un invite de commandes/terminal.
 2. Allez dans le répertoire mesdepots
-3. Créez un nouveau dépôt distant ayant pour nom myhtml: gh repo create myhtml --public --clone
-4. Allez dans le répertoire créé: cd myhtml
+3. Créez un nouveau dépôt distant ayant pour nom myhtml: `gh repo create myhtml --public --clone`
+4. Allez dans le répertoire créé: `cd myhtml`
 
 ## Partie 3
 
-1. Créez une page web complète qui s'appelle ex1.html et qui affichera un tableau des jours des cours et les cours.
+1. Créez une page web complète qui s'appelle `ex1.html` et qui affichera un tableau des jours des cours et les cours.
    Exemple:
 
 <table>
@@ -118,39 +118,39 @@ Voici le code HTML de ce tableau:
 </table>
 ```
 
-2. Faites un git status (observez ce que donne la sortie de cette commande).
-3. Faites un git diff ex1.html (Observez bien les ajouts et modifications de votre page).
-4. Ajoutez ce fichier à la zone d'index: git add ex1.html
-5. Commitez vos changements avec le message suivant "Initial Commit": git commit -m "Initial Commit"
-6. Faites un git status (observez ce que donne la sortie de cette commande).
+2. Faites un `git status` (observez ce que donne la sortie de cette commande).
+3. Faites un `git diff ex1.html` (Observez bien les ajouts et modifications de votre page).
+4. Ajoutez ce fichier à la zone d'index: `git add ex1.html`
+5. Commitez vos changements avec le message suivant "Initial Commit": `git commit -m "Initial Commit"`
+6. Faites `un git status` (observez ce que donne la sortie de cette commande).
 7. Donnez un tag à ce commit. (v1)
-8. Faites un git status (observez ce que donne la sortie de cette commande).
-9. Envoyez vos modifications en ligne: git push -u origin master
+8. Faites `un git status` (observez ce que donne la sortie de cette commande).
+9. Envoyez vos modifications en ligne.<!--: `git push -u origin master`-->
 
 ## Partie 4
 
-1. Ajoutez un titre h1 "Exercices GitHub" et un titre au tableau (caption) "Horaire des cours".
-2. Faites un git status (observez ce que donne la sortie de cette commande).
-3. Faites un git diff ex1.html (Observez bien les ajouts et modifications de votre page).
+1. Ajoutez un titre h1 "`Exercices GitHub`" et un titre au tableau (caption) "`Horaire des cours`".
+2. Faites un `git status` (observez ce que donne la sortie de cette commande).
+3. Faites un `git diff ex1.html` (Observez bien les ajouts et modifications de votre page).
 4. Ajoutez ce fichier à la zone d'index.
 5. Commitez vos changements avec le message suivant: "Ajout de la fonction DisplayName"
 6. Donnez un tag à ce commit. (v2)
-7. Faites un git status (observez ce que donne la sortie de cette commande).
-8. Envoyez vos modifications en ligne: git push
+7. Faites un `git status` (observez ce que donne la sortie de cette commande).
+8. Envoyez vos modifications en ligne.<!--: `git push`-->
 
 ## Partie 5
 
-1. Ajoutez un dossier nommé css.
-2. Ajoutez un fichier nommé style.css dans ce dossier.
+1. Ajoutez un dossier nommé `css`.
+2. Ajoutez un fichier nommé `style.css` dans ce dossier.
 3. Mettez les entêtes du tableau en italique.
 4. Mettez en gras les lignes paires du tableau.
-5. Faites un git status (observez ce que donne la sortie de cette commande).
-6. Faites un git diff  ex1.html (Observez bien les ajouts et modifications de votre programme).
+5. Faites un `git status` (observez ce que donne la sortie de cette commande).
+6. Faites un `git diff ex1.html` (Observez bien les ajouts et modifications de votre programme).
 7. Ajoutez ce fichier à la zone d'index.
 8. Commitez vos changements avec le message suivant: "Ajout du fichier style.css".
 9. Donnez un tag à ce commit. (v3)
-8. Faites un git status (observez ce que donne la sortie de cette commande).
-9. Envoyez vos modifications en ligne: git push -u
+8. Faites un `git status` (observez ce que donne la sortie de cette commande).
+9. Envoyez vos modifications en ligne.<!--: `git push -u`-->
 
 ## Partie 6
 
@@ -176,7 +176,7 @@ Le cours de CSS (Cascading Style Sheets) plonge les apprenants dans le monde fas
 6. Commitez vos changements avec le message suivant: "Ajout d'un titre h2 et définitions".
 7. Donnez un tag à ce commit. (v4)
 8. Faites un git status (observez ce que donne la sortie de cette commande).
-9. Envoyez vos modifications en ligne: git push -u
+9. Envoyez vos modifications en ligne.<!--: git push -u-->
 
 ## Partie 7 - .gitignore
 
@@ -190,18 +190,18 @@ Le cours de CSS (Cascading Style Sheets) plonge les apprenants dans le monde fas
 6. Ajoutez ce fichier à la zone d'index.
 7. Commitez vos changements avec le message suivant: "Ajout du fichier .gitignore".
 8. Donnez un tag à ce commit. (v5)
-9. Faites un git status (observez ce que donne la sortie de cette commande).
-10. Envoyez vos modifications en ligne: git push -u
+9. Faites un `git status` (observez ce que donne la sortie de cette commande).
+10. Envoyez vos modifications en ligne.<!-- git push -u -->
 
 ## Partie 8 - git clone et git pull
 
 Je vais vous attribuer le dépôt d'une personne que vous allez cloner.
 
 1. Retournez dans le répertoire mesdepots.
-2. Si vous êtes dans le répertoire myjava, faites un cd .. pour revenir à mesdepots
+2. Si vous êtes dans le répertoire myhtml, faites un cd .. pour revenir à mesdepots
 3. Vous allez cloner le dépôt qui vous sera assigné:
 
-   Jessie prendra le dépôt d'Alain : git clone https://github.com/alduf1972/mypython.git mypythonAlain
+   Christian prendra le dépôt de Filippo : git clone https://github.com/alduf1972/myhtml.git mypythonFilippo
 
    Alain prendra le dépôt de Bruno : git clone https://github.com/BrunoDefalque/mypython.git mypythonBruno
 
