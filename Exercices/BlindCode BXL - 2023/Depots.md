@@ -15,7 +15,7 @@
 | Baptiste | https://github.com/BaptisteBrasseur   |
 | Amir     | https://github.com/Amir-Eqla         |
 | Karim    | https://github.com/KarimUchiwa                  |
-| Nabil    | https://github.com/                  |
+| Nabil    |                  |
 | Christian| https://github.com/chrishonore       |
 
 
