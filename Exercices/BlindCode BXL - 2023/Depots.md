@@ -8,15 +8,15 @@
 ## Liste des dépôts des stagiaires
 | Prénom      | URL                                  |
 |----------|--------------------------------------|
-| Carmen   | https://github.com/                  |
-| Anthony  | https://github.com/                  |
-| Thomas   | https://github.com/                  |
-| Filippo  | https://github.com/                  |
-| Baptiste | https://github.com/                  |
-| Amir     | https://github.com/                  |
-| Karim    | https://github.com/                  |
+| Carmen   | https://github.com/carmentod         |
+| Anthony  | https://github.com/anthony1819       |
+| Thomas   | https://github.com/ThArdui           |
+| Filippo  | https://github.com/FilyDev           |
+| Baptiste | https://github.com/BaptisteBasseur   |
+| Amir     | https://github.com/Amir-Eqla         |
+| Karim    | https://github.com/KarimUchiwa                  |
 | Nabil    | https://github.com/                  |
-| Christian| https://github.com/                  |
+| Christian| https://github.com/chrishonore       |
 
 
 ## Liste des dépôts des formateurs
