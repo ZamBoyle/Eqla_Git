@@ -24,6 +24,7 @@
 |----------|--------------------------------------|
 | Johnny   | https://github.com/zamboyle/         |
 | Philip   | https://github.com/kraktu/           |
+| JC       |          |
 
 
 [:arrow_left: Revenir au sommaire.](./README.md#sommaire)
