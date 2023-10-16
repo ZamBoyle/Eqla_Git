@@ -20,7 +20,7 @@
 
 
 ## Liste des dépôts des formateurs
-| Prof     | URL                                  |
+| Formateurs     | URL                                  |
 |----------|--------------------------------------|
 | Johnny   | https://github.com/zamboyle?tab=repositories         |
 | Philip   | https://github.com/kraktu?tab=repositories           |
