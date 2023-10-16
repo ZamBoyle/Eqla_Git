@@ -12,7 +12,7 @@
 | Anthony  | https://github.com/anthony1819       |
 | Thomas   | https://github.com/ThArdui           |
 | Filippo  | https://github.com/FilyDev           |
-| Baptiste | https://github.com/BaptisteBasseur   |
+| Baptiste | https://github.com/BaptisteBrasseur   |
 | Amir     | https://github.com/Amir-Eqla         |
 | Karim    | https://github.com/KarimUchiwa                  |
 | Nabil    | https://github.com/                  |
