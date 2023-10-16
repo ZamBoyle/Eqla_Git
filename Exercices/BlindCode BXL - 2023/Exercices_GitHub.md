@@ -41,40 +41,82 @@ Choisissez un autre répertoire si vous le désirez.
 <table>
     <thead>
         <tr>
-            <th scope="col">Jour</th>        
-            <th scope="col"> Moment </th>
-            <th scope="col">Cours</th>
+            <th scope="col" id="jour">Jour</th>
+            <th scope="col" id="moment">Moment</th>
+            <th scope="col" id="cours">Cours</th>
         </tr>
-    </theabd>
+    </thead>
     <tbody>
         <tr>
-            <td rowspan="2">Mercredi</td>        
-            <td>AM</td>
-            <td rowspan="2">GIT</td>
+            <td rowspan="2" headers="jour">Mercredi</td>        
+            <td headers="moment">AM</td>
+            <td rowspan="2" headers="cours">GIT</td>
         </tr>
         <tr>
-            <td>PM</td>
+            <td headers="moment">PM</td>
         </tr>
         <tr>
-            <td rowspan="2">Jeudi</td>        
-            <td>AM</td>
-            <td>HTML</td>
+            <td rowspan="2" headers="jour">Jeudi</td>        
+            <td headers="moment">AM</td>
+            <td headers="cours">HTML</td>
         </tr>
         <tr>
-            <td>PM</td>
-            <td>CSS</ttd>            
-        </tr>
-                <tr>
-            <td rowspan="2">Vendredi</td>                
-            <td>AM</td>
-            <td>HTML</td>
+            <td headers="moment">PM</td>
+            <td headers="cours">CSS</td>            
         </tr>
         <tr>
-            <td>PM</td>
-            <td>CSS</td>
+            <td rowspan="2" headers="jour">Vendredi</td>                
+            <td headers="moment">AM</td>
+            <td headers="cours">HTML</td>
+        </tr>
+        <tr>
+            <td headers="moment">PM</td>
+            <td headers="cours">CSS</td>
         </tr>
     </tbody>
 </table>
+
+Voici le code HTML de ce tableau:
+
+```html
+<table>
+    <thead>
+        <tr>
+            <th scope="col" id="jour">Jour</th>
+            <th scope="col" id="moment">Moment</th>
+            <th scope="col" id="cours">Cours</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="2" headers="jour">Mercredi</td>        
+            <td headers="moment">AM</td>
+            <td rowspan="2" headers="cours">GIT</td>
+        </tr>
+        <tr>
+            <td headers="moment">PM</td>
+        </tr>
+        <tr>
+            <td rowspan="2" headers="jour">Jeudi</td>        
+            <td headers="moment">AM</td>
+            <td headers="cours">HTML</td>
+        </tr>
+        <tr>
+            <td headers="moment">PM</td>
+            <td headers="cours">CSS</td>            
+        </tr>
+        <tr>
+            <td rowspan="2" headers="jour">Vendredi</td>                
+            <td headers="moment">AM</td>
+            <td headers="cours">HTML</td>
+        </tr>
+        <tr>
+            <td headers="moment">PM</td>
+            <td headers="cours">CSS</td>
+        </tr>
+    </tbody>
+</table>
+```
 
 2. Faites un git status (observez ce que donne la sortie de cette commande).
 3. Faites un git diff ex1.html (Observez bien les ajouts et modifications de votre page).
