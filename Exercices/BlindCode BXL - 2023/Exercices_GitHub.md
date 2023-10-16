@@ -58,18 +58,20 @@ Choisissez un autre répertoire si vous le désirez.
         <tr>
             <td rowspan="2">Jeudi</td>        
             <td>AM</td>
-            <td rowspan="2">HTML</td>
+            <td>HTML</td>
         </tr>
         <tr>
             <td>PM</td>
+            <td>CSS</ttd>            
         </tr>
                 <tr>
             <td rowspan="2">Vendredi</td>                
             <td>AM</td>
-            <td rowspan="2">HTML</td>
+            <td>HTML</td>
         </tr>
         <tr>
             <td>PM</td>
+            <td>CSS</td>
         </tr>
     </tbody>
 </table>
