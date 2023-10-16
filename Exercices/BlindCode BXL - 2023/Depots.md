@@ -8,22 +8,22 @@
 ## Liste des dépôts des stagiaires
 | Prénom      | URL                                  |
 |----------|--------------------------------------|
-| Carmen   | https://github.com/carmentod         |
-| Anthony  | https://github.com/anthony1819       |
-| Thomas   | https://github.com/ThArdui           |
-| Filippo  | https://github.com/FilyDev           |
-| Baptiste | https://github.com/BaptisteBrasseur   |
-| Amir     | https://github.com/Amir-Eqla         |
-| Karim    | https://github.com/KarimUchiwa                  |
+| Carmen   | https://github.com/carmentod?tab=repositories         |
+| Anthony  | https://github.com/anthony1819?tab=repositories       |
+| Thomas   | https://github.com/ThArdui?tab=repositories           |
+| Filippo  | https://github.com/FilyDev?tab=repositories           |
+| Baptiste | https://github.com/BaptisteBrasseur?tab=repositories   |
+| Amir     | https://github.com/Amir-Eqla?tab=repositories         |
+| Karim    | https://github.com/KarimUchiwa?tab=repositories                  |
 | Nabil    |                  |
-| Christian| https://github.com/chrishonore       |
+| Christian| https://github.com/chrishonore?tab=repositories       |
 
 
 ## Liste des dépôts des formateurs
 | Prof     | URL                                  |
 |----------|--------------------------------------|
-| Johnny   | https://github.com/zamboyle/         |
-| Philip   | https://github.com/kraktu/           |
+| Johnny   | https://github.com/zamboyle?tab=repositories         |
+| Philip   | https://github.com/kraktu?tab=repositories           |
 | JC       |          |
 
 
