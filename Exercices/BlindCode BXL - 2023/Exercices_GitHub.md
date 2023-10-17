@@ -201,20 +201,16 @@ Je vais vous attribuer le dépôt d'une personne que vous allez cloner.
 2. Si vous êtes dans le répertoire myhtml, faites un cd .. pour revenir à mesdepots
 3. Vous allez cloner le dépôt qui vous sera assigné:
 
-   Christian prendra le dépôt de Filippo : git clone https://github.com/alduf1972/myhtml.git mypythonFilippo
-
-   Alain prendra le dépôt de Bruno : git clone https://github.com/BrunoDefalque/mypython.git mypythonBruno
-
-   Mahsum prendra le dépôt d'Isaac : git clone https://github.com/zackakyo/mypython.git mypythonIsaac
-
-   Isaac prendra le dépôt de Mahsum : git clone https://github.com/Mahsum21/mypython.git mypythonMahsum
-
-   Eleonor prendra le dépôt de Jessie : git clone https://github.com/jessiebak/mypython.git mypythonJessie
-
-   Bruno prendra le dépôt de Maxime : git clone https://github.com/maximeborsen/mypython.git mypythonMaxime
-
-   Maxime prendra le dépôt d'Eleonor : git clone https://github.com/ele-sana/mypython.git mypythonEleonor
-
+    - Christian prendra le dépôt de Filippo : git clone https://github.com/FilyDev/myhtml.git myhtmlFilippo
+    - Filippo prendra le dépôt de Amir : git clone https://github.com/Amir-Eqla/myhtml.git myhtmlAmir
+    - Amir prendra le dépôt d'Anthony : git clone https://github.com/anthony1819/myhtml.git myhtmlAnthony
+    - Anthony prendra le dépôt de Carmen : git clone https://github.com/carmentod/myhtml.git myhtmlCarmen
+    - Carmen prendra le dépôt de Thomas : git clone https://github.com/ThArdui/myhtml.git myhtmlThomas
+    - Thomas prendra le dépôt de Nabil : git clone https://github.com/nabilelrh16/myhtml.git myhtmlNabil
+    - Nabil prendra le dépôt de Karim : git clone https://github.com/KarimUchiwa/myhtml.git myhtmlKarim
+    - Karim prendra le dépôt de Baptiste : git clone https://github.com/BaptisteBrasseur/myhtml.git myhtmlBaptiste
+    - Baptiste prendra le dépôt de Christian : git clone https://github.com/chrishonore/myhtml.git myhtmlChristian
+   
 LES RESPONSABLES DE DÉPÔTS:
 
 4. Chaque responsable de son dépôt adressera ses salutations via le fichier Hello.txt et saluera la personne qui a cloné son dépôt après qu'elle est cloné votre dépôt.
@@ -225,15 +221,15 @@ LES RESPONSABLES DE DÉPÔTS:
 
 LES UTILISATEURS DE DÉPÔTS CLONES:
 
-9. Vous vérifierez les modifications quand le gestionnaire du dépôt vous indiquera dès que vous pouvez le faire.
+9. Vous vérifierez les modifications quand le gestionnaire du dépôt vous indiquera dès que vous pouvez le faire avec un git pull.
 
 ## Partie 9
 
-Ici, nous allons cloner notre dépôt myjava en myjavaClone.
+Ici, nous allons cloner notre dépôt myhtml en myhtmlClone.
 
 1. Remonter d'un répertoire cd ..
 2. Vous devriez être dans le répertoire mesdepots. Pour le vérifier: cd (Sous windows) ou bien pwd sous Linux/Mac
-3. clonons notre dépôt distant myjava avec git: git clone https://github.com/VotreNomDutilisateur/myjava.git myjavaClone
+3. clonons notre dépôt distant myhtml avec git: git clone https://github.com/VotreNomDutilisateur/myhtml.git myhtmlClone
 
 ## Partie 10
 

@@ -5,6 +5,13 @@
     &nbsp;Exercices - GitHubPages
 </h1>
 
+## 1. Créer votre dépôt GitHub Pages
+Nous allons ici créer votre dépôt GitHub Pages si vous ne l'avez pas encore fait.
+1. Créez un dépôt public et nommez-le: votreNomUtilisateur.github.io
+2. Allez dans le répertoire mesdepots
+3. Créez un répertoire: votreNomUtilisateur.github.io
+
+
 
 [:arrow_left: Revenir au sommaire.](./README.md#sommaire)
 
