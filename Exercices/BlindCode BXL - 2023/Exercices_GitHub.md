@@ -25,6 +25,7 @@ Choisissez un autre répertoire si vous le désirez.
 10. Donnez un tag à ce commit.
 11. Faites un git status (observez ce que donne la sortie de cette commande).
 12. Envoyez vos modifications en ligne: `git push -u origin master` (les options origin master ne devront êtes faites qu'au premier envoi vers GitHub)
+13. S'il vous est demandé de vous identifier, faites-le: Utilisez votre nom d'utilisateur et votre token. Ensuite, enregistrez globalement votre nom d'utilisateur et votre token avec la commande suivante: `git config --global credential.helper store`
 
 ## Partie 2 - Création du dépôt myhtml sur GitHub
 
