@@ -6,12 +6,15 @@
 </h1>
 
 ## 1. Créer votre dépôt GitHub Pages
-Nous allons ici créer votre dépôt GitHub Pages si vous ne l'avez pas encore fait.
-1. Créez un dépôt public et nommez-le: votreNomUtilisateur.github.io
-2. Allez dans le répertoire mesdepots
-3. Créez un répertoire: votreNomUtilisateur.github.io
+Si vous ne l'avez pas encore fait votre dépôt github.io sur GiHub, suivez les instructions de [cette page](/Theo/1.%20Git.md#401-créons-le-dépôt-sur-github).
 
-
+## 2. Créer votre page d'accueil
+1. Créez/modifiez le fichier `index.html` dans votre dépôt GitHub Pages.
+2. Mettez du texte qui vous présente.
+3. Ajoutez une image de vous.
+4. Ajoutez un lien vers votre profil GitHub.
+5. Envoyez votre fichier sur GitHub.
+6. Vérifiez que votre page est accessible à l'adresse `https://votreNomDutilisateur.github.io`.
 
 [:arrow_left: Revenir au sommaire.](./README.md#sommaire)
 
