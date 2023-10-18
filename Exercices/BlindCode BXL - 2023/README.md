@@ -7,6 +7,7 @@
 
 - [Exercice 1](Exercices_Terminal.md#Exercices): Exercices sur la ligne de commandes.
 - [Exercice 2](Exercices_Git.md#Exercices): Exercices sur Git.
+- [Quiz](/Theo/2.%20Quiz.md): Petit quiz sur Git.
 - [Exercice 3](Exercices_GitHub.md#Exercices): Exercices sur GitHub.
 - [Exercice 4](Exercices_GitHub_Pages.md#Exercices): Exercices sur GitHub Pages. (Optionnel / Si le temps le permet)
 
