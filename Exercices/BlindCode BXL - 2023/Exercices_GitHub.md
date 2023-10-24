@@ -158,23 +158,24 @@ Voici le code HTML de ce tableau:
 
 1. Avant le tableau, ajoutez un titre de niveau 2 "Rappels sur les tableaux".
 2. Après le tableau, ajoutez un titre de niveau 2 "Définition des cours".
+3. Ajoutez les définitions suivantes (Il y a des erreurs dans les titres des définitions. C'est normal.):
 
 ```html
-<span class="subject">GIT</span>
+<span class="subject">GITAGE</span>
 ```
 \<p\>
     Le cours de GIT offre une plongée approfondie dans l'un des systèmes de contrôle de version les plus utilisés dans le monde du développement logiciel. Les participants apprendront comment suivre et gérer les modifications dans leurs projets de code, comment collaborer avec d'autres développeurs et comment résoudre les conflits de code. Le programme explore à la fois les concepts de base et avancés du système de gestion de version, y compris les branches, les fusions, et les workflows de collaboration. De la gestion de petits projets aux workflows complexes dans les grandes équipes, GIT s’avère un outil indispensable pour tous les développeurs.
 \</p\>
 
 ```html
-<span class="subject">HTML</span>
+<span class="subject">Acheté ML</span>
 ```
 \<p\>
     Le cours HTML initie les apprenants aux fondations du développement web, en couvrant l'un des langages de balisage les plus fondamentaux pour la création de pages web. Les étudiants exploreront comment structurer le contenu d'une page, incorporer du texte, des images, des formulaires, et d'autres médias, tout en assurant une expérience utilisateur accessible et inclusive. Tout au long du cours, les participants auront l'opportunité de construire leur propre site web, intégrant une navigation fluide et des éléments interactifs, pour appliquer pratiquement les compétences nouvellement acquises dans un projet concret.
 \</p\>
 
 ```html
-<span class="subject">CSS</span>
+<span class="subject">CSSzzzz</span>
 ```
 \<p\>
     Le cours de CSS (Cascading Style Sheets) plonge les apprenants dans le monde fascinant du style et de la mise en page web. Les participants exploreront comment appliquer des couleurs, des polices, des mises en page, et des animations pour améliorer l'expérience utilisateur et l'esthétique des sites web. En mettant l'accent sur des pratiques responsives et adaptatives, le cours guide les étudiants à travers la création de sites web qui sont non seulement visuellement attrayants mais aussi fonctionnels sur une multitude d'appareils et de tailles d'écran. L'apprentissage du CSS permet aux développeurs de transformer leurs sites HTML bruts en expériences utilisateurs immersives et engageantes.
@@ -235,13 +236,40 @@ LES UTILISATEURS DE DÉPÔTS CLONES:
 
 ## Partie 9
 
-Ici, nous allons cloner notre dépôt myhtml en myhtmlClone.
-
-1. Remonter d'un répertoire cd ..
-2. Vous devriez être dans le répertoire mesdepots. Pour le vérifier: cd (Sous windows) ou bien pwd sous Linux/Mac
-3. clonons notre dépôt distant myhtml avec git: git clone https://github.com/VotreNomDutilisateur/myhtml.git myhtmlClone
+Les responsables de dépôts vont ajouter la personne avec qui elles font l'exercice comme collaborateur de leur dépôt:
+- Filippo ajoutera Christian comme collaborateur de son dépôt.
+- Amir ajoutera Filippo comme collaborateur de son dépôt.
+- Anthony ajoutera Amir comme collaborateur de son dépôt.
+- Carmen ajoutera Anthony comme collaborateur de son dépôt.
+- Thomas ajoutera Carmen comme collaborateur de son dépôt.
+- Nabil ajoutera Thomas comme collaborateur de son dépôt.
+- Karim ajoutera Nabil comme collaborateur de son dépôt.
+- Baptiste ajoutera Karim comme collaborateur de son dépôt.
+- Christian ajoutera Baptiste comme collaborateur de son dépôt.
 
 ## Partie 10
+
+- Dans le dépôt de la personne qui vous a ajouté comme collaborateur, vous allez modifier le fichier style.css en ajoutant la classe `subject` qui est utilisée dans le fichier ex1.html pour les titres des cours via la balise span.
+- La classe `subject` devra avoir la propriété `font-weight: bold;` et `font-style: italic;` et une couleur de votre choix.
+- Vous ajouterez votre fichier style.css dans la zone d'index.
+- Vous commiterez vos modifications.
+- vous enverrez celles-ci sur github.
+- Vous prévenez la personne qu'elle peut récupérer les modifications que vous venez de faire.
+
+## Partie 11
+- Demandez à une personne qui n'est pas collaborateur de votre dépôt.
+- De faire une issue sur votre dépôt.
+- Cette issue indiquera le nom des cours est erroné.
+- Vous ou votre collaborateur, corrigerez:
+    - "GITAGE" par "GIT".
+    - "Acheté ML" par "HTML".
+    - "CSSzzzz" par "CSS".
+- Vous ajouterez votre fichier ex1.html dans la zone d'index.
+- Vous commiterez vos modifications en utilisant le numéro de l'issue dans le message de commit: voir dans le cours sur les issues comment faire.
+- vous enverrez celles-ci sur github.
+- Vous prévenez la personne qu'elle peut récupérer les modifications que vous venez de faire.
+
+## Partie 12
 
 1. Affichez l'historique des commits
 2. Quelle commande avez-vous utilisée ?
