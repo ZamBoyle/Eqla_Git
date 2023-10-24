@@ -159,18 +159,26 @@ Voici le code HTML de ce tableau:
 1. Avant le tableau, ajoutez un titre de niveau 2 "Rappels sur les tableaux".
 2. Après le tableau, ajoutez un titre de niveau 2 "Définition des cours".
 
-**GIT**
+```html
+<span class="subject">GIT</span>
+```
+\<p\>
+    Le cours de GIT offre une plongée approfondie dans l'un des systèmes de contrôle de version les plus utilisés dans le monde du développement logiciel. Les participants apprendront comment suivre et gérer les modifications dans leurs projets de code, comment collaborer avec d'autres développeurs et comment résoudre les conflits de code. Le programme explore à la fois les concepts de base et avancés du système de gestion de version, y compris les branches, les fusions, et les workflows de collaboration. De la gestion de petits projets aux workflows complexes dans les grandes équipes, GIT s’avère un outil indispensable pour tous les développeurs.
+\</p\>
 
-Le cours de GIT offre une plongée approfondie dans l'un des systèmes de contrôle de version les plus utilisés dans le monde du développement logiciel. Les participants apprendront comment suivre et gérer les modifications dans leurs projets de code, comment collaborer avec d'autres développeurs et comment résoudre les conflits de code. Le programme explore à la fois les concepts de base et avancés du système de gestion de version, y compris les branches, les fusions, et les workflows de collaboration. De la gestion de petits projets aux workflows complexes dans les grandes équipes, GIT s’avère un outil indispensable pour tous les développeurs.
+```html
+<span class="subject">HTML</span>
+```
+\<p\>
+    Le cours HTML initie les apprenants aux fondations du développement web, en couvrant l'un des langages de balisage les plus fondamentaux pour la création de pages web. Les étudiants exploreront comment structurer le contenu d'une page, incorporer du texte, des images, des formulaires, et d'autres médias, tout en assurant une expérience utilisateur accessible et inclusive. Tout au long du cours, les participants auront l'opportunité de construire leur propre site web, intégrant une navigation fluide et des éléments interactifs, pour appliquer pratiquement les compétences nouvellement acquises dans un projet concret.
+\</p\>
 
-**HTML**
-
-Le cours HTML initie les apprenants aux fondations du développement web, en couvrant l'un des langages de balisage les plus fondamentaux pour la création de pages web. Les étudiants exploreront comment structurer le contenu d'une page, incorporer du texte, des images, des formulaires, et d'autres médias, tout en assurant une expérience utilisateur accessible et inclusive. Tout au long du cours, les participants auront l'opportunité de construire leur propre site web, intégrant une navigation fluide et des éléments interactifs, pour appliquer pratiquement les compétences nouvellement acquises dans un projet concret.
-
-**CSS**
-
-Le cours de CSS (Cascading Style Sheets) plonge les apprenants dans le monde fascinant du style et de la mise en page web. Les participants exploreront comment appliquer des couleurs, des polices, des mises en page, et des animations pour améliorer l'expérience utilisateur et l'esthétique des sites web. En mettant l'accent sur des pratiques responsives et adaptatives, le cours guide les étudiants à travers la création de sites web qui sont non seulement visuellement attrayants mais aussi fonctionnels sur une multitude d'appareils et de tailles d'écran. L'apprentissage du CSS permet aux développeurs de transformer leurs sites HTML bruts en expériences utilisateurs immersives et engageantes.
-
+```html
+<span class="subject">CSS</span>
+```
+\<p\>
+    Le cours de CSS (Cascading Style Sheets) plonge les apprenants dans le monde fascinant du style et de la mise en page web. Les participants exploreront comment appliquer des couleurs, des polices, des mises en page, et des animations pour améliorer l'expérience utilisateur et l'esthétique des sites web. En mettant l'accent sur des pratiques responsives et adaptatives, le cours guide les étudiants à travers la création de sites web qui sont non seulement visuellement attrayants mais aussi fonctionnels sur une multitude d'appareils et de tailles d'écran. L'apprentissage du CSS permet aux développeurs de transformer leurs sites HTML bruts en expériences utilisateurs immersives et engageantes.
+\</p\>
 
 3. Faites un git status (observez ce que donne la sortie de cette commande).
 4. Faites un git diff  ex1.html (Observez bien les ajouts et modification de votre programme).
@@ -183,9 +191,9 @@ Le cours de CSS (Cascading Style Sheets) plonge les apprenants dans le monde fas
 ## Partie 7 - .gitignore
 
 1. Créez un fichier nommé .gitignore
-2. Ajoutez les lignes suivantes:
-   - password.txt
-   - \*.sqlite
+2. Ajoutez les lignes suivantes:  
+   - password.txt  
+   - \*.sqlite  
 3. Faites un git status (observez ce que donne la sortie de cette commande).
 4. Créez un fichier nommé password.txt
 5. Faites un git status (password.txt ne devrait pas être affiché).

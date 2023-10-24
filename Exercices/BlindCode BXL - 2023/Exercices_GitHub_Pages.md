@@ -14,7 +14,7 @@ Si vous ne l'avez pas encore fait votre dépôt github.io sur GiHub, suivez les 
 3. Ajoutez une image de vous.
 4. Ajoutez un lien vers votre profil GitHub.
 5. Envoyez votre fichier sur GitHub.
-6. Vérifiez que votre page est accessible à l'adresse `https://votreNomDutilisateur.github.io`.
+6. Vérifiez que votre page est accessible à l'adresse `https://johndoe.github.io`. (Remplacez `johndoe` par votre nom d'utilisateur GitHub.)
 
 [:arrow_left: Revenir au sommaire.](./README.md#sommaire)
 
