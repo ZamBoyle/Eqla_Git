@@ -218,8 +218,8 @@ Je vais vous attribuer le dépôt d'une personne que vous allez cloner.
     - Anthony prendra le dépôt de Carmen : git clone https://github.com/carmentod/myhtml.git myhtmlCarmen
     - Carmen prendra le dépôt de Thomas : git clone https://github.com/ThArdui/myhtml.git myhtmlThomas
     - Thomas prendra le dépôt de Nabil : git clone https://github.com/nabilelrh16/myhtml.git myhtmlNabil
-    - Nabil prendra le dépôt de Karim : git clone https://github.com/KarimUchiwa/myhtml.git myhtmlKarim
-    - Karim prendra le dépôt de Baptiste : git clone https://github.com/BaptisteBrasseur/myhtml.git myhtmlBaptiste
+    - Nabil prendra le dépôt de Johnny : git clone https://github.com/ZamBoyle/myhtml.git myhtmlZamBoyle
+    - Johnny prendra le dépôt de Baptiste : git clone https://github.com/BaptisteBrasseur/myhtml.git myhtmlBaptiste
     - Baptiste prendra le dépôt de Christian : git clone https://github.com/chrishonore/myhtml.git myhtmlChristian
    
 LES RESPONSABLES DE DÉPÔTS:
