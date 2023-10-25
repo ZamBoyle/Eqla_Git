@@ -11,7 +11,7 @@
 - [Exercice 3](Exercices_GitHub.md#Exercices): Exercices sur GitHub.
 - [Exercice 4](Exercices_GitHub_Pages.md#Exercices): Exercices sur GitHub Pages. (Optionnel / Si le temps le permet)
 
-- [Liste des dépôts des élèves](./Exercices/BlindCode%20BXL%20-%202023/Depots.md) qui pourrait vous être utile pour l'exercice 3.
+- [Liste des dépôts des élèves](./Depots.md) qui pourrait vous être utile pour l'exercice 3.
 
 [:arrow_left: Revenir au sommaire.](/README.md#sommaire)
 
