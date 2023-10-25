@@ -214,7 +214,7 @@ Je vais vous attribuer le dépôt d'une personne que vous allez cloner.
 
     - Christian prendra le dépôt de Filippo : git clone https://github.com/FilyDev/myhtml.git myhtmlFilippo
     - Filippo prendra le dépôt de Amir : git clone https://github.com/Amir-Eqla/myhtml.git myhtmlAmir
-    - Amir prendra le dépôt d'Anthony : git clone https://github.com/anthony1819/myhtml.git myhtmlAnthony
+    - Amir prendra le dépôt d'Anthony : git clone https://github.com/anthonyvelez1819/myhtml.git myhtmlAnthony
     - Anthony prendra le dépôt de Carmen : git clone https://github.com/carmentod/myhtml.git myhtmlCarmen
     - Carmen prendra le dépôt de Thomas : git clone https://github.com/ThArdui/myhtml.git myhtmlThomas
     - Thomas prendra le dépôt de Nabil : git clone https://github.com/nabilelrh16/myhtml.git myhtmlNabil

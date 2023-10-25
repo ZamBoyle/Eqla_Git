@@ -9,7 +9,7 @@
 | Prénom      | URL                                  |
 |----------|--------------------------------------|
 | Carmen   | https://github.com/carmentod?tab=repositories         |
-| Anthony  | https://github.com/anthony1819?tab=repositories       |
+| Anthony  | https://github.com/anthonyvelez1819?tab=repositories       |
 | Thomas   | https://github.com/ThArdui?tab=repositories           |
 | Filippo  | https://github.com/FilyDev?tab=repositories           |
 | Baptiste | https://github.com/BaptisteBrasseur?tab=repositories   |
