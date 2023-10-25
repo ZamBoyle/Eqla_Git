@@ -270,6 +270,25 @@ Les responsables de dépôts vont ajouter la personne avec qui elles font l'exer
 - Vous prévenez la personne qu'elle peut récupérer les modifications que vous venez de faire.
 
 ## Partie 12
+Ici, il faut vraiment attendre pour faire un git pull. Suivez mon exemple pas à pas.
+Vous allez maintenant, vous et votre collaborateur, modifier le fichier style.css.
+
+Voici les modifications à faire:
+- Le gestionnaire du dépôt ajoutera une classe .gestionnaire qui centre le texte et qui mettra en rouge la couleur de texte.
+- Le gestionnaire ajoutera le fichier dans la zone d'index.
+- Le gestionnaire commitera ses modifications.
+- Le gestionnaire enverra ses modifications sur github.
+
+- Le collaborateur ne fera pas un git pull !!!!
+- Le collaborateur du dépôt ajoutera une classe .collaborateur qui centre le texte et qui mettra en bleu la couleur de texte.
+- Le collaborateur ajoutera le fichier dans la zone d'index.
+- Le collaborateur commitera ses modifications.
+- Le collaborateur enverra ses modifications sur github.
+
+
+
+
+## Partie 12
 
 1. Affichez l'historique des commits
 2. Quelle commande avez-vous utilisée ?
