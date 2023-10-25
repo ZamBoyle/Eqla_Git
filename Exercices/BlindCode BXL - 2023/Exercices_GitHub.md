@@ -247,14 +247,33 @@ Les responsables de dépôts vont ajouter la personne avec qui elles font l'exer
 - Baptiste ajoutera Karim comme collaborateur de son dépôt.
 - Christian ajoutera Baptiste comme collaborateur de son dépôt.
 
+Pour pouvoir ajouter des collaborateurs à votre projet:
+1. Veuillez passer par la page des settings de votre dépôt sur GitHub https://github.com/ZamBoyle/myhtml/settings
+2. Cliquez sur `Collaborators` dans le menu de gauche.
+3. Cliquer sur `Add People`. Remplacer ZamBoyle par le nom de votre collaborateur.
+
 ## Partie 10
 
-- Dans le dépôt de la personne qui vous a ajouté comme collaborateur, vous allez modifier le fichier style.css en ajoutant la classe `subject` qui est utilisée dans le fichier ex1.html pour les titres des cours via la balise span.
-- La classe `subject` devra avoir la propriété `font-weight: bold;` et `font-style: italic;` et une couleur de votre choix.
-- Vous ajouterez votre fichier style.css dans la zone d'index.
-- Vous commiterez vos modifications.
-- vous enverrez celles-ci sur github.
-- Vous prévenez la personne qu'elle peut récupérer les modifications que vous venez de faire.
+1. Récupérez le fichier `index.html` et mettez-le dans votre dépôt `myhtml`.
+2. Vous ajouterez votre fichier `index.html` dans la zone d'index.
+3. Vous commiterez vos modifications.
+4. Vous enverrez celles-ci sur github.
+5. Créez un répertoire `css` dans votre dépôt `myhtml`.
+6. Créez un fichier vide dans le répertoire `css` nommé `style.css`.
+7. Ajoutez dans la balise `head` de votre fichier `index.html` la référence à votre fichier css:
+```html
+<link rel="stylesheet" href="css/style.css">
+```
+8. Vous ajouterez votre fichier `style.css` et `index.html`  dans la zone d'index.
+9. Vous commiterez vos modifications.
+10. Vous enverrez celles-ci sur github.
+11. Ouvrez un autre terminal et allez dans le répertoire `myhtml` de votre gestionnaire de dépôt: par exemple `cd myhtmlFilippo`.
+12. Dans le dépôt du gestionnaire, vous allez modifier le fichier style.css en ajoutant la classe `subject` qui est utilisée dans le fichier index.html pour les titres des cours via la balise span.
+13. Ajoutez la référence à votre fichier css dans le fichier index.html:
+14. La classe `subject` devra avoir la propriété `font-weight: bold;` et `font-style: italic;` et une couleur de votre choix:
+    - Vous commiterez vos modifications.
+    - vous enverrez celles-ci sur github.
+    - Vous prévenez la personne qu'elle peut récupérer les modifications que vous venez de faire.
 
 ## Partie 11
 - Demandez à une personne qui n'est pas collaborateur de votre dépôt.
